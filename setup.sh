@@ -22,7 +22,7 @@ function config_file()
 x_user="www-data"
 x_group="www-data"
 x_root="/var/www"
-source config/setup.conf
+[ -f "config/setup.conf" ] && source config/setup.conf
 
 # check root directory
 [ "x$(pwd)" == "x${x_root}" ] || die "website must be installed to ${x_root}"
