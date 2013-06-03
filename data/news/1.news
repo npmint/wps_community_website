@@ -1,0 +1,5 @@
+title = "A Test announcement"
+cont = <<EOF
+Hello World
+Hello World
+EOF

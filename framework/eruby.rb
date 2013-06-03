@@ -3,33 +3,42 @@
 require 'erb'
 require 'cgi'
 
-def grender(cgi, cookies, file, *args)
-  s = ERubySpace.new(cgi, cookies, *args)
+$cgi = nil
+$cookies = nil
+
+def grender(file, *args)
+  s = ERubySpace.new(*args)
   e = ERB.new File.read file
   e.filename = file
   e.result(s.get_binding)
 end
 
 class ERubySpace
-  def initialize(cgi, cookies, *argv)
-    @cgi = cgi
+  def initialize(*argv)
     @argv = argv
-    @cookies = cookies
   end
   attr_accessor :argv
-  attr_accessor :cgi
-  attr_accessor :cookies
 
   def render(*args)
-    grender(@cgi, @cookies, *args)
+    grender(*args)
   end
   def get_binding
     binding
   end
 end
 
-cgi = CGI.new
-cookies = []
+$cgi = CGI.new
+$cookies = []
+$droot = ENV['DOCUMENT_ROOT'] ? ENV['DOCUMENT_ROOT'] : Dir.pwd
+$root = $droot + "/.."
 
-cgi.out("cookie" => cookies) { grender(cgi, cookies, *ARGV) } 
-
+begin
+  $cgi.out("cookie" => $cookies) { grender(*ARGV) } 
+rescue Exception => e
+  puts "Content-type: text/plain; charset=utf-8"
+  puts
+  puts e.message
+  e.backtrace.each do |x|
+    puts x
+  end
+end
