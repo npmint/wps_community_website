@@ -16,7 +16,7 @@ function die()
 
 function config_file()
 {
-	sed "s/@USER@/${x_user}/g; s/@GROUP@/${x_group}/g; s/@ROOT@/${x_root}/g;" < "$1" > "$2"
+	sed "s/@USER@/${x_user}/g; s/@GROUP@/${x_group}/g; s#@ROOT@#${x_root}#g;" < "$1" > "$2"
 }
 
 x_user="www-data"
@@ -41,8 +41,8 @@ config_file "setup/lighttpd.conf" "config/lighttpd.conf"
 [ -d "log" ] || mkdir log
 update-rc.d lighttpd-wps-community start 09 2 3 4 5 . stop 09 0 1 6 .
 update-rc.d lighttpd-wps-community enable
-/etc/init.d/lighttpd restart
+/etc/init.d/lighttpd-wps-community restart
 
 # change own of /var/www
-chown -R www-data:www-data /var/www
+chown -R ${x_user}:${x_group} "${x_root}"
 
