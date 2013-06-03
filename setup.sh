@@ -24,10 +24,12 @@ which lighttpd || die "can not found lighttpd"
 update-rc.d lighttpd disable
 
 # create own serve
+update-rc.d -f lighttpd-wps-community remove 
 cp "$(pwd)/setup/lighttpd.init" "/etc/init.d/lighttpd-wps-community"
+[ -d "log" ] || mkdir log
+update-rc.d lighttpd-wps-community start 09 2 3 4 5 . stop 09 0 1 6 .
 update-rc.d lighttpd-wps-community enable
-/etc/init.d/lighttpd start
-mkdir log
+/etc/init.d/lighttpd restart
 
 # change own of /var/www
 chown -R www-data:www-data /var/www
