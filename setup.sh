@@ -48,8 +48,10 @@ config_file "setup/lighttpd.init" "/etc/init.d/lighttpd-wps-community"
 config_file "setup/lighttpd.conf" "config/lighttpd.conf"
 update-rc.d lighttpd-wps-community start 09 2 3 4 5 . stop 09 0 1 6 .
 update-rc.d lighttpd-wps-community enable
-/etc/init.d/lighttpd-wps-community restart
 
 # change own of /var/www
 chown -R ${x_user}:${x_group} "${x_root}"
+
+# start server
+/etc/init.d/lighttpd-wps-community restart
 
