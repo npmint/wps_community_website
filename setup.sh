@@ -30,6 +30,9 @@ x_root="/var/www"
 # check lighttpd
 which lighttpd || die "can not found lighttpd"
 
+# check ruby
+which ruby || die "can not found ruby"
+
 # stop system's lighttpd serve
 /etc/init.d/lighttpd stop
 update-rc.d lighttpd disable
