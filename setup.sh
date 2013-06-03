@@ -17,6 +17,7 @@ function die()
 function config_file()
 {
 	sed "s/@USER@/${x_user}/g; s/@GROUP@/${x_group}/g; s#@ROOT@#${x_root}#g;" < "$1" > "$2"
+	chmod --reference="$1" "$2"
 }
 
 x_user="www-data"
