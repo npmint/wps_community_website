@@ -13,12 +13,12 @@
 
 PATH=/sbin:/bin:/usr/sbin:/usr/bin
 DAEMON=/usr/sbin/lighttpd
-NAME=lighttpd
+NAME=lighttpd-wps-community
 DESC="web server"
 PIDFILE=/var/run/$NAME.pid
 SCRIPTNAME=/etc/init.d/$NAME
 
-DAEMON_OPTS="-f /etc/lighttpd/lighttpd.conf"
+DAEMON_OPTS="-f /var/www/config/lighttpd.conf"
 
 test -x $DAEMON || exit 0
 

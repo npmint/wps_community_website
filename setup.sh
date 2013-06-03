@@ -5,14 +5,12 @@ if [ "x$USER" != "xroot" ]; then
 	exit 0
 fi
 
+set -e
+
 function die()
 {
 	echo "Error: $@" > /dev/stderr
 	exit 1
-}
-
-function gen_own_serve()
-{
 }
 
 # check root directory
@@ -26,7 +24,11 @@ which lighttpd || die "can not found lighttpd"
 update-rc.d lighttpd disable
 
 # create own serve
-cp "$(pwd)/setup/lighttpd.init /etc/init.d/lighttpd-wps-community"
+cp "$(pwd)/setup/lighttpd.init" "/etc/init.d/lighttpd-wps-community"
 update-rc.d lighttpd-wps-community enable
 /etc/init.d/lighttpd start
+mkdir log
+
+# change own of /var/www
+chown -R www-data:www-data /var/www
 
