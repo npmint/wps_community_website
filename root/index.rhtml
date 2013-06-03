@@ -1,4 +1,31 @@
 <%= render "parts/header.rhtml", "Home" %>
+<%
+NewsInfo = Struct.new(:title, :content)
+def read_news fname
+	title = ""
+	content = ""
+
+	open(fname) do |f|
+		f.each_line do |l|
+			l.chomp!
+			if l =~ /^=/
+				break
+			end
+			title += l
+		end
+		f.each_line do |l|
+			l.chomp!
+			if l.size == 0
+				content += "<br/>"
+			else
+				content += l + " "
+			end
+		end
+	end
+	return NewsInfo.new title, content
+end
+	%>
+
 <h1>Welcome to Kingsoft Office International Community</h1>
 <ul>
 	<li>Kingsoft Office ( also known as WPS Office ) is a vibrant office suite. 
@@ -10,10 +37,12 @@
 </ul>
 <h1>Lastest Announcements</h1>
 <%
-	news = Dir.glob($root + "/data/news/*.news").sort {|a,b| File.stat(a).mtime <=> File.stat(b).mtime}
+	news = Dir.glob($root + "/data/news/*.news").sort {|a,b| -(File.basename(a).to_i <=> File.basename(b).to_i)}
 	news.each do |n|
+		newsinfo = read_news n
 %>
-<h2><% %></h2>
+<h2><%= newsinfo.title %></h2>
+<p><%= newsinfo.content %></p>
 <% end %>
 
 <%= render "parts/tail.rhtml" %>
