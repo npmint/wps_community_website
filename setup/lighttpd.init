@@ -18,7 +18,7 @@ DESC="web server"
 PIDFILE=/var/run/$NAME.pid
 SCRIPTNAME=/etc/init.d/$NAME
 
-DAEMON_OPTS="-f /var/www/config/lighttpd.conf"
+DAEMON_OPTS="-f @ROOT@/config/lighttpd.conf"
 
 test -x $DAEMON || exit 0
 
@@ -32,7 +32,7 @@ check_syntax()
 if [ "$1" != status ]; then
 	# be sure there is a /var/run/lighttpd, even with tmpfs
 	mkdir --mode 750 --parents /var/run/lighttpd
-	chown www-data:www-data /var/run/lighttpd
+	chown @USER@:@GROUP@ /var/run/lighttpd
 fi
 
 . /lib/lsb/init-functions
