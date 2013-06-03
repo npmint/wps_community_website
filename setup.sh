@@ -37,11 +37,14 @@ which ruby || die "can not found ruby"
 /etc/init.d/lighttpd stop
 update-rc.d lighttpd disable
 
+# create dirs
+[ -d "log" ] || mkdir log
+[ -d "config" ] || mkdir config
+
 # create own serve
 update-rc.d -f lighttpd-wps-community remove 
 config_file "setup/lighttpd.init" "/etc/init.d/lighttpd-wps-community"
 config_file "setup/lighttpd.conf" "config/lighttpd.conf"
-[ -d "log" ] || mkdir log
 update-rc.d lighttpd-wps-community start 09 2 3 4 5 . stop 09 0 1 6 .
 update-rc.d lighttpd-wps-community enable
 /etc/init.d/lighttpd-wps-community restart
