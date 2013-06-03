@@ -1,26 +1,35 @@
 #!/usr/bin/env ruby
 
 require 'erb'
+require 'cgi'
 
-class ERuby
-  def initialize(file, *args)
-    @file = file
-    @args = args
+def grender(cgi, cookies, file, *args)
+  s = ERubySpace.new(cgi, cookies, *args)
+  e = ERB.new File.read file
+  e.filename = file
+  e.result(s.get_binding)
+end
+
+class ERubySpace
+  def initialize(cgi, cookies, *argv)
+    @cgi = cgi
+    @argv = argv
+    @cookies = cookies
   end
+  attr_accessor :argv
+  attr_accessor :cgi
+  attr_accessor :cookies
+
   def render(*args)
-    ERuby.render *args
+    grender(@cgi, @cookies, *args)
   end
-  def argv
-    @args
-  end
-  def render_self
-    e = ERB.new File.read @file
-    e.result(binding)
-  end
-  def self.render(file, *args)
-    (ERuby.new file, *args).render_self
+  def get_binding
+    binding
   end
 end
 
-puts ERuby.render(*ARGV)
+cgi = CGI.new
+cookies = []
+
+cgi.out("cookie" => cookies) { grender(cgi, cookies, *ARGV) } 
 
