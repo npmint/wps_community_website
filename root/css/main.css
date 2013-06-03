@@ -26,6 +26,9 @@ h3 {
 }
 p {
 	margin-bottom: 5px;
+	background:#EFEFEF;
+	border:#CCC dotted 1px;
+	padding:15px 20px;
 }
 body {
 	background: #FFF url(/images/mainbg.png) repeat-x;
@@ -66,9 +69,4 @@ body {
 	margin-left: 12px;
 	padding-left: 28px;
 	background: url("/images/download.gif") no-repeat scroll 0px 8px transparent
-}
-.intro {
-	background:#EFEFEF;
-	border:#CCC dotted 1px;
-	padding:15px 20px;
 }
