@@ -10,13 +10,13 @@ def html_version_item f
   if y["whats_new"]
     cont += "<h3>What's new: </h3>"
     cont += "<ol>"
-    cont += y["whats_new"].to_a.collect {|l| "<li>#{l.chomp}</li>"}.join "\n"
+    cont += y["whats_new"].lines.collect {|l| "<li>#{l.chomp}</li>"}.join "\n"
     cont += "</ol>"
   end
   if y["release_notes"]
     cont += "<h3>Notes: </h3>"
     cont += "<ul>"
-    cont += y["release_notes"].to_a.collect {|l| "<li>#{l.chomp}</li>"}.join "\n"
+    cont += y["release_notes"].lines.collect {|l| "<li>#{l.chomp}</li>"}.join "\n"
     cont += "</ul>"
   end
   if y["addresses"]
