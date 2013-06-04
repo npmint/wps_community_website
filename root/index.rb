@@ -32,7 +32,7 @@ def html_news
   news = Dir.glob($root2 + "/data/news/*.news").sort {|a,b| -(File.basename(a).to_i <=> File.basename(b).to_i)}
   news.each do |n|
     newsinfo = read_news n
-    cont += "<h2>#{newsinfo.title}</h2><p>#{newsinfo.content}</p>"
+    cont += "<h2>#{newsinfo.title}</h2><p class=\"framed\">#{newsinfo.content}</p>"
   end
   return cont
 end
