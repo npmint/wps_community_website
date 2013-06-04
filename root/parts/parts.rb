@@ -14,21 +14,12 @@ def html_header title
 <div id="header">
 	<div id="logo">
 		<a href="/"><img src="/images/logo.png" alt="Kingsoft WPS Community" /></a>
-		<div id="login">
-			<a href="#">sign in / sign up</a>
-		</div>
 	</div>
 	<div>
 		<div class="h_navi">
 			<span><a href="/">Home</a></span>
 			<span><a href="/download.html">Download</a></span>
 			<span><a href="/forum">Forum</a></span>
-			<div id="h_searchbar">			
-				<form action="/wiki/index.php" method="get" onsubmit="if (this.search.value == ''){ alert('Enter words to search.'); return false; } return true;">
-					<input type="text" class="input_sea f_gray" id="search" name="search"/>				
-					<input class="btn_sea" type="submit" value="Search" />
-				</form>
-			</div>
 		</div>
 	</div>
 </div>
