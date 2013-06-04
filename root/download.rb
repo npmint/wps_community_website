@@ -1,0 +1,62 @@
+require 'cgi'
+require 'parts/parts.rb'
+require 'yaml'
+
+def html_version_item f
+  cont = ""
+  y = YAML.load_file(f)
+  cont += "<h2>#{y["full_name"]}</h2>"
+  cont += "<div class=\"ver_item\">"
+  if y["whats_new"]
+    cont += "<h3>What's new: </h3>"
+    cont += "<ol>"
+    cont += y["whats_new"].to_a.collect {|l| "<li>#{l.chomp}</li>"}.join "\n"
+    cont += "</ol>"
+  end
+  if y["release_notes"]
+    cont += "<h3>Notes: </h3>"
+    cont += "<ul>"
+    cont += y["release_notes"].to_a.collect {|l| "<li>#{l.chomp}</li>"}.join "\n"
+    cont += "</ul>"
+  end
+  if y["addresses"]
+    cont += "<h3>Addresses: </h3>"
+    y["addresses"].each do |ver|
+      address = ver["address"]
+      filename = address.rpartition("/")[2]
+      sha1 = ver["sha1sum"]
+      cont += "<p class=\"dl_addr\">
+        <a href=\"#{address}\">#{filename}</a>
+        <br/>#{sha1}
+        </p>"
+    end
+  end
+  cont += "</div>"
+  return cont
+end
+
+def html_versions
+  files = Dir.glob($root2 + "/data/versions/*.yaml").sort{|a,b| -(File.basename(a).to_i <=> File.basename(b).to_i) }
+  files.collect do |f|
+    html_version_item f
+  end.join "\n"
+end
+
+cont = <<EOF
+#{html_header "Download"}
+<div class="body">
+<h1>Product Download</h1>
+<p class="framed">
+Currently, we provide alpha and beta versions for linux.
+Beta is more stable, but a little old.
+Alpha is rolling faster, but unstable.
+Enjoy yourself :)
+</p>
+#{html_versions}
+</div>
+#{html_tail}
+EOF
+
+$cgi.out {
+  cont
+}
