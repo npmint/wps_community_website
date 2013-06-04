@@ -46,12 +46,6 @@ cont = <<EOF
 #{html_header "Download"}
 <div class="body">
 <h1>Product Download</h1>
-<p class="framed">
-Currently, we provide alpha and beta versions for linux.
-Beta is more stable, but a little old.
-Alpha is rolling faster, but unstable.
-Enjoy yourself :)
-</p>
 #{html_versions}
 </div>
 #{html_tail}
