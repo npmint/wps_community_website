@@ -47,7 +47,7 @@ def html_tail
 <<EOF
 <br/>
 <div id="foot"> 
-	<span>Copyright © 2008-2012 Kingsoft Office Corporation, All Rights Reserved</span>
+	<span>Copyright &copy; 2008-2012 Kingsoft Office Corporation, All Rights Reserved</span>
 </div>
 </body>
 </html>
