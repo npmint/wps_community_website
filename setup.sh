@@ -28,11 +28,10 @@ x_root="/var/www"
 # check root directory
 [ "x$(pwd)" == "x${x_root}" ] || die "website must be installed to ${x_root}"
 
-# check lighttpd
+# check required software
 which lighttpd || die "can not found lighttpd"
-
-# check ruby
 which ruby || die "can not found ruby"
+which php5-cgi || die "can not found php5-cgi"
 
 # stop system's lighttpd serve
 /etc/init.d/lighttpd stop
