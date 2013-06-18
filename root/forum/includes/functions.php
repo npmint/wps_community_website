@@ -3006,7 +3006,7 @@ function login_box($redirect = '', $l_explain = '', $l_success = '', $admin = fa
 		$viewonline = ($admin) ? $user->data['session_viewonline'] : $viewonline;
 
 		// Check if the supplied username is equal to the one stored within the database if re-authenticating
-		if ($admin && utf8_clean_string($username) != utf8_clean_string($user->data['username']))
+		if ($admin && $username && utf8_clean_string($username) != utf8_clean_string($user->data['username']))
 		{
 			// We log the attempt to use a different username...
 			add_log('admin', 'LOG_ADMIN_AUTH_FAIL');
@@ -3100,10 +3100,28 @@ function login_box($redirect = '', $l_explain = '', $l_success = '', $admin = fa
 			break;
 		}
 	}
-
+	
+	$method = trim(basename($config['auth_method']));
+	include_once($phpbb_root_path . 'includes/auth/auth_' . $method . '.' . $phpEx);
+	$method = 'auth_redirect_' . $method; 
+	if (function_exists($method))
+	{
+		$info = array(
+			'redirect' => $redirect,
+			'l_explain' => $l_explain,
+			'l_success' => $l_success,
+			'admin' => $admin,
+			);
+		$oauth_redirect = $method($info);
+		if ($oauth_redirect)
+		{
+			redirect($oauth_redirect, false, true);
+		}
+	}
+	
 	// Assign credential for username/password pair
 	$credential = ($admin) ? md5(unique_id()) : false;
-
+	
 	$s_hidden_fields = array(
 		'sid'		=> $user->session_id,
 	);

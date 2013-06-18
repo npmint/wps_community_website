@@ -921,6 +921,7 @@ class auth
 			// If the auth module wants us to create an empty profile do so and then treat the status as LOGIN_SUCCESS
 			if ($login['status'] == LOGIN_SUCCESS_CREATE_PROFILE)
 			{
+				$username = $login['user_row']['username'];
 				// we are going to use the user_add function so include functions_user.php if it wasn't defined yet
 				if (!function_exists('user_add'))
 				{
