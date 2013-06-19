@@ -48,7 +48,7 @@ cont = <<EOF
   which also devotes itself to porting Kingsoft Office to Linux and Linux-like systems, 
   and offers their users native experience.</li>
 </ul>
-<h1>Lastest Announcements</h1>
+<h1>Latest Announcements</h1>
 #{html_news}
 #{html_tail}
 EOF
