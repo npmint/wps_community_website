@@ -2,6 +2,7 @@
 /log
 /config
 /upload
+/root/forum/cache
 
 *~
 *.swp

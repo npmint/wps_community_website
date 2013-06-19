@@ -37,10 +37,6 @@ which php5-cgi || die "can not found php5-cgi"
 /etc/init.d/lighttpd stop
 update-rc.d lighttpd disable
 
-# create dirs
-[ -d "log" ] || mkdir log
-[ -d "config" ] || mkdir config
-
 # create own serve
 update-rc.d -f lighttpd-wps-community remove 
 config_file "setup/lighttpd.init" "/etc/init.d/lighttpd-wps-community"
