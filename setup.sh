@@ -32,6 +32,8 @@ x_root="/var/www"
 which lighttpd || die "can not found lighttpd"
 which ruby || die "can not found ruby"
 which php5-cgi || die "can not found php5-cgi"
+echo "<?php curl_init() ?>" | php5-cgi || die "can not found php5-curl"
+echo "<?php mysql_connect() ?>" | php5-cgi || die "can not found php5-mysql"
 
 # stop system's lighttpd serve
 /etc/init.d/lighttpd stop
