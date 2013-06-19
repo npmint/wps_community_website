@@ -41,10 +41,10 @@ cont = <<EOF
 #{html_header "Home"}
 <h1>Welcome to Kingsoft Office International Community</h1>
 <ul>
-  <li>Kingsoft Office ( also known as WPS Office ) is a vibrant office suite. 
+  <li><b>About Kingsoft Office:</b> Kingsoft Office ( also known as WPS Office ) is a vibrant office suite. 
   We have more than 200 developers and always 
   devote ourselves to creating comfortable, efficient and smart office experience.</li>
-  <li>We are a small branch of the Kingsoft Office team,
+  <li><b>About us:</b> We are a small branch of the Kingsoft Office team,
   which also devotes itself to porting Kingsoft Office to Linux and Linux-like systems, 
   and offers their users native experience.</li>
 </ul>

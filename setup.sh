@@ -52,3 +52,5 @@ chown -R ${x_user}:${x_group} "${x_root}"
 # start server
 /etc/init.d/lighttpd-wps-community restart
 
+echo "Setup completed!"
+echo "Hint: Read setup/forum/README.md to configure forum"

@@ -28,7 +28,7 @@ def html_header title
 	<p class="framed">
 		<span style="color:red;">Tips: </span>Currently, our community is starting. We will change our pages frequently. 
 		If you meet some error(such as 404, 500), visit it after a while, please!
-		If nothing improved after some hours, contact <a href="mailto:wps_linux@kingsoft.com">us</a>.
+		If nothing improved after some days, contact <a href="mailto:wps_linux@kingsoft.com">us</a>.
 	</p>
 </div>
 EOF
