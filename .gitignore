@@ -3,6 +3,10 @@
 /config
 /upload
 /root/forum/cache
+/root/forum/.buildpath
+/root/forum/.project
+/root/forum/.settings
+/root/forum/images/avatars/upload
 
 *~
 *.swp
