@@ -1,4 +1,6 @@
-- Q: xxxx
-  A: oooo
+- Q: Why my formula show incorrectly?
+  A: |
+    Mostly, formula contains some symbol charactors, KSO does not carry some 
+    copyright fonts that is necessary to show formula, such as symbol, wingdings, webdings...
 - Q: yyyy
   A: pppp
