@@ -18,6 +18,11 @@ How to configure forum.
 	> INSERT INTO phpbb_config (config_name, config_value, is_dynamic) VALUES("oauth_client_id", "your_client_id", 0),("oauth_client_secret", "your_client_secret", 0);
 	> UPDATE phpbb_users SET username = "Google: your@email", username_clean = "google: your@email", user_password = "" WHERE user_id = 2;
 
-6. Clear phpbb cache
+6. Clear new user post limit
+	
+	> UPDATE phpbb_config SET config_value = 0 WHERE config_name = "new_member_post_limit";
+	> UPDATE phpbb_users SET user_new = 0;
+
+7. Clear phpbb cache
 
 	$ rm root/forum/cache/*.php
