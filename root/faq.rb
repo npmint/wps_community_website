@@ -15,6 +15,8 @@ cont = <<EOF
 <h1>FAQ</h1>
 #{html_faq}
 </div>
+Cannot find what you need? <a href="/forum">Try forum here</a>.
+<br/>
 #{html_tail}
 EOF
 
