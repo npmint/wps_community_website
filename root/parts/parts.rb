@@ -1,3 +1,5 @@
+# coding: UTF-8
+
 def html_header title
 <<EOF
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -39,7 +41,8 @@ def html_tail
 <<EOF
 <br/>
 <div id="foot"> 
-  <span><a href="http://www.ksosoft.com">Offical Site</a> | bbb | ccc</span>
+  <span><a href="http://www.ksosoft.com">Offical Site</a> | <a href="http://www.wps.cn">Chinese Site</a>
+    | <a href="http://community.wps.cn">Chinese Community</a> | <a href="#">About us</a></span>
   <span>Copyright &copy; 2008-2012 Kingsoft Office Corporation, All Rights Reserved</span>
 </div>
 </body>
