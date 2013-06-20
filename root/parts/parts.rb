@@ -20,6 +20,7 @@ def html_header title
 			<span><a href="/">Home</a></span>
 			<span><a href="/download.html">Download</a></span>
 			<span><a href="/forum">Forum</a></span>
+			<span><a href="/faq.html">FAQ</a></span>
 		</div>
 	</div>
 </div>
