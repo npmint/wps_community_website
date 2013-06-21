@@ -110,9 +110,10 @@ function update_userinfo_google($row, $userinfo)
 {
 	global $db;
 	
-	if ($row['user_avatar_type'] != AVATAR_REMOTE || $row['user_avatar'] != $userinfo->picture)
+	if ($row['user_avatar_type'] != AVATAR_REMOTE || $row['user_avatar'] != $userinfo->picture || $row['user_avatar_width'] != 128 || $row['user_avatar_height'] != 128)
 	{
 		$sql = 'UPDATE ' . USERS_TABLE . ' SET user_avatar = "' . $userinfo->picture . '", user_avatar_type = ' . AVATAR_REMOTE
+				. ", user_avatar_width = 128, user_avatar_height = 128"
 				. ' WHERE user_id = ' . $row['user_id'];
 		$result = $db->sql_query($sql);
 		$db->sql_freeresult($result);
