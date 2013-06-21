@@ -1337,7 +1337,8 @@ function get_user_avatar($avatar, $avatar_type, $avatar_width, $avatar_height, $
 	}
 
 	$avatar_img .= $avatar;
-	return '<img src="' . (str_replace(' ', '%20', $avatar_img)) . '" width="' . $avatar_width . '" height="' . $avatar_height . '" alt="' . ((!empty($user->lang[$alt])) ? $user->lang[$alt] : $alt) . '" />';
+	$size = $avatar_width > 0 && $avatar_height > 0 ? 'width="' . $avatar_width . '" height="' . $avatar_height .'"' : '';
+	return '<img src="' . (str_replace(' ', '%20', $avatar_img)) . '" ' . $size . ' alt="' . ((!empty($user->lang[$alt])) ? $user->lang[$alt] : $alt) . '" />';
 }
 
 ?>

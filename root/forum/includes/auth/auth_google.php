@@ -56,7 +56,7 @@ function oauth_exchange_code()
 	return $userinfo;
 }
 
-function user_row_google($userinfo)
+function new_user_row_google($userinfo)
 {
 	global $db, $config, $user;
 	$sql = 'SELECT group_id
@@ -83,6 +83,45 @@ function user_row_google($userinfo)
 		);
 }
 
+function get_user_row_google($userinfo)
+{
+	global $db;
+	
+	$username = utf8_clean_string("Google: " . $userinfo->email);
+	$sql = 'SELECT * FROM ' . USERS_TABLE . ' WHERE username_clean = \'' . $username . '\'';
+	$result = $db->sql_query($sql);
+	$row = $db->sql_fetchrow($result);
+	$db->sql_freeresult($result);
+	return $row;
+}
+
+function user_add_google($userinfo)
+{
+	if (!function_exists('user_add'))
+	{
+		include($phpbb_root_path . 'includes/functions_user.' . $phpEx);
+	}
+	user_add(new_user_row_google($userinfo), false);
+	
+	return get_user_row_google($userinfo);
+}
+
+function update_userinfo_google($row, $userinfo)
+{
+	global $db;
+	
+	if ($row['user_avatar_type'] != AVATAR_REMOTE || $row['user_avatar'] != $userinfo->picture)
+	{
+		$sql = 'UPDATE ' . USERS_TABLE . ' SET user_avatar = "' . $userinfo->picture . '", user_avatar_type = ' . AVATAR_REMOTE
+				. ' WHERE user_id = ' . $row['user_id'];
+		$result = $db->sql_query($sql);
+		$db->sql_freeresult($result);
+		
+		return get_user_row_google($userinfo);
+	}
+	return $row;
+}
+
 function verify_session_google()
 {
 	global $user;
@@ -95,6 +134,7 @@ function verify_session_google()
 	return false;
 }
 
+/* exported function */
 function login_google($useless_username, $useless_password)
 {
 	global $user, $db;
@@ -118,28 +158,20 @@ function login_google($useless_username, $useless_password)
 			);
 	}
 	
-	$username = utf8_clean_string("Google: " . $userinfo->email);
-	$sql = 'SELECT user_id, username, user_email, user_type, username_clean
-			FROM ' . USERS_TABLE . ' WHERE username_clean = \'' . $username . '\'';
-	$result = $db->sql_query($sql);
-	$row = $db->sql_fetchrow($result);
-	$db->sql_freeresult($result);
-	if ($row)
+	$row = get_user_row_google($userinfo);
+	if (!$row)
 	{
-		return array(
-			'status'	=> LOGIN_SUCCESS,
-			'error_msg'	=> false,
-			'user_row'	=> $row,
-			);
+		$row = user_add_google($userinfo);
 	}
-	
+	$row = update_userinfo_google($row, $userinfo);
 	return array(
-		'status'	=> LOGIN_SUCCESS_CREATE_PROFILE,
+		'status'	=> LOGIN_SUCCESS,
 		'error_msg'	=> false,
-		'user_row'	=> user_row_google($userinfo),
-		);
+		'user_row'	=> $row,
+	);
 }
 
+/* exported function */
 function auth_redirect_google($info)
 {
 	global $config, $user;
@@ -162,6 +194,7 @@ function auth_redirect_google($info)
 			'&state=' . $state;
 }
 
+/* exported function */
 function oauth_redirect_info_google()
 {
 	if (!verify_session_google())
