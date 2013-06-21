@@ -40,7 +40,7 @@ def html_tail
 <br/>
 <div id="foot"> 
   <span><a href="http://www.ksosoft.com">Offical Site</a> | <a href="http://www.wps.cn">Chinese Site</a>
-    | <a href="http://community.wps.cn">Chinese Community</a> | <a href="#">About us</a>
+    | <a href="http://community.wps.cn">Chinese Community</a> | <a href="/aboutus.html">About us</a>
     | <a href="mailto:wps_linux@kingsoft.com">Contact us</a></span>
   <span>Copyright &copy; 2008-2012 Kingsoft Office Corporation, All Rights Reserved</span>
 </div>

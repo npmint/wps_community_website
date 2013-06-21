@@ -10,7 +10,7 @@ def html_faq
 end
 
 cont = <<EOF
-#{html_header "Download"}
+#{html_header "FAQ"}
 <div class="body">
 <h1>FAQ</h1>
 #{html_faq}
