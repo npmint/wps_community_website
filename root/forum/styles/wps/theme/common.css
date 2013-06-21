@@ -117,12 +117,12 @@ p.right {
 #search-box {
 	color: #FFFFFF;
 	position: relative;
-	margin-top: 30px;
 	margin-right: 5px;
 	display: block;
 	float: right;
 	text-align: right;
 	white-space: nowrap; /* For Opera */
+	margin-top: -2px;
 }
 
 #search-box #keywords {
