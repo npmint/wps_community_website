@@ -68,6 +68,11 @@ h4 {
 	font-size: 1.3em;
 }
 
+li {
+	margin: 0;
+	padding: 0;
+}
+
 p {
 	line-height: 1.3em;
 	font-size: 1.1em;
