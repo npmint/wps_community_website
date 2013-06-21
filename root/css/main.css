@@ -45,7 +45,8 @@ body {
   width: 810px;
 }
 #logo {
-  height: 60px;
+  padding-top: 6px;
+  height: 62px;
 }
 #header {
   height: 112px;
@@ -56,6 +57,7 @@ body {
 .h_navi span {
   margin-left: 6px;
   margin-right: 20px;
+  font-size: 17px;
 }
 #h_searchbar {
   float: right;
