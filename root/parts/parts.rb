@@ -26,7 +26,6 @@ def html_header title
   </div>
 </div>
 <div>
-  <br/>
   <p class="framed">
     <b>Tips: </b>Currently, our community is starting. We will change our pages frequently. 
     If you meet some error(such as 404, 500), visit it after a while, please!
