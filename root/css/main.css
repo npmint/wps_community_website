@@ -51,6 +51,7 @@ body {
 }
 #header {
   height: 112px;
+  font-size: 17px;
 }
 #login {
   float: right;
@@ -58,7 +59,6 @@ body {
 .h_navi span {
   margin-left: 6px;
   margin-right: 20px;
-  font-size: 17px;
 }
 #h_searchbar {
   float: right;
@@ -84,7 +84,7 @@ body {
   padding-left: 28px;
   background: url("/images/download.gif") no-repeat scroll 0px 8px transparent
 }
-a:link,a:visited,a:hover,active{
+a:link,a:visited,a:hover,a:active{
   color:#6e96f2;
   text-decoration:none;
 }
@@ -93,7 +93,7 @@ a:hover{
   text-decoration:underline;
 }
 /*  */
-#header a:link,a:visited,a:hover,active{
+#header a:link, #header a:visited, #header a:hover, #header a:active{
   color:#6e96f2;
   text-decoration:none;
 }

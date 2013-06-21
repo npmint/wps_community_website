@@ -135,6 +135,7 @@ p.right {
 	float: right;
 	text-align: right;
 	white-space: nowrap; /* For Opera */
+	font-size: 11px;
 }
 
 #search-box #keywords {
