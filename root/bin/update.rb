@@ -4,8 +4,14 @@ puts "Content-Type: text/plain"
 puts 
 
 gitlog = `git pull --rebase 2>&1`
+puts gitlog
 
 gitret = "git pull return: #{$?}"
+puts gitret
+
+if File.exists? $root + "/forum/cache"
+  puts `rm #{$root + "/forum/cache/*.php"} -v`
+end
 
 if not $root2
   $root2 = "../.."
@@ -18,6 +24,3 @@ log.puts gitret
 log.puts 
 log.close
 
-puts gitlog
-puts gitret
-puts
