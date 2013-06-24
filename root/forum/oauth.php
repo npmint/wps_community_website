@@ -12,7 +12,7 @@ define('IN_LOGIN', true);
 // Start session management
 $user->session_begin();
 $auth->acl($user->data);
-$user->setup();
+$user->setup('ucp');
 
 $info = false;
 $method = trim(basename($config['auth_method']));
@@ -30,6 +30,7 @@ if (!$info)
 // Hack code
 $_POST['login'] = 'Login';
 $_REQUEST['credential'] = ($info->admin) ? md5(unique_id()) : false;
+$_REQUEST['redirect'] = $info ->redirect;
 
 login_box($info ->redirect, $info->l_explain, $info->l_success, $info->admin);
 

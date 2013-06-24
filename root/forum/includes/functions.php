@@ -3106,8 +3106,9 @@ function login_box($redirect = '', $l_explain = '', $l_success = '', $admin = fa
 	$method = 'auth_redirect_' . $method; 
 	if (function_exists($method))
 	{
+		$callback_redirect = $redirect ? $redirect : $_SERVER["REQUEST_URI"];
 		$info = array(
-			'redirect' => $redirect,
+			'redirect' => $callback_redirect,
 			'l_explain' => $l_explain,
 			'l_success' => $l_success,
 			'admin' => $admin,
