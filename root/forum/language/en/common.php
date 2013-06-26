@@ -669,6 +669,7 @@ $lang = array_merge($lang, array(
 	'USERGROUPS'			=> 'Groups',
 	'USERNAME'				=> 'Username',
 	'USERNAMES'				=> 'Usernames',
+	'NICKNAME'				=> 'Nickname',
 	'USER_AVATAR'			=> 'User avatar',
 	'USER_CANNOT_READ'		=> 'You cannot read posts in this forum.',
 	'USER_POST'				=> '%d Post',

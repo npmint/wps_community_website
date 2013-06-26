@@ -3006,7 +3006,7 @@ function login_box($redirect = '', $l_explain = '', $l_success = '', $admin = fa
 		$viewonline = ($admin) ? $user->data['session_viewonline'] : $viewonline;
 
 		// Check if the supplied username is equal to the one stored within the database if re-authenticating
-		if ($admin && $username && utf8_clean_string($username) != utf8_clean_string($user->data['username']))
+		if ($admin && utf8_clean_string($username) != utf8_clean_string($user->data['username']))
 		{
 			// We log the attempt to use a different username...
 			add_log('admin', 'LOG_ADMIN_AUTH_FAIL');

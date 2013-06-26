@@ -53,67 +53,33 @@ function oauth_exchange_code()
 	curl_close($ch);
 	$userinfo = json_decode($output);
 	
+	$userinfo->access_token = $access_token; 
+	
 	return $userinfo;
-}
-
-function new_user_row_google($userinfo)
-{
-	global $db, $config, $user;
-	$sql = 'SELECT group_id
-			FROM ' . GROUPS_TABLE . "
-			WHERE group_name = '" . $db->sql_escape('REGISTERED') . "'
-			AND group_type = " . GROUP_SPECIAL;
-	$result = $db->sql_query($sql);
-	$row = $db->sql_fetchrow($result);
-	$db->sql_freeresult($result);
-	
-	if (!$row)
-	{
-		trigger_error('NO_GROUP');
-	}
-	
-	return array(
-		'username'		=> "Google: " . $userinfo->email,
-		'user_password'	=> '',
-		'user_email'	=> $userinfo->email,
-		'group_id'		=> (int) $row['group_id'],
-		'user_type'		=> USER_NORMAL,
-		'user_ip'		=> $user->ip,
-		'user_new'		=> ($config['new_member_post_limit']) ? 1 : 0,
-		);
 }
 
 function get_user_row_google($userinfo)
 {
 	global $db;
 	
-	$username = utf8_clean_string("Google: " . $userinfo->email);
-	$sql = 'SELECT * FROM ' . USERS_TABLE . ' WHERE username_clean = \'' . $username . '\'';
+	$sql = 'SELECT * FROM ' . USERS_TABLE . ' WHERE oauth_id = "' . $userinfo->id . '" and oauth_method = "google" ';
 	$result = $db->sql_query($sql);
 	$row = $db->sql_fetchrow($result);
 	$db->sql_freeresult($result);
 	return $row;
 }
 
-function user_add_google($userinfo)
-{
-	if (!function_exists('user_add'))
-	{
-		include($phpbb_root_path . 'includes/functions_user.' . $phpEx);
-	}
-	user_add(new_user_row_google($userinfo), false);
-	
-	return get_user_row_google($userinfo);
-}
-
 function update_userinfo_google($row, $userinfo)
 {
 	global $db;
 	
-	if ($row['user_avatar_type'] != AVATAR_REMOTE || $row['user_avatar'] != $userinfo->picture || $row['user_avatar_width'] != 128 || $row['user_avatar_height'] != 128)
+	if ($row['user_avatar_type'] != AVATAR_REMOTE || $row['user_avatar'] != $userinfo->picture 
+			|| $row['user_avatar_width'] != 128 || $row['user_avatar_height'] != 128
+			|| $row['oauth_token'] != $userinfo->access_token)
 	{
 		$sql = 'UPDATE ' . USERS_TABLE . ' SET user_avatar = "' . $userinfo->picture . '", user_avatar_type = ' . AVATAR_REMOTE
 				. ", user_avatar_width = 128, user_avatar_height = 128"
+				. ", oauth_token = \"" .  $userinfo->access_token . "\""
 				. ' WHERE user_id = ' . $row['user_id'];
 		$result = $db->sql_query($sql);
 		$db->sql_freeresult($result);
@@ -162,7 +128,13 @@ function login_google($useless_username, $useless_password)
 	$row = get_user_row_google($userinfo);
 	if (!$row)
 	{
-		$row = user_add_google($userinfo);
+		$userinfo->oauth_method = 'google';
+		return array(
+			'status'		=> LOGIN_CONTINUE,
+			'error_msg'		=> '',
+			'user_row'		=> array('user_id' => ANONYMOUS),
+			'oauth_extra'	=> $userinfo,
+			);		
 	}
 	$row = update_userinfo_google($row, $userinfo);
 	return array(

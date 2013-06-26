@@ -19,6 +19,9 @@ How to configure forum.
 	> UPDATE phpbb_config SET config_value = 0 WHERE config_name = "allow_avatar_upload";
 	> INSERT INTO phpbb_config (config_name, config_value, is_dynamic) VALUES("oauth_client_id", "your_client_id", 0),("oauth_client_secret", "your_client_secret", 0);
 	> UPDATE phpbb_users SET username = "Google: your@email", username_clean = "google: your@email", user_password = "" WHERE user_id = 2;
+	> ALTER TABLE phpbb_users ADD COLUMN oauth_method varchar(255);
+	> ALTER TABLE phpbb_users ADD COLUMN oauth_id varchar(255);
+	> ALTER TABLE phpbb_users ADD COLUMN oauth_token varchar(255);
 
 6. Clear new user post limit
 	
