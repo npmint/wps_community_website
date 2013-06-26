@@ -16,6 +16,7 @@ How to configure forum.
 	$ mysql -u root -p forum
 	> UPDATE phpbb_config SET config_value = "google" WHERE config_name = "auth_method";
 	> UPDATE phpbb_config SET config_value = 1 WHERE config_name = "allow_avatar_remote";
+	> UPDATE phpbb_config SET config_value = 0 WHERE config_name = "allow_avatar_upload";
 	> INSERT INTO phpbb_config (config_name, config_value, is_dynamic) VALUES("oauth_client_id", "your_client_id", 0),("oauth_client_secret", "your_client_secret", 0);
 	> UPDATE phpbb_users SET username = "Google: your@email", username_clean = "google: your@email", user_password = "" WHERE user_id = 2;
 
