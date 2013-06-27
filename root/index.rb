@@ -5,7 +5,7 @@ NewsInfo = Struct.new(:title, :content)
 
 def read_news fname
   title = ""
-  content = ""
+  content = "<p>"
 
   open(fname) do |f|
     f.each_line do |l|
@@ -18,11 +18,12 @@ def read_news fname
     f.each_line do |l|
       l.chomp!
       if l.size == 0
-        content += "<br/>"
+        content += "</p>\n<p>"
       else
         content += l + " "
       end
     end
+    content += "</p>"
   end
   return NewsInfo.new title, content
 end
@@ -32,7 +33,7 @@ def html_news
   news = Dir.glob($root2 + "/data/news/*.news").sort {|a,b| -(File.basename(a).to_i <=> File.basename(b).to_i)}
   news.each do |n|
     newsinfo = read_news n
-    cont += "<h2>#{newsinfo.title}</h2><p class=\"framed\">#{newsinfo.content}</p>"
+    cont += "<h2>#{newsinfo.title}</h2><div class=\"framed\">#{newsinfo.content}</div>"
   end
   return cont
 end
