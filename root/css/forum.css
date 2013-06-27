@@ -961,7 +961,7 @@ dl.icon dt {
 dd.posts, dd.topics, dd.views {
 	width: 8%;
 	text-align: center;
-	line-height: 2.2em;
+	line-height: 2.8em;
 	font-size: 1.2em;
 }
 
@@ -980,6 +980,7 @@ dl.icon dt li {
 dd.lastpost {
 	width: 27%;
 	font-size: 1.1em;
+	line-height: 1.55em;
 }
 
 dd.redirect {
