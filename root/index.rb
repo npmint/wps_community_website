@@ -48,11 +48,11 @@ cont = <<EOF
   <li><b>About us:</b> We are a small branch of the Kingsoft Office team,
   which also devotes itself to porting Kingsoft Office to Linux and Linux-like systems, 
   and offers their users native experience.</li>
-  <li><b>Annotation:</b> For some history reason, our product have several different names:
-  <b><i>WPS Office</i></b>(known in Asian region, often abbreviated to <b><i>WPS</i></b>),
-  <b><i>Kingsoft Office</i></b>(known in other regions, often abbreviated to <b><i>KSO</i></b>),
-  <b><i>Kingsoft WPS Office</i></b>(used to let all our user can understand).
-  All there names can be used in our site.</li>
+  <li><b>Annotation:</b> Due to some historical reasons, our product have had several different names: 
+  <b>WPS Office</b> (widely used in Asian area, can be abbreviated to <b>WPS</b>);
+  <b>Kingsoft Office</b>(widely used in Europe and America countries, can be abbreviated to <b>KSO</b>),
+  <b>Kingsoft WPS Office</b>(used to let all of us understand).
+  Those names mentioned above can be used on our site.</li>
 </ul>
 <h1>Latest Announcements</h1>
 #{html_news}
