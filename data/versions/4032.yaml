@@ -14,7 +14,7 @@ whats_new: |
     Fixup can not open file that's name contains '\'
     Fixup presentation crashed when insert special background music
 release_notes: |
-    In order to get an unity package name, we whange package from wps-office to kingsoft-office.
+    In order to get an unity package name, we change package from wps-office to kingsoft-office.
     If you have installed previously package, remove it first, please.
 addresses:
     - type: deb
