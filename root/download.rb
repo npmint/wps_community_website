@@ -27,7 +27,7 @@ def html_version_item f
       sha1 = ver["sha1sum"]
       cont += "<p class=\"dl_addr\">
         <a href=\"#{address}\">#{filename}</a>
-        <br/>#{sha1}
+        <br/>SHA1: #{sha1}
         </p>"
     end
   end
