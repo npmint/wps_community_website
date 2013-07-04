@@ -54,7 +54,7 @@ cont = <<EOF
   <b>Kingsoft WPS Office</b>(used to let all of us understand).
   Those names mentioned above can be used on our site.</li>
   <li><b>Help us:</b> If you like Kingsoft Office, tell your friends, please. Kingsoft Office also have 
-  Windows/Android/iOS Version. You can get it <a href="http://www.ksosoft.com/">here</a>.</li>
+  Windows/Android/iOS Versions. You can get it <a href="http://www.ksosoft.com/">here</a>.</li>
 </ul>
 <h1>Latest Announcements</h1>
 #{html_news}
