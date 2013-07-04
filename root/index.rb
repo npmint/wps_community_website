@@ -53,6 +53,8 @@ cont = <<EOF
   <b>Kingsoft Office</b>(widely used in Europe and America countries, can be abbreviated to <b>KSO</b>),
   <b>Kingsoft WPS Office</b>(used to let all of us understand).
   Those names mentioned above can be used on our site.</li>
+  <li><b>Help us:</b> If you like Kingsoft Office, tell your friends, please. Kingsoft Office also have 
+  Windows Version. You can get it <a href="http://www.ksosoft.com/">here</a>.</li>
 </ul>
 <h1>Latest Announcements</h1>
 #{html_news}
