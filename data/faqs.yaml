@@ -10,7 +10,7 @@
 - Q: Do you have any roadmap or plans to provide 64-bit packages in near future?
   A: |
     Yes, we have plan to provide x64 support.
-    But out code is ported from windows, and using old com style.
+    But our code is ported from windows, and using old com style.
     It's hard to support x64.
     We hope x64-version could run at the end of the year.
     But clear time is hard to expect.
