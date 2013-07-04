@@ -11,6 +11,6 @@
   A: |
     Yes, we have plan to provide x64 support.
     But out code is ported from windows, and using old com style.
-    It's support x64 is difficult.
+    It's hard to support x64.
     We hope x64-version could run at the end of the year.
     But clear time is hard to expect.
