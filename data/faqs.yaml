@@ -5,11 +5,11 @@
     You can get there fonts <a href="http://swap.wps-community.org/fonts/">here</a>.
 - Q: Missing fonts on startup?
   A: See above. ^_^
-- Q: Does kingsoft office has any plan to support odf?
+- Q: Does kingsoft office plan to support odf?
   A: |
     I'm sorry. we have not to plan to support odf, recently. 
     I hope <a href="http://wps-community.org/forum/viewtopic.php?f=4&t=26&p=96">this post</a> can tell you why.
-- Q: Do you have any roadmap or plans to provide 64-bit packages in near future?
+- Q: Do you have any roadmap or plans to provide 64-bit packages in the future?
   A: |
     Yes, we have plan to provide x64 support.
     But our code is ported from windows, and using old com style.
