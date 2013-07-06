@@ -103,3 +103,12 @@ a:hover{
 #header a:hover{
   text-decoration:underline;
 }
+.gallery_item {
+  float: left;
+  width: 25%;
+  margin-bottom: 10px;
+  text-align:center;
+}
+.clear_both {
+  clear: both;
+}

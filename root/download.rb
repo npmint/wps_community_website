@@ -26,7 +26,7 @@ def html_version_item f
       filename = address.rpartition("/")[2]
       sha1 = ver["sha1sum"]
       cont += "<p class=\"dl_addr\">
-        <a href=\"#{address}\">#{filename}</a>
+        <a href=\"#{address}\" onclick=\"onDownload(this)\" data-filename=\"#{filename}\">#{filename}</a>
         <br/>SHA1: #{sha1}
         </p>"
     end
@@ -44,6 +44,15 @@ end
 
 cont = <<EOF
 #{html_header "Download"}
+<script>
+  function onDownload(n)
+  {
+    url = "/bin/st.rb?t=download&a=" + n.getAttribute("data-filename") + "&r=" + Math.random();
+    a = new XMLHttpRequest();
+    a.open("GET", url , false);
+    a.send();
+  }
+</script>
 <div class="body">
 <h1>Product Download</h1>
 #{html_versions}
