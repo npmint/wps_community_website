@@ -1,10 +1,10 @@
-LICENSE AGREEMENT OF KINGSOFT OFFICE FOR LINUX COMMUNITY VERSION
+﻿LICENSE AGREEMENT OF KINGSOFT OFFICE FOR LINUX COMMUNITY VERSION
 ---
 ### <p align="center">(also called WPS OFFICE FOR COMMUNITY VERSION)</p>
 
 <br/>
 
-Please read and understand all rights and limitations stated in this **LICENSE AGREEMENT OF KINGSOFT OFFICE FOR LINUX COMMUNITY VERSION (also called WPS OFFICE FOR COMMUNITY VERSION) (“the Agreement”)** carefully. Before first use Kingsoft Office for Linux Community Version (also called WPS Office for Community Version) (the “Product” ) that accompanies the Agreement, you need to read all the terms of the Agreement and decide whether to agree with the terms or not. You shall not enjoy any right regarding the "Product" or use the "Product" by any means unless and until you agree to all terms of the Agreement.
+Please read and understand all rights and limitations stated in this **LICENSE AGREEMENT OF KINGSOFT OFFICE FOR LINUX COMMUNITY VERSION (also called WPS OFFICE FOR COMMUNITY VERSION) (“the Agreement”)** carefully. Before first use Kingsoft Office for Linux Community Version (also called WPS Office for Community Version) (the “Product”) that accompanies the Agreement, you need to read all the terms of the Agreement and decide whether to agree with the terms or not. You shall not enjoy any right regarding the "Product" or use the "Product" by any means unless and until you agree to all terms of the Agreement.
 As a reference, you may print out the text of the Agreement from this page now.
 
 The Agreement is a legal agreement entered into between you and Kingsoft regarding the “Product”. The "Product" consists of the attached computer software, including all versions (including all language versions and updated versions being released and will be released in the future by Kingsoft, etc.; Kingsoft Software has the right of decision as to whether to release new language version, which language is to be chosen for the release, whether to release updated version as well as when to release language version and updated version) of Kingsoft Office for Linux Community Version, and other relevant documents. Once you use any version (including without limitation any language version or updated version, if any) of the "Product", it shall be deemed that you have agreed to be bound by the restrictions of all terms in the Agreement. If you do not agree to the terms of the Agreement, then you shall not be entitled to use any version (including without limitation any language version or updated version, if any) of the "Product" by any means.
@@ -13,7 +13,7 @@ The “Product” is protected by copyright laws, international copyright treati
 
 <br/>
 
-#### 1. Kingsoft authorizes you the non-exclusive right to use the "Product" in the territorial scope in the world (“Authorized Territorial Scope”) . Your right to use the "Product" is limited to:
+#### 1. Kingsoft authorizes you the non-exclusive right to use the "Product" in the territorial scope in the world (“Authorized Territorial Scope”). Your right to use the "Product" is limited to:
 
 1) On the premise that you observe and abide by this term, you have the right to repack the "Product" for the purpose of distributing the "Product" to end users in the authorized territorial scope via your community :
 
@@ -21,7 +21,17 @@ a. The “repack” in this term means that you are only allowed to modify the s
 
 b. The format of the “Product” after repacking shall only be the format of software package you need when you add the “Product” to your community software warehouse in order to distribute it according to the Agreement. 
 
-2) On the premise that you observe and abide by this term, you have the right to distribute the "Product" via your community in a lawful manner to end users within the Authorized Territorial Scope: a. You are only allowed to distribute the “Product” provided by Kingsoft as a whole on an AS IS basis. The distributed “Product” shall only be the unmodified complete (including without limitation the whole content of the attached “Kingsoft Software End-User License Agreement” (hereafter referred to as “Kingsoft EULA”) ) version provided by Kingsoft that includes all copyright identification; b. You shall not make any modification to the Agreement in the form or content.c. You shall guarantee by legal technical means (including without limitation, providing, alias, phony target, copying and other legal technical means which can be supported by your community software warehouse) that the software any users installed from your community software warehouse named “kingsoft-office” or “wps-office” is exactly the “Product”; d. You shall not bundle the “Product” with any software or program (including without limitation software and program that contains open-source code); e. You shall not sell the “Product”, make a profit of or or collect disguised fee from the “Product” by any means. For the avoidance of doubt, you will retain all the donation provided by end users to your community.
+2) On the premise that you observe and abide by this term, you have the right to distribute the "Product" via your community in a lawful manner to end users within the Authorized Territorial Scope:
+
+a. You are only allowed to distribute the “Product” provided by Kingsoft as a whole on an AS IS basis. The distributed “Product” shall only be the unmodified complete (including without limitation the whole content of the attached “Kingsoft Software End-User License Agreement” (hereafter referred to as “Kingsoft EULA”)) version provided by Kingsoft that includes all copyright identification;
+
+b. You shall not make any modification to the Agreement in the form or content;
+
+c. You shall guarantee by legal technical means (including without limitation, providing, alias, phony target, copying and other legal technical means which can be supported by your community software warehouse) that the software any users installed from your community software warehouse named “Kingsoft-office” or “WPS-office” is exactly the “Product”;
+
+d. You shall not bundle the “Product” with any software or program (including without limitation software and program that contains open-source code);
+
+e. You shall not sell the “Product”, make a profit of or collect disguised fee from the “Product” by any means. For the avoidance of doubt, you will retain the entire donation provided by end users to your community.
 
 3) In case of a conflict between this term and other terms in the Agreement regarding the content and the actual execution, the provisions of this term shall prevail.
 
@@ -29,19 +39,19 @@ b. The format of the “Product” after repacking shall only be the format of s
 
 #### 2. You shall abide by the following obligations:
 
-1) You shall guarantee that you will guide the third party to distribute the “Product” (including the repacked “Product”, which means that you consent to the distributing of the repacked “Product” by the third party according to the Agreement without paying any charge to you) in the way licensed in the Agreement in a lawful manner. You shall inform the third party that before distributing the “Product” (including the repacked “Product”), he should send a email to Kingsoft at this e-mail address: [wps_linux@kingsoft.com](mailto:wps_linux@kingsoft.com) and filled out his relevant information (including but not limited to the name of his community, contact person, contact number and address), read through and agree to all the terms of the Agreement. Under the above-mentioned condition, the third party has the right to distribute the “Product” (including the repacked “Product”) according to the Agreement. Otherwise, any use (including without limitation repacking and distributing actions) of the “Product” (including the repacked “Product”) shall be deemed to be unauthorized use, and Kingsoft reserves the right to the legal responsibility.
+1) You shall guarantee that you will guide the third party to distribute the “Product” (including the repacked “Product”, which means that you consent to the distributing of the repacked “Product” by the third party according to the Agreement without paying any charge to you) in the way licensed in the Agreement in a lawful manner. You shall inform the third party that before first use the “Product” (including the repacked “Product”), they should send an email to Kingsoft at this e-mail address: wps_linux@kingsoft.com and filled out their relevant information (including but not limited to the name of the community, contact person, contact number and address), read through and agree to all the terms of the Agreement. Under the above-mentioned condition, the third party has the right to distribute the “Product” (including the repacked “Product”) according to the Agreement. Otherwise, any use (including without limitation repacking and distributing actions) of the “Product” (including the repacked “Product”) shall be deemed to be unauthorized use, and Kingsoft reserves the right to the legal responsibility.
 
 2) You shall guarantee that you have legal right to any community (including community software warehouse) in which you distribute the “Product” (including the repacked “Product”). You shall ensure that you have the right to add the “Product” to the community (including community software warehouse) and the right to distribute the “Product” according to the Agreement in this community (including community software warehouse), and that such actions do not infringe upon the legitimate interest of any third party. The community (including community software warehouse) and its content (including without limitation all the software it contains) shall be legitimate and legally authorized by copyright owners, so that it shall not infringe upon the legitimate interest of any third party.
 
-3) Do not use, copy, revise and/or assign the “Product”, as a whole or part, beyond the scope authorized by the Agreement.
+3) You shall not use, copy, revise and/or assign the “Product”, as a whole or part, beyond the scope authorized by the Agreement.
 
-4) Do not reverse engineer, de-compile, or disassemble the “Product” or attempt to gain access to the source code for the “Products” by any means.
+4) You shall not reverse engineer, de-compile, or disassemble the “Product” or attempt to gain access to the source code for the “Products” by any means.
 
-5) Make sure that all the copies of the “Product” comprise all the copyright marks.
+5) You shall ensure that all the copies of the “Product” comprise all the copyright marks.
 
 6) You shall not assign, sublicense or reinvest any of your right under the Agreement by any means.
 
-7) Unless it is expressly stipulated in other terms of the Agreement, you are not allowed to photocopy the whole or any part of the “Product”, create any derivative work based on the “Product”, evade any security measure that aims to control access to the “Product” by any means. Without separate license from Kingsoft, you shall not pack or bundle the “Product” with any hardware or pre-install the “Product” in any hardware. You are licensed according to this Agreement to use the “Product” only as an integral whole, and you shall not use any component of the “Product” separately in any form or by any means. 
+7) Unless it is expressly stipulated in other terms of the Agreement, you are not allowed to photocopy the whole or any part of the “Product”, create any derivative work based on the “Product”, and evade any security measure that aims to control access to the “Product” by any means. Without separate license from Kingsoft, you shall not pack or bundle the “Product” with any hardware or pre-install the “Product” in any hardware. You are licensed according to this Agreement to use the “Product” only as an integral whole, and you shall not use any component of the “Product” separately in any form or by any means.
 
 <br/>
 
@@ -83,11 +93,11 @@ Any rights not expressly and clearly granted in the Agreement shall be reserved 
 
 #### 6. Export Restrictions
 
-#### The “Product” is subject to the export-related laws and regulations of the mainland of the People’s Republic of China (excluding Hong Kong Special Administration Region, Macao Special Administration Region, and Taiwan Region), and you must comply with all domestic and international export-related laws and regulations that apply to the “Product”, the domestic and international export-related laws and regulations abovementioned include but not limited to those restrictive provisions in respect to the scope of export destinations, the range of end users in the export destinations, the way of using the “Product” and so on. 
+#### The “Product” is subject to the export-related laws and regulations of the mainland of the People’s Republic of China (excluding Hong Kong Special Administration Region, Macao Special Administration Region, and Taiwan Region), and you must comply with all domestic and international export-related laws and regulations that apply to the “Product”, the domestic and international export-related laws and regulations abovementioned include but not limited to those restrictive provisions in respect to the scope of export destinations, the range of end users in the export destinations, the way of using the “Product” and so on.
 
 <br/>
 
-#### 7. Disclaimer Of Warranties.
+#### 7. Disclaimer of Warranties.
 
 #### To the maximum extent permitted by the applicable laws, Kingsoft and its suppliers provide the “Product” and support services (if any) AS IS AND WITH ALL FAULTS, and hereby disclaim all other assurance and warranties, whether express, implied or statutory, including, but not limited to, any (if any) implied warranties of merchantability or fitness for a particular purpose, accuracy of responses, completeness of results, free of viruses and negligence with regard to the “Product”, and the provision of or failure to provide support or other services as for the “Product”. You recognize that Kingsoft shall not bear any liability for any guaranty regarding Kingsoft Trademarks and any legal liability (including without limitation liability for tort) caused by Kingsoft Trademarks in the authorized territorial scope. You shall assume any legal liability caused by Kingsoft Trademarks in the authorized territorial scope and guarantee that Kingsoft shall not suffer losses or bear any liability thereby. Moreover, you recognize that Kingsoft shall not bear any liability for any guaranty regarding the violation of patent right of any party in any country or region within the authorized territorial scope caused by the “Product”. You shall assume any legal liability caused by the violation of patent right of any party in any country or region within the authorized territorial scope and guarantee that Kingsoft shall not suffer losses or bear any liability thereby.
 
@@ -105,7 +115,7 @@ Any rights not expressly and clearly granted in the Agreement shall be reserved 
 
 2) Provided that Kingsoft offers you any replaced, revised and/or upgraded edition of the “Product” attached with a replacement of the Agreement which stipulates that you can use the replaced, revised and/or upgraded edition of the “Product” under the condition that you accept the replacement of the Agreement, Kingsoft may terminate the original version of the Agreement.
 
-3) Kingsoft is entitled to modify the policy concerning the “Product” and the content of the Agreement by issuing an announcement on the official website of the “Product” ([http://wps-community.org](http://wps-community.org)) fifteen (15) natural days in advance, including without limitation adding restrictions to the license, modifying or deleting the licensed way of use, altering the authorized territorial scope, reducing functions, setting service time, licensing termination, etc.
+3) Kingsoft is entitled to modify the policy concerning the “Product” and the content of the Agreement by issuing an announcement on the official website of the “Product” ([http://wps-community.org](http://wps-community.org/)) fifteen (15) natural days in advance, including without limitation adding restrictions to the license, modifying or deleting the licensed way of use, altering the authorized territorial scope, reducing functions, setting service time, licensing termination, etc.
 
 <br/>
 
