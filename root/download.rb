@@ -48,7 +48,7 @@ def html_version_item f
       filename = address.rpartition("/")[2]
       sha1 = ver["sha1sum"]
       cont += "<p class=\"dl_addr\">
-        <a href=\"#{address}\" onclick=\"trackCND('#{address}', '#{filename}'); return false\">#{filename}</a>
+        <a class=\"download_address\" href=\"#{address}\" onclick=\"trackCND('#{address}', '#{filename}'); return false\">#{filename}</a>
         <br/>SHA1: #{sha1}
         </p>"
     end
