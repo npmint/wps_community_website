@@ -1,0 +1,72 @@
+version: 9.1.0.4751
+linux_version: Alpha15
+linux_version_short: a15
+release_data: 2014-08-15
+full_name: WPS Office for Linux Alpha15
+whats_new: |
+    WPS Writer supports restrict editing now.
+    WPS Writer can go back last editing position when you reopen the document.
+    WPS Writer supports split window for easy reading.
+    WPS Writer added mirror margins for printing.
+    WPS Writer enhanced go to function.
+    WPS Writer supports complex text layout now (testing).
+    WPS Spreadsheets now supports share workbook.
+    WPS Spreadsheets will give you the tips when typing a function.
+    WPS Spreadsheets supports finding/replacing with format now.
+    WPS Spreadsheets supports formula error checking now.
+release_notes: |
+    Now we renamed Kingsoft Office to WPS Office globally (WPS Office only use in China mainland previous).
+    You must uninstall the old version to works with this new package.
+    From now on, we split the package to main package (wps-office), language package (wps-office-mui) and font package (wps-office-fonts, most of the time you don't need this package unless you deal with CJK documents frequently). The main package include English resource only, you can download other supports mui package.
+addresses:
+    - type: deb
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a15/wps-office_9.1.0.4751~a15_i386.deb
+      sha1sum: aab2c84293ed3e8baf0ec3c164062d80df50e812
+    - type: deb-fonts
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a15/wps-office-fonts_1.0_all.deb
+      sha1sum: d09b35a97398a7e001123a3874505320ea4a8f11
+    - type: deb-mui-de
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a15/wps-office-mui-de_9.1.0.4751~a15_all.deb
+      sha1sum: bcf82427f31141868c5d390352e175f4cfc797cf
+    - type: deb-mui-fr
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a15/wps-office-mui-fr_9.1.0.4751~a15_all.deb
+      sha1sum: 894928a69ab46ce94932fa302aa9392b98eb0553
+    - type: deb-mui-fr-ca
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a15/wps-office-mui-fr-ca_9.1.0.4751~a15_all.deb
+      sha1sum: 2ebfef6b9d2e7db79302cf84f6f185f6be1c7716
+    - type: deb-mui-ja-jp
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a15/wps-office-mui-ja-jp_9.1.0.4751~a15_all.deb
+      sha1sum: 29c58a2d7ed5b4b73b876a88f0ef2b7a67527bba
+    - type: deb-mui-zh-cn
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a15/wps-office-mui-zh-cn_9.1.0.4751~a15_all.deb
+      sha1sum: e1bf24a301c4b735f572b704a8c67ade35dfc650
+    - type: deb-mui-zh-tw
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a15/wps-office-mui-zh-tw_9.1.0.4751~a15_all.deb
+      sha1sum: 422916c88d7968f9d1d247db72749af89d5f2aa9
+    - type: rpm
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a15/wps-office-9.1.0.4751-1.a15.i686.rpm
+      sha1sum: 4fb956eff300f0cf650779c4f19325eb0f77b0ea
+    - type: rpm-fonts
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a15/wps-office-fonts-1.0-1.noarch.rpm
+      sha1sum: 10479a6756c88302f8dccf7badb7f6587d32d085
+    - type: rpm-mui-de
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a15/wps-office-mui-de-9.1.0.4751-1.a15.noarch.rpm
+      sha1sum: 24e6df77145ea8e81dc980c5def422c7835f7222
+    - type: rpm-mui-fr
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a15/wps-office-mui-fr-9.1.0.4751-1.a15.noarch.rpm
+      sha1sum: fa3f8116c31a1fe0cc3242e54bee3422fcabbc66
+    - type: rpm-mui-fr-ca
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a15/wps-office-mui-fr-ca-9.1.0.4751-1.a15.noarch.rpm
+      sha1sum: 47e3e4702412234f39e0cd04fd3dfe66782acff1
+    - type: rpm-mui-ja-jp
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a15/wps-office-mui-ja-jp-9.1.0.4751-1.a15.noarch.rpm
+      sha1sum: f0625dead85827856797cbb5bb1d45ca342963d1
+    - type: rpm-mui-zh-cn
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a15/wps-office-mui-zh-cn-9.1.0.4751-1.a15.noarch.rpm
+      sha1sum: a71afcf5a584e2faef5cb5fc6c7f52edfe38b446
+    - type: rpm-mui-zh-tw
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a15/wps-office-mui-zh-tw-9.1.0.4751-1.a15.noarch.rpm
+      sha1sum: 76a0bd5d7a162b88a0f57de48a40580faa04a24d
+    - type: tar.xz
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a15/wps-office_9.1.0.4751~a15_x86.tar.xz
+      sha1sum: a4e3ef7ff1f19a6b34af60b941e97abd2fb3d2ef
