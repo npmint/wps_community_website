@@ -167,3 +167,6 @@ a:hover{
   text-align: left;
   width: *;
 }
+.download_address {
+  font-size: 1.3em;
+}
