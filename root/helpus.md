@@ -1,44 +1,28 @@
-We need your help
-=====================
-WPS Community team is a small team. We try to do our best to make a perfect product,
-but we are not perfect, so we need your help. We sincerely hope that we can 
-combine our efforts and our thinking to make a world-class office suite. 
+We Need Your Help
+----------------
 
-Tell your friends, there is an office suite named Kingsoft Office
------------------------------------------------------------------
-Kingsoft Office famous in China, but it is really not the case in the world.
-We strive to let more people know about our team and our products. We hope the 
-product to be able to help more people. However, we leak the ways to do it.
+The WPS Community team is a small group working to develop the Linux edition of WPS Office (formerly known as Kingsoft Office).
 
-And Linux version requires more users to support, it is very important to us.
-Because a large number of users is a strong guarantee to protect our team to 
-continue to make more works. More users support us, more resources we get.
-And more resources will be better enhance our Linux version.
+The more people outside of China that show interest in our work the more resources we get to continue development. We do our
 
-If you like our products, please share with your friends via 
-[facebook](http://facebook.com), [twitter](http://twitter.com), blog, email,
-in short, can be in any form, which will be helpful for you and us.
+best to anticipate user's needs but we would really like to hear from you what we're doing right, changes you would like to see,
 
-Give us your feedback
----------------------
-Give us your feedback, whether praise or criticism. Tell us why you choose to use KSO/WPS
-or why not. We will keep the features you like and improve usability aspects in you do not like.
+or about any new feature suggestions. Let us know you are behind us. Hearing from users motivates us and lets us know how we
 
-Every feedback is valuable. Praise can improve our working passion, criticism can
-correct our shortcomings. However, to say nothing, just silence, is the most terrible.
-We will live in the world of ourselves. We will make a product, a product which is hard 
-to understand, a lonely art with our imagination created.
-
-So tell us why you like KSO/WPS, tell us why you do not like KSO/WPS, tell us what 
-you need, tell us your advice, let us know you are behind us.
-
-[Give us your feedback from forum.](/forum)
-
-[Or join our Group on Google: wps4linux](https://groups.google.com/forum/#!forum/wps4linux)
-
-Help us in other ways
----------------------
-If you want to help us, or you think you can help us in other ways. tell us please.
+may succeed by helping others.
 
 <br/>
-**Many thanks to everybody who help us**
+With a familiar look and feel, anyone familiar with Microsoft Office will feel right at home with WPS Office.
+
+Help us get the word out that Linux users now have a real choice in professional office suites.
+
+<br/>
+Share your feedback with us on the [WPS Community forum at http://wps-community.org/forum/](/forum)
+or join our group on [Google: wps4linux](https://groups.google.com/forum/#!forum/wps4linux)
+
+<br/>
+If you want to help, or have an idea for how to raise awareness of WPS Office, please let us know.
+
+<br/>
+**To everyone that has contributed to this project, we are very grateful.**
+
