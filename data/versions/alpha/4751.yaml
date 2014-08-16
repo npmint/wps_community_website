@@ -69,4 +69,4 @@ addresses:
       sha1sum: 76a0bd5d7a162b88a0f57de48a40580faa04a24d
     - type: tar.xz
       address: http://kdl.cc.ksosoft.com/wps-community/download/a15/wps-office_9.1.0.4751~a15_x86.tar.xz
-      sha1sum: a4e3ef7ff1f19a6b34af60b941e97abd2fb3d2ef
+      sha1sum: 966c56181cb448178243090811aea1cc2429567b
