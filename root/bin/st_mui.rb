@@ -2,6 +2,9 @@
 
 puts "Content-Type: text/plain"
 puts 
+puts "Task posted"
+
+exit if fork
 
 if not $root2
   $root2 = "../.."
