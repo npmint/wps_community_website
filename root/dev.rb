@@ -15,7 +15,7 @@ def html_mui_progress
     fd.each_line do |line|
       line.chomp!
       c = /(\w+)\s*(\d+)\s*\/\s*(\d+)/.match line
-      sts += [ [line, c[2], c[3], c[2].to_f / c[3].to_f] ]
+      sts << [line, c[2], c[3], c[3].to_i == 0 ? 0 : c[2].to_f / c[3].to_f] 
     end
   end
   sts.sort! {|x, y| -(x[3] <=> y[3])}
