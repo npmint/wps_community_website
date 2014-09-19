@@ -24,7 +24,7 @@ addresses:
       sha1sum: aab2c84293ed3e8baf0ec3c164062d80df50e812
     - type: deb-fonts
       address: http://kdl.cc.ksosoft.com/wps-community/download/a15/wps-office-fonts_1.0_all.deb
-      sha1sum: d09b35a97398a7e001123a3874505320ea4a8f11
+      sha1sum: c548da6be4618b3f8d60fbbc4485c028b702809c
     - type: deb-mui-de
       address: http://kdl.cc.ksosoft.com/wps-community/download/a15/wps-office-mui-de_9.1.0.4751~a15_all.deb
       sha1sum: bcf82427f31141868c5d390352e175f4cfc797cf
@@ -48,7 +48,7 @@ addresses:
       sha1sum: 4fb956eff300f0cf650779c4f19325eb0f77b0ea
     - type: rpm-fonts
       address: http://kdl.cc.ksosoft.com/wps-community/download/a15/wps-office-fonts-1.0-1.noarch.rpm
-      sha1sum: 10479a6756c88302f8dccf7badb7f6587d32d085
+      sha1sum: 519b27120a9f0ec868b3f43d775b3f212e481b91
     - type: rpm-mui-de
       address: http://kdl.cc.ksosoft.com/wps-community/download/a15/wps-office-mui-de-9.1.0.4751-1.a15.noarch.rpm
       sha1sum: 24e6df77145ea8e81dc980c5def422c7835f7222
@@ -69,4 +69,4 @@ addresses:
       sha1sum: 76a0bd5d7a162b88a0f57de48a40580faa04a24d
     - type: tar.xz
       address: http://kdl.cc.ksosoft.com/wps-community/download/a15/wps-office_9.1.0.4751~a15_x86.tar.xz
-      sha1sum: 966c56181cb448178243090811aea1cc2429567b
+      sha1sum: d27e6a4240e3df0fed4be3b9661df080a2ee4a28
