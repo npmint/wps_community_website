@@ -1,0 +1,50 @@
+#!/usr/bin/env ruby
+
+require 'cgi'
+require 'fileutils'
+
+puts "Content-Type: text/xml"
+puts 
+
+if not $root2
+  $root2 = "../.."
+end
+
+$lang_data_dir = $root2 + "/data/languages"
+
+def get_lastest_version branch
+  x = Dir.glob($lang_data_dir + "/" + branch + "/*.xml").sort do |a, b|
+    -(File.basename(a) <=> File.basename(b))
+  end
+    return File.basename(x.first, ".*")
+end
+
+def get_xml_file branch, version
+  data = File.open($lang_data_dir + "/" + branch + "/" + version + ".xml").read
+  return data
+end
+
+cgi = CGI.new
+keys = cgi.keys.sort
+
+branch = ""
+version = ""
+
+keys.each do |key|
+  if key == "b"
+    branch = cgi[key]
+  elsif key == "v"
+    version = cgi[key]
+  end
+end
+
+if branch == ""
+  print "<error>Please specify the branch</error>"
+  return
+end
+
+if version == ""
+  version = get_lastest_version(branch)
+end
+
+print get_xml_file(branch, version)
