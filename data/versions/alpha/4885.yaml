@@ -1,0 +1,27 @@
+version: 9.1.0.4885
+linux_version: Alpha16
+linux_version_short: a16
+release_data: 2014-10-21
+full_name: WPS Office for Linux Alpha16
+whats_new: |
+    New document compare tool for Writer.
+    New Eye Protection Mode for Writer/Spreadsheets.
+    Fixed fails opening DOCX file which needs password
+    Fixed missing image when pasting in HTML format
+    Fixed missing links when export to pdf
+    Fixed unable to set paper size in Spreadsheets
+    Fixed a crash when copy/move sheets in Spreadsheets
+    Fixed invalid window state when startup with maximized on KDE
+release_notes: |
+    We now using Online Language instead of the language package, you can switch to the supported languages
+    from Choose Language dialog.
+addresses:
+    - type: deb
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a16/wps-office_9.1.0.4885~a16_i386.deb
+      sha1sum: c4dbce7481b501c6ef3105c7468504e7d3cfa787
+    - type: rpm
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a16/wps-office-9.1.0.4885-1.a16.i686.rpm
+      sha1sum: da7896e563924b0cc26432f8c64615b1de12f724
+    - type: tar.xz
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a16/wps-office_9.1.0.4885~a16_x86.tar.xz
+      sha1sum: 0db9c0ef8073f4141ca35f0b83d4e489f53f9871
