@@ -1,0 +1,485 @@
+﻿<languages>
+  <language locale="de_DE">
+    <display_name>German (Germany)</display_name>
+    <local_display_name>Deutsch (Deutschland)</local_display_name>
+    <icon>
+      iVBORw0KGgoAAAANSUhEUgAAACgAAAAeCAMAAABpA6zvAAACH1BMVEUAAAAAAAAAAAAAAAAAAAAAAAAA
+      AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAABMAABY
+      AABYAABKAAAEAADZAAD9AAD9AADVAAAEAADbAADWAAAEAADaFgD+GQDWFQAEAwDaqwD+yAD+yADWqAAE
+      BADbxwDWwwAEBADbxQDWwQAEBADbxQDWwQAAAAAAAAAAAAABAQDZxADUwAAAAAAAAAAAAAAAAACunQD7
+      4wD64gCnlgAAAAAAAAAAAAAAAAAjIACXiAC9qwC9qgC8qgC8qgC8qgC9qgC9qgCThQAfHAAAAAAAAAAA
+      AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABYAAD/AAD/AAD/AAD/GQD/yQD/
+      yQD/6QD/6AD/6QD/5wD/5gD/5wD/5wD/5wD/5gD/5wD/6AD/6AD/6AD/6ABhAajlAAAAn3RSTlMAAAAB
+      BggICAgGAQAAAAIWcqirq6urp28UAgAJefv6dAkAAhmzrhgCAyO7tyIDAya9uSUDAya9uSUDAya9uSUD
+      Jr3//7kmvf//uSa9uSa9/7kmvf//uSa9uSa9uSa9uSUDAyW7tiQDAx6U/PyQHgMBE0mlz9PT09PTz6NJ
+      EwEABx4+Vl1eXl1WPx4HAAEGEBgbGxsbGBAGAQABAQICAgGDUklVAAAACXBIWXMAAABIAAAASABGyWs+
+      AAABL0lEQVQ4y2NgoAFgZGJmYWVjxwHYODi5uHlA6nj5+AUEhYRFcABhUTFxCUleoEIpaRnZ+XiBnLyC
+      IlChkrLKfAJAVU0dqFBDU4uQQm0dXaBCPX0DQgoNjYyBCk1MzQgpNLewBCq0srYhpNDWzh6k0MFxgZMz
+      HuC0wAWi0NVtobsHHuC+yBOi0Mt7MQHgMwwV+vot8ccLlgRAFAYGLQ0OwQOCl4VCFIaFL1+BF6yMgCiM
+      jFq1Gi9YE02aQpOYWAIK18bFJwAVJiYlr1uPT936DSmpaUCF6RmZWRs3bcYJNm3JzsnNAyrMLygsKi4p
+      LcMByisqq6praoEK6+obGpuaW1pxgJa29o7Orm5QCdDT29c/YeIkHGDi5ClTp02HlCkzZs6aPWcuDjBn
+      9ryZM4CKANlKDiz7RMzKAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDEzLTA0LTI1VDE0OjIxOjEzKzA4OjAw
+      1uLZTwAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxMy0wNC0yNVQxNDoyMToxMyswODowMKe/YfMAAAAASUVO
+      RK5CYII=
+    </icon>
+    <url>http://kdl.cc.ksosoft.com/wps-community/download/mui/9.1.0.4885/mui_de_de.7z</url>
+    <string src="&amp;Follow system locale">&amp;Folgen Systemgebietsschema</string>
+    <string src="&amp;Install new language">&amp;Installieren Sie die neue Sprache</string>
+    <string src="&amp;Reset personal template">Pe&amp;rsöhnliche-Vorlagen zurücksetzen</string>
+    <string src="A network error occurred.">Netzwerkfehler</string>
+    <string src="Cancel">Abbrechen</string>
+    <string src="Choose Language">Sprache wählen</string>
+    <string src="Download language packs failed.">Fehler beim Erhalten der Sprachpaketen!</string>
+    <string src="Downloading %1...">Herunterladen %1...</string>
+    <string src="Follow system locale">&amp;Folgen Systemgebietsschema</string>
+    <string src="Get &amp;More...">Holen Sie &amp;mehr</string>
+    <string src="Get language package failed!">Fehler beim Erhalten der Sprachpaketen!</string>
+    <string src="Information">Informationen</string>
+    <string src="Installing %1...">installieren %1...</string>
+    <string src="Loading...">Laden...</string>
+    <string src="Local Language Packs">Lokale Sprachpaketen</string>
+    <string src="Local language packages">Lokale Sprachpaketen</string>
+    <string src="Network error">Netzwerkfehler</string>
+    <string src="OK">OK</string>
+    <string src="Online Language Packs">Online-Sprachpaketen</string>
+    <string src="Online language packages">Online-Sprachpaketen</string>
+    <string src="Settings will be effected after application restarted.">Einstellungen werden nach Neustart der Applikation wirksam.</string>
+    <string src="Settings will take effect after the application restarts.">Spracheinstellungen werden nach Neustart der Applikation wirksam.</string>
+  </language>
+  <language locale="en_US">
+    <display_name>English (USA)</display_name>
+    <local_display_name>English (USA)</local_display_name>
+    <icon>
+      iVBORw0KGgoAAAANSUhEUgAAACgAAAAeCAYAAABe3VzdAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMA
+      AABIAAAASABGyWs+AAAGMklEQVRYw+2XW0wc1x3Gf2dm9r4sy/1iwE5gMca3YBsCNraTuondQFS7jtNW
+      6kV9qCpVfWjfKlWtVDVvfchLo760SWjSpFEdxU6dGOzYsUlSbFxjE1bYGMpyMxhYlr2whL3MnD6AEyDb
+      ipWt8NLv5fznnJmj73zfNzPnwP/xYBCrOzIdFqFaHKZgeF7Jy3GhqQoTU0HcLjtOh5WJySBWq4mcLCf3
+      pkIIAYV5bqYDYWLxJMX5bsJzC8SCQUzSQK6RhA5GFBKSlY9oy2oFe2XuL1/49fdv9I7UnrvcpR5++nHc
+      mU5eO3mR2ppK9u6p4qVX3qO0OI/vHj3AH145g6oq/PSHTfzl5EUmp4P8+EfNXP7np9SPeuU+WxxdijUR
+      RKAvSHnlzMzUX1/2dgcAY7WCtoItx35RUFT8W1VVtY0l+QyPTYGEspI87k7MoBsGhflZBENRYvEEbpcD
+      Q0rCkXlsFjMZThtTMyEikXl+8+39NNV50PW1aAggEWZzfDS28KuaA/tfAj5brqAihHAjlIZEQteEULBZ
+      zei6gWFIrBYzEognkljNJhRFEIsnMJlUDEMSiydw2C1YLCbi8SS6IXF6ysmqr8PQjXTyZg4N+vYCrwMx
+      wLhPUEiEXdd1a21NJf5AmAsfddOwuwqn08YH7TeoLC/h8ZpKTrVeITfbxeGDu3jnbAeKIjh6pJ62S10M
+      Dk9y7Bv13Oj5N75XX6f77EmSaxUQEAKGZ2dtgP2+u8szqAqBcvHjT3E5bXzn6AHaLnWRSCR5rrmRjuu3
+      +ce5To48uQvfyCRvnW6nYU8VSd3gzVPtVFeWsntHBafbriINg5grSiSytgwuz2IkGlEANcVLIgGJ59Fi
+      4vEEV7v6yM/JxGTSuHbzDiZNZevmMnpuDSEl1Gwvxzc6CcCu7eVMTAUIhqNsq9rI3Qk/m35wnN0Hd5BM
+      w2JFCBwDA3D4Q1IQFEgJGQ4bESmZCYQpKc7FZjUzfm+GLHcGrgw7Q2NT2Kxm3JkOfCOTCAFZmU7Gxv3E
+      4gkqNhUx7TehOR1YsrNRdT0NiwWmTNeKPm31DZ037+B2OWh+uo7TrVeJxRMcb9rL5Q4v7Ve8fPNIPf2D
+      47Rd6uJQ406SSZ3WS9ep2VZO2YY83vvgGgIY+nML1/7ewtrpLVo8FA79N4ISKSVPNGxnNjTH3061s7P6
+      ERx2KyfPfMLGknyeOVRL64dduF0OTjQ3cv7yDYQieP7Z/bRf8XJn8C7NX6+l59YQhjFFiv9A2rg/g4pQ
+      yvM2P/vHjZse/ZpAkpPlYmY2ghCCrEwHgWAETVOx2SxEowtoqoqiLsZCGhLdMLBZzcTiCQKzEV74+QmO
+      PVVLMi2LFW713T63s77+Z8AgoGur+QZDc9isZooKshmd8KMndbZ4SvAHwvgDEXZtzyeRSHJvcpbNFSXo
+      hsHA4DgbinLIzXbR3esjHk+SnIsSmwmk95IogkTwf1ic1HXqd1fhnwnxztkOGuuqyXDaePdcJ1s8pRx6
+      rJK33/+E/Bw3TU/V8faZj1EUhW817eXshX/R2z/Kc8376OoeYOBPr3L9zSR6GjYLYCgaSU1QCMGeHRUY
+      ukGmy84TDduwWMwAHGzYiknTiMzN01hbjaIo+GdC7HnMg0Aw7Q+xdXMZhiEJhaOUbcijrMyEU42lR1CA
+      IxBITVBVFF783U+o8FQgpVxaz9LeQizWUi4uZGUNUsrFWxCf1xqgCta0m/ncYiGw9t6CN1pSWCwl8z09
+      zAWDSwQfHOnOoghB0OdLraA0DG7//kXmbPa0J35YEMDwfDQ1QSEEefv3UZiT+9AUTJugEESnJuF6x5fG
+      VE3TKvv7+y/IdUZvb28b4GFpw7AigxOt57EWeddVwXtjYyv6VmTQ93ILcattfTP42XxqgkJRKH3+OI8U
+      FCLXiaJAYEzchZudXxpThRCevr6+8+udQa/X+z5QweoMSilj7S2v3TYKi59UpVTXvOyHCF2IZPvYyB0g
+      /oWqX7TZRSZz3Ynisu+V2h3VErT0P7UPYq5MDkej3rfGR96YTiY6gQCw4sBgAQqATUDh0vWDb+jWBsni
+      KW4S8C21seUK3q9NLJ6orCw7uHxF0IEFYB5ILJFOqZBY1X5VkKtaAP4DgXeMcTzXeMwAAAAldEVYdGRh
+      dGU6Y3JlYXRlADIwMTMtMDQtMjVUMTQ6MjE6MzUrMDg6MDD3F+sIAAAAJXRFWHRkYXRlOm1vZGlmeQAy
+      MDEzLTA0LTI1VDE0OjIxOjM1KzA4OjAwhkpTtAAAAABJRU5ErkJggg==
+    </icon>
+    <url>http://kdl.cc.ksosoft.com/wps-community/download/mui/9.1.0.4885/mui_en_us.7z</url>
+  </language>
+  <language locale="es_ES">
+    <display_name>Spanish (Spain)</display_name>
+    <local_display_name>Español (España)</local_display_name>
+    <icon>
+      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
+      rkJggg==
+    </icon>
+    <url>http://kdl.cc.ksosoft.com/wps-community/download/mui/9.1.0.4885/mui_es_es.7z</url>
+    <string src="&amp;Follow system locale">Seguir con&amp;figuración regional del sistema</string>
+    <string src="Cancel">Cancelar</string>
+    <string src="Choose Language">Seleccionar idioma</string>
+    <string src="Downloading %1...">Desargando %1...</string>
+    <string src="Get language package failed!">¡Error al conseguir paquete de idioma!</string>
+    <string src="Information">Información</string>
+    <string src="Installing %1...">Instalando %1...</string>
+    <string src="Loading...">Cargando...</string>
+    <string src="Local language packages">Paquetes de idiomas locales</string>
+    <string src="Network error">Error de red</string>
+    <string src="OK">Aceptar</string>
+    <string src="Online language packages">Paquetes de idioma en línea</string>
+    <string src="Settings will take effect after the application restarts.">Configuración va a tner efecto después de que la aplicación se reinicie.</string>
+  </language>
+  <language locale="fr_CA">
+    <display_name>French(Canada)</display_name>
+    <local_display_name>Française(Canada)</local_display_name>
+    <icon>
+      iVBORw0KGgoAAAANSUhEUgAAACgAAAAeCAMAAABpA6zvAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7O
+      HOkAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAhZQTFRFAAAAAgAA
+      DwEEEQEEEAEEEQIFFRISFhYWFRESDgEEAQAAAAAAZwUargkstwoutgoutgktuRc55sPK8/b18/Pz5L3F
+      uBQ2twourQksXwUYAAAApAkpvgow8czU8MbPvgowoQgoAQAAqgkrpwkqAAAAAAAABAABpQkqoggpAAAA
+      AwABpAkpoAgoAAAAowkpnwgoAAAAAAAAggchvQovvAovfQcfAAAAAAAAGgEHcQYcjgckjQckjQcjjxEs
+      specvb++vLy8sZKZjw8qjQckbgYcFwEGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvwowvwkvwxg8
+      ////whU5vwkwwAowwhg78czU78bPwRU58cvT+uzv//7+z0Zi5qCv/vz9/PX35p+u34OWwAwyzT5c45Wm
+      78PM1Fx1whY68MTN+/Dy/fj578TN9dfe34aZvgctvgguyCxN9tzi7LjD++7x+/Hz/fn60ExoxypL0Epm
+      4YqcwA0zz0dk4Y2fxBw/01dx+OTowRI2vgcuvwsxxSBCwxo9vwguvQMq0Elm/ff45ZyrwA40vgYtyzlY
+      89DXzkNgwxk94pCh/fb399/k01ZwxylL6q+7/v39+enszkRhvgYswA4z6q67/vr74Yye2W+F4Y6f12V9
+      34aY3X+S2GqB89HY/vz85Jan9t7j4Imb9dfd9t3i/vn6wQowwQkwxBg88MbPwxU5R+cs/AAAAE90Uk5T
+      AAEGCAgICAgIBgECFnKoq6uqqqurqqqnbxQJefv+/vp0GbOuGAMju7ciJr25Jbu2JB6U/PyQARNJpc/T
+      09PS09PS08+jSQc+Vl1ePwYQG7mEzjUAAAABYktHRFINYC2QAAAACXBIWXMAAABIAAAASABGyWs+AAAB
+      gElEQVQ4y2NgoAlgZGJmYWFhZWNHAxysQGFmTi6oMm4eXj5+fn4BQSFhERQgLComAJQQl5DkBiuUkpbx
+      B4KAQNkgNCAXHAKSkVeQAhuoqBQKVhgWjq4wIjIAJBOqrAIyUlVNnZBCDU1VkEItbTSFUdFoCnV0sSiM
+      CYqOjQuKJ6wwITEpOSU1jbDC+HSgZEYmAYVZ2Tm5efn+BYVFxSWlZXgUJpZXVFZV++fX1NZV1jfgUZjW
+      2NTckuwf0JrR1t7RiUdhV3eIP0guIMC/pxefiX39Tf4QUDBh4iR8vp48pRmsLmDqtOn4g2fGzPYm/4BZ
+      s+cQCse58+YvWLho8ZKlhBTGLAsKWr4iKGY6wZgBgpWriEkUQJC4mkiFa6YTqRAj4UIV6uoRUqhvAFZo
+      aGS8FgjWrcdQuGHjOpCMiakhSKGZuYWllbWNjY2tnb0DCrB3dAIKWzu7uJqbgbKhm6G7h6cXTuDp4W3o
+      Bs7XZj6+Kn54gIqvjxm0rDAz48YDzMDKAH/RLqWRgfK+AAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDEzLTEx
+      LTExVDE2OjUyOjAzKzA4OjAwZF5j5QAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxMy0xMS0xMVQxNjo1Mjow
+      MyswODowMBUD21kAAAAASUVORK5CYII=
+    </icon>
+    <fallback>fr_FR</fallback>
+    <url>http://kdl.cc.ksosoft.com/wps-community/download/mui/9.1.0.4885/mui_fr_ca.7z</url>
+    <string src="&amp;Follow system locale">Suivre l'option régionale du système(&amp;F)</string>
+    <string src="&amp;Install new language">&amp;Installer une nouvelle langue</string>
+    <string src="&amp;Reset personal template">&amp;Réinitialiser un modèle personnel</string>
+    <string src="Cancel">Annuler</string>
+    <string src="Choose Language">Choisir une langue</string>
+    <string src="Choose Language Installation Package">Choisir une langue dans le package d'installation</string>
+    <string src="Follow system locale">Suivre l'option régionale du système</string>
+    <string src="Get &amp;More...">&amp;Plus...</string>
+    <string src="Information">Informations</string>
+    <string src="Install Language Package">Installer un pack de langues</string>
+    <string src="Installation fails, make sure to install the complete package.">Échec de l'installation. Assurez-vous d'installer le package complet.</string>
+    <string src="OK">OK</string>
+    <string src="Settings will be effected after application restarted.">Les paramètres prendront effet une fois l'application redémarrée.</string>
+    <string src="Settings will take effect after the application restarts.">Les paramètres prendront effet une fois l'application est redémarrée.</string>
+    <string src="ZIP File (*.zip)">Fichier ZIP (*.zip)</string>
+  </language>
+  <language locale="fr_FR">
+    <display_name>French</display_name>
+    <local_display_name>Français</local_display_name>
+    <icon>
+      iVBORw0KGgoAAAANSUhEUgAAACgAAAAeCAMAAABpA6zvAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7O
+      HOkAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAR1QTFRFAAAADAQE
+      AwULAAMLDA4RFhYWFQ0OFQIEFAQGBAUEAAAABBhHAyV1ASV6ACR5ACJ4iZm+9/b18/Pz8/b27YyX5xQr
+      5xcu6Bgv3RguexAcAQAAAyNvACZ/8hgwzRcrAAAAAQECASJx1RYrAAAAAAAAAAECACFuzhQpAAAAAAEC
+      ACFtzBQoAAAAAQEBASFtyxUpAAAAAAAAAhxYACZ+7xgwoBIhAAAAAAAAAQYTAhhNAR1fABxeABtdaneT
+      v7++vLy8vL+/uG11sxAisxIjtBIjtBIkjhAdHgQHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACZ/
+      ACR+kKHH////+pSf8xUu8xgw+ZOf9BgwACaAACV/kKHI9RYu9RgwvMj/XQAAAFF0Uk5TAAEGCAgICAgG
+      AQIWc6irq6urq6urq6uocBUJevv6dQkZs64YAyO7tyImvbklJbu3JB6U/fyRARNJpc/T09PT09PT09PT
+      z6RJBz5WXV4/BhAbwuo0JAAAAAFiS0dEVOQDiKUAAAAJcEhZcwAAAEgAAABIAEbJaz4AAADGSURBVDjL
+      Y2CgCWBkYoYCFlY4YGOHAg5OqDIubh5ePgjgFxAUggJhEVExCBCXkOQCK5SSlgmEgqDgEDgIDQuHAlk5
+      ebCBCoqB2BRGwBVGKimDjFRRVYsioFBdQwWkUFOLkEJtnVGFowoHnUJdPUIK9Q3ACg2NjKOgIDoGKXPF
+      xkGBiakhSKGZuYWllTUE2Nja2UOBg6OTMxi4uLq5m5uBsqGHoaeXtw9O4O3la+gBztdmfv7KAXiAsr+f
+      GbSsMDPjwgPMwMoAlTgfdVzfulIAAAAldEVYdGRhdGU6Y3JlYXRlADIwMTMtMTEtMTFUMTY6NTE6NTEr
+      MDg6MDBQFserAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDEzLTExLTExVDE2OjUxOjUxKzA4OjAwIUt/FwAA
+      AABJRU5ErkJggg==
+    </icon>
+    <url>http://kdl.cc.ksosoft.com/wps-community/download/mui/9.1.0.4885/mui_fr_fr.7z</url>
+    <string src="&amp;Follow system locale">Suivre l'option régionale du système(&amp;F)</string>
+    <string src="&amp;Install new language">&amp;Installer une nouvelle langue</string>
+    <string src="&amp;Reset personal template">&amp;Réinitialiser un modèle personnel</string>
+    <string src="Cancel">Annuler</string>
+    <string src="Choose Language">Choisir une langue</string>
+    <string src="Choose Language Installation Package">Choisir une langue dans le package d'installation</string>
+    <string src="Follow system locale">Suivre l'option régionale du système</string>
+    <string src="Get &amp;More...">&amp;Plus...</string>
+    <string src="Information">Informations</string>
+    <string src="Install Language Package">Installer un pack de langues</string>
+    <string src="Installation fails, make sure to install the complete package.">Échec de l'installation. Assurez-vous d'installer le package complet.</string>
+    <string src="OK">OK</string>
+    <string src="Settings will be effected after application restarted.">Les paramètres prendront effet une fois l'application redémarrée.</string>
+    <string src="Settings will take effect after the application restarts.">Les paramètres prendront effet une fois l'application est redémarrée.</string>
+    <string src="ZIP File (*.zip)">Fichier ZIP (*.zip)</string>
+  </language>
+  <language locale="ja_JP">
+    <display_name>Japanese (Japan)</display_name>
+    <local_display_name>日本語</local_display_name>
+    <icon>
+      iVBORw0KGgoAAAANSUhEUgAAACgAAAAeCAMAAABpA6zvAAAC/VBMVEUAAAAAAAAAAAADAwMTExMXFxcW
+      FhYWFhYXFxcTExMCAgIAAAAAAAAAAAAAAACJiYnp6en09PTz8/Pz8/Pz8/Pz8/P09PTn5+d+fn4AAAAA
+      AAAAAADb29v+/v7+/v7X19cAAAAAAAAAAAACAgLj4+Pf398AAAAAAAAAAAAFBQXd3d3Y2NgAAAAAAAAA
+      AAAEBATb29vW1tYAAAAAAAAAAAAEBATb29vW1tYAAAAAAAAAAAAEBATb29vW1tYAAAAAAAAEBATb29vW
+      1tYAAAAAAAAAAAABAQHZ2dnU1NQAAAAAAAAAAAAAAACurq77+/v6+vqnp6cAAAAAAAAAAAAAAAAjIyOX
+      l5e9vb29vb28vLy8vLy8vLy9vb29vb2Tk5MfHx8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      AAAAAAAAAAAAAAAAAAD////////+9/f87Oz87Oz+9/f//////Pz3zs7ofX3fRETbLS3bLS3fRUXpf3/3
+      0dH//f388PDpgoLXGBjSAADSAADTAADTAADSAADSAADXGhrqh4f98vL98vLlZ2fTAwPTAADTAADTAADT
+      BATmbW399PTriorTBATTAADTAADTAADUBQXskZH42NjYISHTAADTAADZJib53d3skZHTAADTAADTAADT
+      AQHtmZn//f3jW1vSAADkY2P////++PjfRETSAADSAADgS0v++vr++fnfSEjSAADSAADhUFD++/vlaWnS
+      AADSAADmcHDwp6fUBQXTAADTAADUBwfxrq776urdOTnSAADTAADSAADePz/87e3ysrLWExPTAADXFhbz
+      uLj//f3unJzWFRXSAADTAADTAADSAADXGBjvoqL//v7//f3zvLzfRkbVCwvSAADTAADVDAzgSkr0wMD/
+      /v798vL0vb3qhoblamrlamrqiIj0wMD98/OR32JsAAAAg3RSTlMAAAABBggICAgGAQAAAAIWcqirq6ur
+      p28UAgAJefv6dAkAAhmzrhgCAyO7tyIDAya9uSUDAya9uSUDAya9uSUDJr25JQMDJbu2JAMDHpT8/JAe
+      AwETSaXP09PT09PPo0kTAQAHHj5WXV5eXVY/HgcAAQYQGBsbGxsYEAYBAAEBAgICAbRe5fAAAAABYktH
+      RIP8tM/SAAAACXBIWXMAAABIAAAASABGyWs+AAABsElEQVQ4y2NgoAFgZGJmYWVjxwHYODi5uHlA6nj5
+      +AUEhYRFcABhUTFxCUleoEIpaRnZZrxATl5BEahQSVmlmQBQVVMHKtTQ1EIRbWlta+/oRBHS1tEFKtTT
+      N0AS6+ru6e3rnzBx0mQkQUMjY6BCE1MzhNCUqdOmz5g5a/acufPmI0TNLSyBCq2sbeAiCxYuWrwEDJYu
+      W74CLmxrZ4+mcOWq1WsgCtesXbcet8INGzdB1QFVbt6yFafCbdt3LIGDnbt241K4Z+++JUhg3/4DOBQe
+      PHQYWeGRo8dwKDx+4iSywlOnz+By49lzaxDq1py/gNMzFy9dRii8cvUaToXXb9y8BVN36/adu7gD/N79
+      B1CVtzY/fIQnZh4/efrsOUjdi5evXr/Bo7D57bv3H2Z+/Pjp85ev35rxKWxu/v7j56/ff/7+QxaDKDRx
+      cGwmAJycXYAKXd3cCSn08PQCKvT28fXDr84/IDAIqDA4JDQsPCIyCgeIjomNi09IBCpMSk5JTUvPyMQB
+      MrKyc3Lz8kElQEFhUXFJaRkOUFpeUVlVDSlTamrr6hsacYCG+qbaGqAiAOHx9Rrhe6/vAAAAJXRFWHRk
+      YXRlOmNyZWF0ZQAyMDEzLTA0LTI1VDE0OjIxOjE2KzA4OjAwhNr26AAAACV0RVh0ZGF0ZTptb2RpZnkA
+      MjAxMy0wNC0yNVQxNDoyMToxNiswODowMPWHTlQAAAAASUVORK5CYII=
+    </icon>
+    <url>http://kdl.cc.ksosoft.com/wps-community/download/mui/9.1.0.4885/mui_ja_jp.7z</url>
+    <string src="&amp;Follow system locale">システム言語に従ってください(&amp;F)</string>
+    <string src="&amp;Install new language">新しい言語をインストールする(&amp;I)</string>
+    <string src="&amp;Reset personal template">個人的なテンプレートをリセット(&amp;R)</string>
+    <string src="Cancel">キャンセル</string>
+    <string src="Choose Language">あなたの言語を選択してください</string>
+    <string src="Choose Language Installation Package">インストールパッケージの言語を選択して下さい。</string>
+    <string src="Follow system locale">システム言語に従ってください</string>
+    <string src="Get &amp;More...">もっと...(&amp;M)</string>
+    <string src="Information">情報</string>
+    <string src="Install Language Package">言語パッケージのインストール</string>
+    <string src="Installation fails, make sure to install the complete package.">インストールに失敗しました。完全パッケージのインストールを確認してください。</string>
+    <string src="OK">OK</string>
+    <string src="Settings will be effected after application restarted.">セットには、起動後に有効になります。</string>
+    <string src="Settings will take effect after the application restarts.">セットには、起動後に有効になります。</string>
+    <string src="ZIP File (*.zip)">ZIP File (*zip)</string>
+  </language>
+  <language locale="ru_RU">
+    <display_name>Russian (Russian Federation)</display_name>
+    <local_display_name>Русский (Российская Федерация)</local_display_name>
+    <icon>
+      iVBORw0KGgoAAAANSUhEUgAAACgAAAAeCAMAAABpA6zvAAACJVBMVEUAAAAAAAAAAAADAwMTExMXFxcW
+      FhYWFhYXFxcTExMCAgIAAAAAAAAAAAAAAACJiYnp6en09PTz8/Pz8/Pz8/Pz8/P09PTn5+d+fn4AAAAA
+      AAAAAADb29v+/v7+/v7X19cAAAAAAAAAAAACAgLj4+Pf398AAAAAAAAAAAAFBQXd3d3Y2NgAAAAAAAAA
+      AAAEBATb29vW1tYAAAAAAAAAAAAEBATb29vW1tYAAAAAAAAAAAAEBATb29vW1tYAAAAAAAADAwSQkLWN
+      jbEAAAICAm0CAmsAAAIBAWwBAWoBAWwBAWoAAAIAAW0AAWsBAAIZAWAZAV4EAAC+AQ+6AQ4EAADbAQDW
+      AQAEAADaAQHVAQEFAADaAQHVAQEAAAAAAAAAAAABAADYAQHTAQEAAAAAAAAAAAAAAACtAgP7AQH6AQGm
+      AgMAAAAAAAAAAAAAAAAjAQGXAgK8AQG8AQG8AQG8AQG8AQG8AQG8AQGTAgIfAQEAAAAAAAAAAAAAAAAA
+      AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///+oqNSoqNOoqNQDA38DA38BAX8BAX4BAX8B
+      AX8BAX4AAYAAAX8eAXAeAXDeARHdARHeARH/AQD/AQD/AQH+AQH/AQH+AQH/AQH/AQE8IqH+AAAAnXRS
+      TlMAAAABBggICAgGAQAAAAIWcqirq6urp28UAgAJefv6dAkAAhmzrhgCAyO7tyIDAya9uSUDAya9uSUD
+      Aya9uSUDJr25Jr25Jr25vbkmvbkmvbkmvbkmvbkmvbkmvbklAwMlu7ckAwMelf38kR4DARNJpc/S09PT
+      08+kSRMBAAcePlZdXl5dVj8eBwABBhAYGxsbGxgQBgEAAQECAgIByvz2zgAAAAFiS0dEnQa78rEAAAAJ
+      cEhZcwAAAEgAAABIAEbJaz4AAAE8SURBVDjLY2CgAWBkYmZhZWPHAdg4OLm4eUDqePn4BQSFhEVwAGFR
+      MXEJSV6gQilpGdm5eIGcvIIiUKGSsspcAkBVTR2oUENTi5BCbR1doEI9fQNCCg2NjIEKTUzNCCk0t7AE
+      KrSytiGk0NbOHqTQwXHefLxggRNEobPLwkV4wUJXiEI398VL8IKlHlCFnsuW4wXLvAZcobfPipV4wQpf
+      iEI//1Wr8YJVARCFgUFr1uIF64IhCkNC12/AC9aHQRSGR2zchBdsjCRNoUlUNCGFMbFxQIXxCYmbt+BT
+      t2VjUnIKUGFqWnrG1m14wNbMrOwcoMLcvPyCwqLiEhygtKy8orKqGqiwprauvqGxqRkHaGppbWvv6ASV
+      AF3dPb19/RNwgP6JkyZPmQopU6ZNnzFz1mwcYNbMOdOnARUBAP8JPWUwM7YUAAAAJXRFWHRkYXRlOmNy
+      ZWF0ZQAyMDEzLTA3LTI3VDE4OjE4OjI5KzA4OjAwJ6bWGAAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxMy0w
+      Ny0yN1QxODoxODoyOSswODowMFb7bqQAAAAASUVORK5CYII=
+    </icon>
+    <community>true</community>
+    <url>http://kdl.cc.ksosoft.com/wps-community/download/mui/9.1.0.4885/mui_ru_ru.7z</url>
+    <string src="&amp;Follow system locale">&amp;Придерживаться языка системы</string>
+    <string src="&amp;Install new language">&amp;Установить новый язык</string>
+    <string src="Choose Language">Выбрать язык</string>
+    <string src="Choose Language Installation Package">Выбрать установочный пакет для языка</string>
+    <string src="Get &amp;More...">&amp;Дополнительно...</string>
+    <string src="Information">Информация</string>
+    <string src="Install Language Package">Установить языковой пакет</string>
+    <string src="Installation fails, make sure to install the complete package.">Ошибка установки. Убедитесь, что устанавливается полный пакет.</string>
+    <string src="Settings will take effect after the application restarts.">Настройки вступят в силу после перезапуска приложения.</string>
+    <string src="ZIP File (*.zip)">Файл ZIP (*.zip)</string>
+  </language>
+  <language locale="zh_CN">
+    <display_name>Chinese (China)</display_name>
+    <local_display_name>简体中文</local_display_name>
+    <icon>
+      iVBORw0KGgoAAAANSUhEUgAAACgAAAAeCAYAAABe3VzdAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMA
+      AABIAAAASABGyWs+AAADOElEQVRYw+3Xy4tcRRQG8N+93c10ZkBnwsRXVBQhYnChIILBjeDCB7iIIAgK
+      Qf8BN4q4CDgrBbciLlwIvjYGF1GI4kJw4QNF8hAUogaj4xhJCMlMMpnuWy6qur3T0497mUlWfnC5j6pz
+      6quvzjl1i/+xOWSDHxqZbLah1czkIWzSezfdWyjGkMjoBMWZjrWCdaOWCeav7jS/b95TM7l7A40NnsIQ
+      q1EIuAY3pv7foDlWqc65rq/eOOXdhUWne1Mqm0ztnfPsjqaFbJSrtkj7fAWSBW7Ci/gBJ3B6vN107vEn
+      t2stLHodFyDvqZcz287sGUmui7vxwPjl2oC/cQaXJnfNaLVze3B1j1uPTNbITF8K2iOtc9yPG3AIaxNG
+      y3EM+zGFcyU5xmC1sA3TPa37agUaRdlFOVQD5pKC89iJ4wMDDlu6taQelchB4tCP/+HLmWNmvZW7cLMY
+      h/fhn5KbDMsjVK2SUGPQHPn1ITwiLk8Qo6IXAM/gsTSRAl/gHTHOxhEK6aqo5miCqziYFNonLmsZc+k6
+      jw/wnhhjk9TaLUbXXzhZTd3hc8mwgvfxAo4M6fO7mABv4myFwRp4EK/g9uoKjhY7S9f3+HZI+3F8KS7x
+      JHIB28Ra+J2odqsawebY1oCrxOwlFtpVXI87xGw+UYFglkgdFHeUP1WOw/HdCtyK23AUL+E5fI7tYmZX
+      3a+z5G+xOrnJCma4E5/hreQ8w8t4ArvELO9UH7Bu2WlObP0aH4k7Y6/uLeNtca+tokZIvnKTS1EtggV+
+      Tc+Du0bAbxUJzuAezIo18+xWEeyRGYWq6s3haexIEz6ssoqTCW4WGU7hU7FI/1HP/PITJCbRATFkclsY
+      g1uF8v9jt55pjYpUg0xNla4cwZZY2B8WM3YL0F/ibhCKUOtnfiO6eBR7xS3yAC6qpWYRvfT3p76CgdVj
+      F/3UCXWjpIQMv4i17nB9cmtB98iKn5VOMD0FCyw/f9LHS2vmdrXtRrP2sTjDh/gkabBcjWDq0vnxgqOv
+      LTmULAsD5lO4FrfguvS+RaE+EUH8T1oSS/lSel9HIBPDfNp/J+Aria4YFCvi6SYMEiwTHdV2OREG7uBf
+      23PHA3fejN8AAAAldEVYdGRhdGU6Y3JlYXRlADIwMTMtMDQtMjVUMTQ6MjE6MzMrMDg6MDCUx94yAAAA
+      JXRFWHRkYXRlOm1vZGlmeQAyMDEzLTA0LTI1VDE0OjIxOjMzKzA4OjAw5ZpmjgAAAABJRU5ErkJggg==
+    </icon>
+    <url>http://kdl.cc.ksosoft.com/wps-community/download/mui/9.1.0.4885/mui_zh_cn.7z</url>
+    <string src="&amp;Follow system locale">跟随系统语言(&amp;F)</string>
+    <string src="&amp;Install new language">安装新语言(&amp;I)</string>
+    <string src="&amp;Reset personal template">重置个人模板(&amp;R)</string>
+    <string src="A network error occurred.">网络出错</string>
+    <string src="Cancel">取消</string>
+    <string src="Choose Language">选择语言</string>
+    <string src="Choose Language Installation Package">选择语言安装包</string>
+    <string src="Choose your language">选择语言</string>
+    <string src="Click to open the credits page.">点击此处打开贡献者页面。</string>
+    <string src="Download language packs failed.">下载语言包失败！</string>
+    <string src="Follow system locale">跟随系统语言</string>
+    <string src="Get &amp;More...">获取更多...(&amp;M)</string>
+    <string src="Get More...">获取更多...</string>
+    <string src="Get language package failed!">下载语言包失败！</string>
+    <string src="Information">信息</string>
+    <string src="Install Language Package">安装语言包</string>
+    <string src="Install Locale">安装语言</string>
+    <string src="Installation fails, make sure to install the complete package.">安装失败，请确保安装包的完整性！</string>
+    <string src="Installing %1...">正在安装%1...</string>
+    <string src="Loading...">正在加载...</string>
+    <string src="Local Language Packs">本地语言包</string>
+    <string src="Local language packages">本地语言包</string>
+    <string src="Network error">网络出错</string>
+    <string src="OK">确定</string>
+    <string src="Online Language Packs">在线语言包</string>
+    <string src="Online language packages">在线语言包</string>
+    <string src="Settings will be effected after application restarted.">设置将在启动后生效。</string>
+    <string src="Settings will take effect after the application restarts.">请重新启动WPS Office，以便语言更改生效。</string>
+    <string src="ZIP File (*.zip)">压缩文档 (*.zip)</string>
+    <string src="archives (*.zip)">压缩文档 (*.zip)</string>
+    <string src="installation fails, make sure to install the complete package">安装失败，请确保安装包的完整性！</string>
+    <string src="installation fails, make sure to install the complete package!">安装失败，请确保安装包的完整性！</string>
+  </language>
+  <language locale="zh_Hant_CN">
+    <display_name>Chinese (Traditional, China)</display_name>
+    <local_display_name>繁體中文 (中國)</local_display_name>
+    <icon>
+      iVBORw0KGgoAAAANSUhEUgAAACgAAAAeCAYAAABe3VzdAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMA
+      AABIAAAASABGyWs+AAADOElEQVRYw+3Xy4tcRRQG8N+93c10ZkBnwsRXVBQhYnChIILBjeDCB7iIIAgK
+      Qf8BN4q4CDgrBbciLlwIvjYGF1GI4kJw4QNF8hAUogaj4xhJCMlMMpnuWy6qur3T0497mUlWfnC5j6pz
+      6quvzjl1i/+xOWSDHxqZbLah1czkIWzSezfdWyjGkMjoBMWZjrWCdaOWCeav7jS/b95TM7l7A40NnsIQ
+      q1EIuAY3pv7foDlWqc65rq/eOOXdhUWne1Mqm0ztnfPsjqaFbJSrtkj7fAWSBW7Ci/gBJ3B6vN107vEn
+      t2stLHodFyDvqZcz287sGUmui7vxwPjl2oC/cQaXJnfNaLVze3B1j1uPTNbITF8K2iOtc9yPG3AIaxNG
+      y3EM+zGFcyU5xmC1sA3TPa37agUaRdlFOVQD5pKC89iJ4wMDDlu6taQelchB4tCP/+HLmWNmvZW7cLMY
+      h/fhn5KbDMsjVK2SUGPQHPn1ITwiLk8Qo6IXAM/gsTSRAl/gHTHOxhEK6aqo5miCqziYFNonLmsZc+k6
+      jw/wnhhjk9TaLUbXXzhZTd3hc8mwgvfxAo4M6fO7mABv4myFwRp4EK/g9uoKjhY7S9f3+HZI+3F8KS7x
+      JHIB28Ra+J2odqsawebY1oCrxOwlFtpVXI87xGw+UYFglkgdFHeUP1WOw/HdCtyK23AUL+E5fI7tYmZX
+      3a+z5G+xOrnJCma4E5/hreQ8w8t4ArvELO9UH7Bu2WlObP0aH4k7Y6/uLeNtca+tokZIvnKTS1EtggV+
+      Tc+Du0bAbxUJzuAezIo18+xWEeyRGYWq6s3haexIEz6ssoqTCW4WGU7hU7FI/1HP/PITJCbRATFkclsY
+      g1uF8v9jt55pjYpUg0xNla4cwZZY2B8WM3YL0F/ibhCKUOtnfiO6eBR7xS3yAC6qpWYRvfT3p76CgdVj
+      F/3UCXWjpIQMv4i17nB9cmtB98iKn5VOMD0FCyw/f9LHS2vmdrXtRrP2sTjDh/gkabBcjWDq0vnxgqOv
+      LTmULAsD5lO4FrfguvS+RaE+EUH8T1oSS/lSel9HIBPDfNp/J+Aria4YFCvi6SYMEiwTHdV2OREG7uBf
+      23PHA3fejN8AAAAldEVYdGRhdGU6Y3JlYXRlADIwMTMtMDQtMjVUMTQ6MjE6MzMrMDg6MDCUx94yAAAA
+      JXRFWHRkYXRlOm1vZGlmeQAyMDEzLTA0LTI1VDE0OjIxOjMzKzA4OjAw5ZpmjgAAAABJRU5ErkJggg==
+    </icon>
+    <fallback>zh_TW</fallback>
+    <url>http://kdl.cc.ksosoft.com/wps-community/download/mui/9.1.0.4885/mui_zh_hant_cn.7z</url>
+    <string src="&amp;Follow system locale">跟隨系統語言(&amp;F)</string>
+    <string src="&amp;Install new language">安裝新語言(&amp;I)</string>
+    <string src="&amp;Reset personal template">重置個人模板(&amp;R)</string>
+    <string src="Cancel">取消</string>
+    <string src="Choose Language">選擇語言</string>
+    <string src="Choose Language Installation Package">選擇語言安裝包</string>
+    <string src="Follow system locale">跟隨系統語言</string>
+    <string src="Get &amp;More...">獲取更多...(&amp;M)</string>
+    <string src="Information">情報</string>
+    <string src="Install Language Package">安裝語言包</string>
+    <string src="Installation fails, make sure to install the complete package.">安裝失敗，請確保安裝包的完整性！</string>
+    <string src="OK">確定</string>
+    <string src="Settings will be effected after application restarted.">設置將在啟動後生效。</string>
+    <string src="Settings will take effect after the application restarts.">設置將在重新啟動後生效。</string>
+    <string src="ZIP File (*.zip)">壓縮檔案 (*.zip)</string>
+  </language>
+  <language locale="zh_HK">
+    <display_name>Chinese (Hong Kong)</display_name>
+    <local_display_name>繁體中文 (香港特別行政區)</local_display_name>
+    <icon>
+      iVBORw0KGgoAAAANSUhEUgAAACgAAAAeCAMAAABpA6zvAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7O
+      HOkAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAfJQTFRFAAAAAgAA
+      DgAAEAAAAQAAAAAAZAAAqgAAsgAAsQAAsgAAqQAAXAAAAAAAoAAAuQAAuQAAnQAAAQAApgAAowAAAAAA
+      AAAABAAAoQAAngAAAAAAAwAAoAAAnAAAAAAAnwAAnwAAmwAAAAAAAAAAfwAAuAAAtwAAegAAAAAAAAAA
+      GgAAbgAAigAAigAAiQAAbAAAFgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAugAAuwAAuQAAvAoK
+      zUhI0FBQuwQEvQoK4ZGR/vv767S0vAcH0VZW/PPz9+Li+OXlxSoqugMDugEB5Z+f+enp+uzsxzMzvg0N
+      wBYWvAgIuwUF12pq2G9vxi0t56Wl+u3t45aW3YCA8MnJ9NfX67W1z05OugICvAkJ7b6+//7+/ff38s7O
+      4IyM9dzc1WJi3oaG+uvr+u7uzUdH4pSU9dvb/vr612xs2nd3yjw81mho3YGB8MjI0FFR/Pb2zUZGxSkp
+      yz4+23t756iowh0d7sDA6a6u0VNTzEND0VRUvhIS3YKC56am4ZCQ7b290ltb8s/PwRgY/fj4/fn5+/Dw
+      9djY9+Tk+/HxzEFBvxIS7r+/9+HhzktL/PT0yDQ08MfH++7u3oWFvxQUuwYG2XJy9NbWwh4exzAw0VVV
+      z09PuwMDvAAA////zSrXtwAAADp0Uk5TAAEGCAECFnKoq6dvFAl5+/p0GbOuGAMju7ciJr25Jb27tiQe
+      lPz8kAETSaXP09OjSQc+Vl1ePwYQG2FOkvYAAAABYktHRKUuuUovAAAACXBIWXMAAABIAAAASABGyWs+
+      AAABZUlEQVQ4y2NgoAlgZGLGA5hYoMpY2dg5OPEALm4eVrBCXj5+K7xAQJAXbKCQsDV+hdYioiAjxcQl
+      0BTa2KAplJQSAymUlkFVaGtn74CqUFYOolAeRaGjk7OLKxEKbdzcPTy9bAgo9Lax8fF19/MPCAwKtsGj
+      MCQ0LDQ8IjIyKjomNi4+AbfCxKTklNS09IzMrGzPyOwcG9xW57rn5RcUFhWXeKa4l5bhNtHGK7U8O66i
+      siq0uiazFp9nbLyi6uobGovqYpuQ/I0teGyaW1rb2js6s1O7CCgM6+7p7Svp7p8w0QavwkmT/ad0t02d
+      MGVaDl6FNtNnzMybNXvOXL958/Gb6BO0oNYbSC9cRDiuwSYt9iGcejABXKEMkQrlFAgpVFQCK1RWUV2C
+      F6ipK4MUamhqaevo6uEEujr6BpoaoGxoqGxkbGKKE5gYmykbgvO1hrmFqCUeIGphrgEtKzQ0WPEADbAy
+      AFMs7QmQf04gAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDEzLTExLTExVDE2OjUxOjUyKzA4OjAwYf7dNgAA
+      ACV0RVh0ZGF0ZTptb2RpZnkAMjAxMy0xMS0xMVQxNjo1MTo1MiswODowMBCjZYoAAAAASUVORK5CYII=
+    </icon>
+    <fallback>zh_TW</fallback>
+    <url>http://kdl.cc.ksosoft.com/wps-community/download/mui/9.1.0.4885/mui_zh_hk.7z</url>
+    <string src="&amp;Follow system locale">跟隨系統語言(&amp;F)</string>
+    <string src="&amp;Install new language">安裝新語言(&amp;I)</string>
+    <string src="&amp;Reset personal template">重置個人模板(&amp;R)</string>
+    <string src="Cancel">取消</string>
+    <string src="Choose Language">選擇語言</string>
+    <string src="Choose Language Installation Package">選擇語言安裝包</string>
+    <string src="Follow system locale">跟隨系統語言</string>
+    <string src="Get &amp;More...">獲取更多...(&amp;M)</string>
+    <string src="Information">情報</string>
+    <string src="Install Language Package">安裝語言包</string>
+    <string src="Installation fails, make sure to install the complete package.">安裝失敗，請確保安裝包的完整性！</string>
+    <string src="OK">確定</string>
+    <string src="Settings will be effected after application restarted.">設置將在啟動後生效。</string>
+    <string src="Settings will take effect after the application restarts.">設置將在重新啟動後生效。</string>
+    <string src="ZIP File (*.zip)">壓縮檔案 (*.zip)</string>
+  </language>
+  <language locale="zh_TW">
+    <display_name>Chinese (Taiwan)</display_name>
+    <local_display_name>繁體中文 (台湾)</local_display_name>
+    <icon>
+      iVBORw0KGgoAAAANSUhEUgAAACgAAAAeCAYAAABe3VzdAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMA
+      AABIAAAASABGyWs+AAADZUlEQVRYw+2X32scVRTHP+fO/s6mu8baJDQ0iU1JaUseAlWMICioaKlCC32R
+      PggF/w5B6HuxL+ZBEQoKgqBGWjDUl0qIDyoUialt09LU/gib3e1ud2d35h4fdhNmN+lmTTbBh3xhuDNz
+      f33uuWfOuQO72pqk+UVEjPhOImzFGNA1HdR6iDgg0nLQblsihN82hKfYvNWqbZo0OIuJDZ7ea16YOGtN
+      7DjgBNva+m3v83FyhQqlsocxsmaFipDUMheXP2esegcf0x6k4BWtzlzKVy5dyJYzgAUIBdpEpWf8nA3v
+      +Rgk+B5jhOOH93Ljbp4zb49w9df7GCNk8i73HhUwDdYURCFuDF1G8JE28GqKO3L6ZDIcvpAtXwRKwOry
+      jCBpNZFXwDTARcK1nX55bB+nTuxHky7Do1E+OjNKJGSIR0MYE4RQdB3XaEcGwlGRCSC1wrYCIyomodaL
+      Baeyqgz2d3P2xCFmFu7y7qsHGB/uI1Mo8c21ed5/c4AnWcuXU/O1/eiAKkocSFB3v6C1HNAGhzEi3HtQ
+      5Je5Rd56bT8fvj62up196S4+/f53Zq/n8fzNWWw9aY3BCVj1WQ0hFnH44J0RxkZTHOrvafC1oX1p0skw
+      504d5tjBHrRDjM3DhJ7VUAC36vPtzwscPZZkZCjVUJ8plHiULTM9Pc/cQrZV1NmSQq0qfaskE2FOvnSQ
+      y7N36E11MT7cS67k8tmVPxjYkyZxtJs/by5vD91GgEaETK7MJ5O/8d4bB/ju2m1+mL3Fw6USE6MDTH59
+      g0zO3TY4YOMomi9WyRUqPH7s8tP0Emmb4sEty+Wr/2CtspQt49vOfSQtLegjiBgaPF5qWe3HmUV8q3wx
+      dZPcE5di2cMxAsZpSGgKWMwmI2ELQEE5Ul0k5pRadtD7Sj9CqwQR1woJddH/kEU2BHSwnM99xeBTZ8ur
+      FyCmVWwnAQES6pLUrQMCnd/i2qCCdnDwTqi9s9Au4C7gLuD/V6uAnqJKxw7Gm5aCTyDSBS3ozlf8vzzw
+      Tb1ipy9P8ecq/jxQWYFaCdQWKJ5fLk0tWfvciyHniG5wFNsGeX9X/euTOfcKUKwzNSTLKNALDAF99edt
+      OievkQIu8BC4XS/dZkABwtT+qGIEflx2SD5QBp4C1Tr0uhaSpnKnpE0lAP8Cf4Q3bNV0/3YAAAAldEVY
+      dGRhdGU6Y3JlYXRlADIwMTMtMDQtMjVUMTQ6MjE6MTQrMDg6MDATRefBAAAAJXRFWHRkYXRlOm1vZGlm
+      eQAyMDEzLTA0LTI1VDE0OjIxOjE0KzA4OjAwYhhffQAAAABJRU5ErkJggg==
+    </icon>
+    <url>http://kdl.cc.ksosoft.com/wps-community/download/mui/9.1.0.4885/mui_zh_tw.7z</url>
+    <string src="&amp;Follow system locale">跟隨系統語言(&amp;F)</string>
+    <string src="&amp;Install new language">安裝新語言(&amp;I)</string>
+    <string src="&amp;Reset personal template">重置個人模板(&amp;R)</string>
+    <string src="Cancel">取消</string>
+    <string src="Choose Language">選擇語言</string>
+    <string src="Choose Language Installation Package">選擇語言安裝包</string>
+    <string src="Follow system locale">跟隨系統語言</string>
+    <string src="Get &amp;More...">獲取更多...(&amp;M)</string>
+    <string src="Information">情報</string>
+    <string src="Install Language Package">安裝語言包</string>
+    <string src="Installation fails, make sure to install the complete package.">安裝失敗，請確保安裝包的完整性！</string>
+    <string src="OK">確定</string>
+    <string src="Settings will be effected after application restarted.">設置將在啟動後生效。</string>
+    <string src="Settings will take effect after the application restarts.">設置將在重新啟動後生效。</string>
+    <string src="ZIP File (*.zip)">壓縮檔案 (*.zip)</string>
+  </language>
+</languages>
