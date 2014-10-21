@@ -14,7 +14,8 @@ whats_new: |
     Fixed invalid window state when startup with maximized on KDE
 release_notes: |
     We now using Online Language instead of the language package, you can switch to the supported languages from Choose Language dialog.
-    Please run <a href="http://wps-community.org/download/tools/fix-menu.sh">fix-menu.sh</a> from terminal to fix the application menus. So sorry for this bug.
+    You must uninstall any previous mui packages before installing this version.
+    Please run <a href="http://wps-community.org/download/tools/fix-menu.sh">fix-menu.sh</a> from terminal to fix the application menus (do chmod +x on the scipt before runing). So sorry for this bug.
 addresses:
     - type: deb
       address: http://kdl.cc.ksosoft.com/wps-community/download/a16/wps-office_9.1.0.4885~a16_i386.deb
