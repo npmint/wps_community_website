@@ -15,14 +15,14 @@ whats_new: |
 release_notes: |
     We now using Online Language instead of the language package, you can switch to the supported languages from Choose Language dialog.
     You must uninstall any previous mui packages before installing this version.
-    Please run <a href="http://wps-community.org/download/tools/fix-menu.sh">fix-menu.sh</a> from terminal to fix the application menus (do chmod +x on the scipt before runing). So sorry for this bug.
+    If you missing the application menus, please run <a href="http://wps-community.org/download/tools/fix-menu.sh">fix-menu.sh</a> from terminal to fix the application menus (do chmod +x on the scipt before runing). Or, download the package and reinstall again.
 addresses:
     - type: deb
       address: http://kdl.cc.ksosoft.com/wps-community/download/a16/wps-office_9.1.0.4885~a16_i386.deb
-      sha1sum: c4dbce7481b501c6ef3105c7468504e7d3cfa787
+      sha1sum: 1364805be37b0976c3e5ab02d406155091ceb837
     - type: rpm
       address: http://kdl.cc.ksosoft.com/wps-community/download/a16/wps-office-9.1.0.4885-1.a16.i686.rpm
-      sha1sum: da7896e563924b0cc26432f8c64615b1de12f724
+      sha1sum: 994d8dd29ba53eb6392e6a5ee4bf6dd3d8905642
     - type: tar.xz
       address: http://kdl.cc.ksosoft.com/wps-community/download/a16/wps-office_9.1.0.4885~a16_x86.tar.xz
-      sha1sum: 0db9c0ef8073f4141ca35f0b83d4e489f53f9871
+      sha1sum: 7ec90d7dd75cd2783e5a7d4c578b70f288a57198
