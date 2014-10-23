@@ -19,7 +19,7 @@ release_notes: |
 addresses:
     - type: deb
       address: http://kdl.cc.ksosoft.com/wps-community/download/a16/wps-office_9.1.0.4885~a16_i386.deb
-      sha1sum: 1364805be37b0976c3e5ab02d406155091ceb837
+      sha1sum: a232c5545b17e0b9aeea80546e90b2e46a73395f
     - type: rpm
       address: http://kdl.cc.ksosoft.com/wps-community/download/a16/wps-office-9.1.0.4885-1.a16.i686.rpm
       sha1sum: 994d8dd29ba53eb6392e6a5ee4bf6dd3d8905642
