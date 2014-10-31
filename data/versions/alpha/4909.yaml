@@ -1,0 +1,21 @@
+version: 9.1.0.4909
+linux_version: Alpha16 Patch1
+linux_version_short: a16p1
+release_data: 2014-10-31
+full_name: WPS Office for Linux Alpha16 Patch1
+whats_new: |
+    Fixed unable change UI language on certain locales.
+    Fixed Spreadsheets flicks when drag on cells.
+    Fixed Spreadsheets prints with wrong paper size.
+    Fixed Spreadsheets loses focus after opening file.
+    Fixed some pdf related bugs 
+addresses:
+    - type: deb
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a16/wps-office_9.1.0.4909~a16p1_i386.deb
+      sha1sum: e4648d59efa506506d6bf8670661e65e66030e33
+    - type: rpm
+      address:  http://kdl.cc.ksosoft.com/wps-community/download/a16/wps-office-9.1.0.4909-1.a16p1.i686.rpm
+      sha1sum: 233fcc1b53e0687d621124b0153d3c02ce8f88c8
+    - type: tar.xz
+      address:  http://kdl.cc.ksosoft.com/wps-community/download/a16/wps-office_9.1.0.4909~a16p1_x86.tar.xz
+      sha1sum: 6e800f02cda7547158fb80e820f163e9dd5db31e
