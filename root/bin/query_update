@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 
 require 'yaml'
+require 'json'
 require 'cgi'
 require 'fileutils'
 
@@ -51,19 +52,29 @@ def get_alpha_version_info version
   return y
 end
 
-print get_yaml_file(get_last_version.to_s)["version"] + "/" + get_yaml_file(get_last_version.to_s)["linux_version"]
+latest_yaml = get_yaml_file(get_last_version.to_s)
 
 cgi = CGI.new
 keys = cgi.keys.sort
 qurey = ""
+query_mode = ""
 
 keys.each do |key|
+  if key == "mode"
+    query_mode = cgi[key]
+  end
   qurey += " "
   qurey += key
   qurey += "="
   qurey += cgi[key].gsub(" ", "")
 end
 
+case query_mode
+when "full"
+  print JSON.generate latest_yaml
+else
+  print latest_yaml["version"] + "/" + latest_yaml["linux_version"]
+end
 
 FileUtils.mkdir_p ($root2+'/log/wpsuse')
 logFile = $root2 + Time.now.strftime("/log/wpsuse/%Y-%m.txt")
