@@ -1,0 +1,18 @@
+version: 9.1.0.4945
+linux_version: Alpha16 Patch3
+linux_version_short: a16p3
+release_data: 2014-12-05
+full_name: WPS Office for Linux Alpha16 Patch3
+whats_new: |
+    Fixed Spreadsheets formula unusable when decimal point is comma.
+    Fixed Writer crashes when saving as docx file which contains OLE objects.
+addresses:
+    - type: deb
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a16/wps-office_9.1.0.4945~a16p3_i386.deb
+      sha1sum: ac849025e70c1e9ca23a05c54ad159f5a95b6d8c
+    - type: rpm
+      address:  http://kdl.cc.ksosoft.com/wps-community/download/a16/wps-office-9.1.0.4945-1.a16p3.i686.rpm
+      sha1sum: ed55818da1c563c9be79265a0440fc0bd2e662a9
+    - type: tar.xz
+      address:  http://kdl.cc.ksosoft.com/wps-community/download/a16/wps-office_9.1.0.4945~a16p3_x86.tar.xz
+      sha1sum: 4e4f11b59a7ad655d54abf44134d123342a263c6
