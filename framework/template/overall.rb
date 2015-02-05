@@ -33,6 +33,7 @@ def html_header title
       <span><a href="/faq.html">FAQ</a></span>
       <span><a href="/helpus.md">Help us</a></span>
       <span><a href="/dev.html">Dev</a></span>
+      <span><a href="/donate.md">Donate</a></span>
     </div>
   </div>
 </div>
