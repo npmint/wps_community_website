@@ -74,7 +74,7 @@ cont = <<EOF
   }
 </script>
 <h1>Product Download</h1>
-  <div class="framed" style="font-size:1.2em">If you like our product, tell your friends, if you don't, please <a href="/forum/">tell us</a>! (^_^)
+  <div class="framed" style="font-size:1.2em">If you like our product, tell your friends or <a href='donate.md' target='_blank'>donate</a> to us, if you don't, please <a href="/forum/">tell us</a>! (^_^)
   </div>
 #{html_versions}
 #{html_tail}
