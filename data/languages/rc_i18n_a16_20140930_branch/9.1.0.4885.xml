@@ -132,7 +132,7 @@
     <string src="Network error">Error de red</string>
     <string src="OK">Aceptar</string>
     <string src="Online language packages">Paquetes de idioma en línea</string>
-    <string src="Settings will take effect after the application restarts.">Configuración va a tner efecto después de que la aplicación se reinicie.</string>
+    <string src="Settings will take effect after the application restarts.">Configuración va a tener efecto después de que la aplicación se reinicie.</string>
   </language>
   <language locale="fr_CA">
     <display_name>French(Canada)</display_name>
