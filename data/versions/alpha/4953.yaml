@@ -1,0 +1,31 @@
+version: 9.1.0.4953
+linux_version: Alpha18
+linux_version_short: a18
+release_data: 2015-05-13
+full_name: WPS Office for Linux Alpha18
+whats_new: |
+    Mini Toolbar for quick access to formatting selected text.
+    Spreadsheets supports interrupt calculation now.
+    New Polish translation, thanks Andrzej Kamiński. You can switch from Choose Language dialog.
+release_notes: |
+    From version a18, we will provide both x86 and x64 version for Linux.
+    Please specify platform architecture if you fire a bug.
+addresses:
+    - type: deb_x86
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a18/wps-office_9.1.0.4953~a18_i386.deb
+      sha1sum: 39d7891473bb8517a70173a0888e6f7e3fa5cc78
+    - type: deb_x64
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a18/wps-office_9.1.0.4953~a18_amd64.deb
+      sha1sum: 568602dc962318f0b15f16024e992ff5768556e5
+    - type: rpm_x86
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a18/wps-office-9.1.0.4953-1.a18.i686.rpm
+      sha1sum: 0562c28db73adf067e9ff2f9a2d704f1e161fa6f
+    - type: rpm_x64
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a18/wps-office-9.1.0.4953-1.a18.x86_64.rpm
+      sha1sum: 614744e52a7c6af0413172b5b59f370746eedc9f
+    - type: tar.xz_x86
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a18/wps-office_9.1.0.4953~a18_x86.tar.xz
+      sha1sum: dc7e0a034e506d884ef50661e4950de7219cfe54
+    - type: tar.xz_x64
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a18/wps-office_9.1.0.4953~a18_x86_64.tar.xz
+      sha1sum: c447ebfbd5225f80119e93762a39dc3cad26a47b
