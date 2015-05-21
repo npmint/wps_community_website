@@ -49,7 +49,7 @@ end
 def cached_sha1 file_path
   path_digest = Digest::SHA1.hexdigest file_path
   digest_file_path = $varpath + "/sha1/#{path_digest}.path"
-  if File.exists? digest_file_path
+  if File.exists?(digest_file_path) && File.ctime(digest_file_path) >= File.ctime(file_path)
     sha1 = File.read digest_file_path
     return sha1
   else
