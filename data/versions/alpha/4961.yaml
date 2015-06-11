@@ -13,20 +13,20 @@ release_notes: |
     Remove previous x86 package before installing the x64 one.
 addresses:
     - type: deb_x86
-      address: http://kdl.cc.ksosoft.com/wps-community/download/a18p1/wps-office_9.1.0.4961~a18p1_i386.deb
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a18/wps-office_9.1.0.4961~a18p1_i386.deb
       sha1sum: 753d1843ec6cfd1fb6144c175cd31afc788c3224
     - type: deb_x64
-      address: http://kdl.cc.ksosoft.com/wps-community/download/a18p1/wps-office_9.1.0.4961~a18p1_amd64.deb
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a18/wps-office_9.1.0.4961~a18p1_amd64.deb
       sha1sum: 8c593dd34baf0e481378ed696334e3d7f853906a
     - type: rpm_x86
-      address: http://kdl.cc.ksosoft.com/wps-community/download/a18p1/wps-office-9.1.0.4961-1.a18p1.i686.rpm
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a18/wps-office-9.1.0.4961-1.a18p1.i686.rpm
       sha1sum: b4adbfa7e50bedeeb5098371e481f6d2e7fa86c5
     - type: rpm_x64
-      address: http://kdl.cc.ksosoft.com/wps-community/download/a18p1/wps-office-9.1.0.4961-1.a18p1.x86_64.rpm
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a18/wps-office-9.1.0.4961-1.a18p1.x86_64.rpm
       sha1sum: 124287f4227af2f6416378a6389a18810fa07fa1
     - type: tar.xz_x86
-      address: http://kdl.cc.ksosoft.com/wps-community/download/a18p1/wps-office_9.1.0.4961~a18p1_x86.tar.xz
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a18/wps-office_9.1.0.4961~a18p1_x86.tar.xz
       sha1sum: d4b313b1a784ae40bedc014a90a1454387297a69
     - type: tar.xz_x64
-      address: http://kdl.cc.ksosoft.com/wps-community/download/a18p1/wps-office_9.1.0.4961~a18p1_x86_64.tar.xz
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a18/wps-office_9.1.0.4961~a18p1_x86_64.tar.xz
       sha1sum: 466906078f611e79b3c3fb66b14d6f0bb8ed5bdf
