@@ -1,7 +1,8 @@
 version: 9.1.0.4961
 linux_version: Alpha18 Patch1
+linux_version_line: a18
 linux_version_short: a18p1
-release_data: 2015-06-11
+release_date: 2015-06-11
 full_name: WPS Office for Linux Alpha18 Patch1
 whats_new: |
     Fixed Writer cause X server resources leak.

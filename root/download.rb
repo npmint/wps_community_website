@@ -18,7 +18,7 @@ lang_redirect 'zh', 'http://community.wps.cn/download/#alpha'
 def html_version_item f
   cont = ""
   y = YAML.load_file(f)
-  cont += "<h2>#{y["full_name"]}<span style='font-size:0.7em;'> [#{y["release_data"]}]</span></h2>"
+  cont += "<h2>#{y["full_name"]}<span style='font-size:0.7em;'> [#{y["release_date"]}]</span></h2>"
   cont += ""
   cont += "<div class=\"ver_item\">"
   if y["whats_new"]

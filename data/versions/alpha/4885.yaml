@@ -1,7 +1,8 @@
 version: 9.1.0.4885
 linux_version: Alpha16
+linux_version_line: a16
 linux_version_short: a16
-release_data: 2014-10-21
+release_date: 2014-10-21
 full_name: WPS Office for Linux Alpha16
 whats_new: |
     New document compare tool for Writer.

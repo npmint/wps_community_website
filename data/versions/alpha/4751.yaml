@@ -1,7 +1,8 @@
 version: 9.1.0.4751
 linux_version: Alpha15
+linux_version_line: a15
 linux_version_short: a15
-release_data: 2014-08-15
+release_date: 2014-08-15
 full_name: WPS Office for Linux Alpha15
 whats_new: |
     WPS Writer supports restrict editing now.

@@ -1,7 +1,8 @@
 version: 9.1.0.4953
 linux_version: Alpha18
+linux_version_line: a18
 linux_version_short: a18
-release_data: 2015-05-13
+release_date: 2015-05-13
 full_name: WPS Office for Linux Alpha18
 whats_new: |
     Mini Toolbar for quick access to formatting selected text.
