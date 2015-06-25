@@ -22,5 +22,9 @@ if (app.get('env') == 'development') {
 // router
 app.use(require('./app/router'));
 
+app.prepare = function(done) {
+  require('./app/models')(app, done);
+};
+
 // export
 module.exports = app;

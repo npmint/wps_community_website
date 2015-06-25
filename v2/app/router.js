@@ -15,5 +15,7 @@ var action = function(act) {
 
 router.get('/', action('main.index'));
 router.get('/about', action('main.about'));
+router.get('/download', action('main.download'));
+router.get('/download.html', action('main.download'));
 
 module.exports = router;

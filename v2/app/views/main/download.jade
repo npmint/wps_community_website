@@ -1,0 +1,26 @@
+extends /layouts/application.jade
+
+block title
+  title Downloads
+
+block content
+  .row
+    .col-sm-3.col-md-2.sidebar
+      .panel.panel-default
+        .panel-heading
+          | Version Lines
+        .list-group
+          each val, vl in version_lines
+            a.list-group-item(class=(current_version_line === vl ? 'active' : '') href=('?vl='+vl))= vl
+    .col-sm-9.col-md-10.main
+      h1.page-header Product Download
+      big
+        p
+          | Feel free with your creation. Writing, calculating, showing as your mind. 
+          | When you are feeling good, share to your friends.
+          | When you are feeling bad, 
+          a(href='/forum/') we are here
+          | .
+      h2 
+        | WPS Office for Linux Alpha18 Patch1 
+        small [2015-06-11]

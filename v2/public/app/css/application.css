@@ -2,6 +2,14 @@ html {
   padding-top: 50px;
 }
 
+.sidebar {
+  margin-top: 20px;
+}
+
+.page-header {
+  margin-top: 20px;
+}
+
 /* fixup: express-debug covered by bootstrap */
 #EDT {
   z-index: 9999 !important;
