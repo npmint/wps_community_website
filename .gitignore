@@ -13,3 +13,6 @@
 
 *~
 *.swp
+
+# node js
+node_modules
