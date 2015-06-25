@@ -1,0 +1,8 @@
+html {
+  padding-top: 50px;
+}
+
+/* fixup: express-debug covered by bootstrap */
+#EDT {
+  z-index: 9999 !important;
+}
