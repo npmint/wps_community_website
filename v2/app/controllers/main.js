@@ -53,3 +53,7 @@ exports.development = function(req, res) {
     res.render('main/development', {langs: langs});
   });
 };
+
+exports.donate = function(req, res) {
+  res.marked('main/donate.md', 'Help us');
+};
