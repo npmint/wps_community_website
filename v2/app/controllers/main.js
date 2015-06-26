@@ -44,5 +44,12 @@ exports.helpus = function(req, res) {
 };
 
 exports.development = function(req, res) {
-  res.render('main/development');
+  var models = req.app.models;
+  models.language.all(function (err, langs) {
+    if (err) {
+      throw err;
+    }
+
+    res.render('main/development', {langs: langs});
+  });
 };
