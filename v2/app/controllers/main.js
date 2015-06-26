@@ -57,3 +57,7 @@ exports.development = function(req, res) {
 exports.donate = function(req, res) {
   res.marked('main/donate.md', 'Help us');
 };
+
+exports.distribution = function(req, res) {
+  res.marked('main/distribution.md');
+};

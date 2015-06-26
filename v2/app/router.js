@@ -21,6 +21,7 @@ router.get('/helpus', action('main.helpus'));
 router.get('/development', action('main.development'));
 router.get('/donate', action('main.donate'));
 router.get('/about', action('main.about'));
+router.get('/distribution', action('main.distribution'));
 
 router.get('/download.html', action('main.download'));
 router.get('/faq.html', action('main.faq'));
@@ -28,5 +29,6 @@ router.get('/helpus.md', action('main.helpus'));
 router.get('/dev.html', action('main.development'));
 router.get('/donate.md', action('main.donate'));
 router.get('/aboutus.html', action('main.about'));
+router.get('/distribution.md', action('main.distribution'));
 
 module.exports = router;
