@@ -6,6 +6,8 @@ var async = require('async');
 var jsyaml = require('js-yaml');
 var fs = require('fs');
 
+var cache;
+
 var readYamlFile = function(fpath, done) {
   C(function(c) {
     fs.readFile(fpath, c.assigner('err', 'content'));
@@ -15,7 +17,7 @@ var readYamlFile = function(fpath, done) {
   }).report('obj', done);
 };
 
-exports.all = function(done) {
+exports.prepare = function(done) {
   C(function(c) {
     glob(VERSION_DIR + '**/*.yaml', c.assigner('err', 'files'));
   })(function(c) {
@@ -31,5 +33,15 @@ exports.all = function(done) {
       }
     });
     c();
-  }).report('versions', done);
+  }).end(function (err, c) {
+    if (err) {
+      throw err;
+    }
+    cache = c.versions;
+    done();
+  });
+};
+
+exports.all = function(done) {
+  done(null, cache);
 };
