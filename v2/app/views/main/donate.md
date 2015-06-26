@@ -44,4 +44,4 @@ Thank you for your faithful support for WPS Linux Community.
 ### Need help?
 
 If you have any problem, please contact us at: 
-wps\_linux@kingsoft.com
+[wps\_linux@kingsoft.com](mailto:wps_linux@kingsoft.com)
