@@ -3,7 +3,7 @@ exports.index = function(req, res) {
 };
 
 exports.about = function(req, res) {
-  res.render('main/about');
+  res.marked('main/about.md');
 };
 
 exports.download = function(req, res) {
