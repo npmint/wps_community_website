@@ -18,9 +18,11 @@ router.get('/about', action('main.about'));
 router.get('/download', action('main.download'));
 router.get('/faq', action('main.faq'));
 router.get('/helpus', action('main.helpus'));
+router.get('/development', action('main.development'));
 
 router.get('/download.html', action('main.download'));
 router.get('/faq.html', action('main.faq'));
 router.get('/helpus.md', action('main.helpus'));
+router.get('/dev.html', action('main.development'));
 
 module.exports = router;

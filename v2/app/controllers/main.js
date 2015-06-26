@@ -42,3 +42,7 @@ exports.faq = function(req, res) {
 exports.helpus = function(req, res) {
   res.marked('main/helpus.md', 'Help us');
 };
+
+exports.development = function(req, res) {
+  res.render('main/development');
+};
