@@ -13,7 +13,7 @@ html(lang='en')
       script(src='/bower_components/html5shiv/dist/html5shiv.min.js')
       script(src='/bower_components/respond/dest/respond.min.js')
   body
-    nav.navbar.navbar-inverse.navbar-fixed-top
+    header.navbar.navbar-inverse.navbar-fixed-top
       .container
         .navbar-header
           button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#navbar', aria-expanded='false', aria-controls='navbar')
@@ -38,6 +38,21 @@ html(lang='en')
               a(href='/donate') Donate
     .container
       block content
+    .container
+      footer
+        p
+          a(href='http://www.wps.com' target='_blank') Official Site
+          |  | 
+          a(href='http://www.wps.cn' target='_blank') Chinese Site
+          |  | 
+          a(href='http://community.wps.cn' target='_blank') Chinese Community
+          |  | 
+          a(href='/aboutus') About us
+          |  | 
+          a(href='mailto:wps_linux@kingsoft.com') Contact us
+          |  | 
+          a(href='/distribution') Distribution
+        p Copyright © 1988-2014 Kingsoft Office Corporation, All Rights Reserved
     script(src='/bower_components/jquery/dist/jquery.min.js')
     script(src='/bower_components/bootstrap/dist/js/bootstrap.min.js')
     script(src='/bower_components/bootstrap3-ie10-viewport-bug-workaround/ie10-viewport-bug-workaround.js')
