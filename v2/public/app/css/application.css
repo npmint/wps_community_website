@@ -1,5 +1,6 @@
 html {
   padding-top: 50px;
+  overflow-y: scroll;
 }
 
 .sidebar {
@@ -8,6 +9,21 @@ html {
 
 .page-header {
   margin-top: 20px;
+}
+
+.li-leader {
+  float: left;
+  left: -1.2em;
+  top: 0.2em;
+  width: 0px;
+}
+
+.list-download {
+  margin-bottom: 10px;
+}
+
+.x2 {
+  font-size: 2em;
 }
 
 /* fixup: express-debug covered by bootstrap */
