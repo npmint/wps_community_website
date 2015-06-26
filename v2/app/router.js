@@ -13,6 +13,12 @@ var action = function(act) {
   };
 };
 
+var redirect = function(url) {
+  return function(req, res) {
+    res.redirect(url);
+  };
+};
+
 router.get('/', action('main.index'));
 router.get('/about', action('main.about'));
 router.get('/download', action('main.download'));
@@ -22,7 +28,12 @@ router.get('/development', action('main.development'));
 router.get('/donate', action('main.donate'));
 router.get('/about', action('main.about'));
 router.get('/distribution', action('main.distribution'));
+router.get('/forum/**', action('cgi.forum'));
 
+// redirect
+router.get('/forum', redirect('/forum/'));
+
+// legacy
 router.get('/download.html', action('main.download'));
 router.get('/faq.html', action('main.faq'));
 router.get('/helpus.md', action('main.helpus'));
