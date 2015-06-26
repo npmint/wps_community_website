@@ -13,6 +13,7 @@ app.use(Express.static('public'));
 
 // helper
 app.locals.basedir = __dirname + '/app/views';
+Express.response.marked = require('./app/helpers/marked');
 
 // debug
 if (app.get('env') == 'development') {

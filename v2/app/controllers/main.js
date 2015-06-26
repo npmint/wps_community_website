@@ -38,3 +38,7 @@ exports.faq = function(req, res) {
     res.render('main/faq', {faqs: faqs});
   });
 };
+
+exports.helpus = function(req, res) {
+  res.marked('main/helpus.md', 'Help us');
+};
