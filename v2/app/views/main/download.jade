@@ -5,14 +5,15 @@ block title
 
 block content
   .row
-    .col-sm-3.col-md-2.sidebar
+    .col-sm-3.sidebar
       .panel.panel-default
         .panel-heading
           | Version Lines
         .list-group
           each val, vl in version_lines
-            a.list-group-item(class=(current_version_line === vl ? 'active' : '') href=('?vl='+vl))= vl
-    .col-sm-9.col-md-10.main
+            a.list-group-item(class=(current_version_line === vl ? 'active' : '') href=('?vl='+vl+'#download'))= vl
+    .col-sm-9.main
+      span(id='download').anchor
       h1.page-header Product Download
       big
         p

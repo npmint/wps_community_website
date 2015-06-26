@@ -1,0 +1,11 @@
+extends /layouts/application.jade
+
+block title
+  title FAQ
+
+block content
+  h1 FAQ
+  each faq in faqs
+    dl
+      dt= 'Q: ' + faq.Q
+      dd!= 'A: ' + faq.A

@@ -27,3 +27,14 @@ exports.download = function(req, res) {
     res.render('main/download', {versions: versions, version_lines: vls, current_version_line: current_version_line});
   });
 };
+
+exports.faq = function(req, res) {
+  var models = req.app.models;
+  models.faq.all(function (err, faqs) {
+    if (err) {
+      throw err;
+    }
+
+    res.render('main/faq', {faqs: faqs});
+  });
+};
