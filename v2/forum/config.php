@@ -12,5 +12,5 @@ $acm_type = 'file';
 $load_extensions = '';
 
 @define('PHPBB_INSTALLED', true);
-@define('DEBUG', true);
+// @define('DEBUG', true);
 // @define('DEBUG_EXTRA', true);

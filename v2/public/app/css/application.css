@@ -53,6 +53,18 @@ footer p {
   font-size: 2em;
 }
 
+.right-spacer {
+  margin-right: 0.5em;
+}
+
+.right-side {
+  float: right;
+}
+
+.vcenter {
+  vertical-align: middle !important;
+}
+
 /* download page */
 .list-download {
   margin-bottom: 10px;
@@ -61,6 +73,51 @@ footer p {
 /* development page */
 .progress-language {
   margin-bottom: 0px;
+}
+
+/* forum */
+.breadcrumb-forum {
+  margin-top: 10px;
+}
+
+.list-right-side {
+  float: right;
+}
+
+.list-right-side li {
+  margin-left: 10px;
+  float: right;
+}
+
+.breadcrumb-line2 {
+  margin-top: 3px;
+  padding-top: 3px;
+  border-top: 1px solid #fff;
+}
+
+.table-forum-list>thead>tr>th {
+  background-color: #337ab7;
+  color: #fff;
+  border-bottom: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.table-forum-list>thead>tr>th>a {
+  color: #fff;
+}
+.table-forum-list>tbody>tr>td {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.table-forum-list>thead>tr>th:first-child {
+  border-top-left-radius: 0 !important;
+  padding-left: 20px;
+}
+.table-forum-list>thead>tr>th:last-child {
+  border-top-right-radius: 0 !important;
+}
+.table-forum-list>tbody>tr>td:first-child {
+  padding-left: 20px;
 }
 
 /* fixup: express-debug covered by bootstrap */
