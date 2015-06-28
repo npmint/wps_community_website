@@ -142,6 +142,11 @@ footer p {
 }
 .navbar-footer-forum {
   min-height: 0;
+  margin-bottom: 0;
+}
+.field-forum footer {
+  margin-top: 0;
+  border-top: 0;
 }
 
 /* fixup: express-debug covered by bootstrap */

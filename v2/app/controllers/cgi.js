@@ -14,6 +14,7 @@ var forum_decorator = function(res, headers, body, done) {
       }
     });
     args['body'] = body;
+    args['field'] = 'field-forum';
     res.render('cgi/forum', args, function(err, cont) {
       if (err) {
         throw err;
