@@ -80,6 +80,10 @@ footer p {
   font-size: 0.85em;
 }
 
+.forum h2 {
+  font-size: 2em;
+}
+
 .forum h3 {
   font-size: 1.05em;
   font-weight: bold;
@@ -147,6 +151,20 @@ footer p {
 .field-forum footer {
   margin-top: 0;
   border-top: 0;
+}
+
+.topic-actions form {
+  display: inline-table;
+}
+
+.pagination-forum {
+  float: right;
+  margin: 0;
+  vertical-align: middle;
+}
+.pagination-forum>li>a {
+  padding: 5px 12px;
+  height: 30px;
 }
 
 /* fixup: express-debug covered by bootstrap */

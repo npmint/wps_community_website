@@ -38,30 +38,26 @@
 	<div class="topic-actions" <!-- IF S_HAS_SUBFORUM -->style="margin-top: 2em;"<!-- ENDIF -->>
 
 	<!-- IF not S_IS_BOT and S_DISPLAY_POST_INFO -->
-		<div class="buttons">
-			<div class="<!-- IF S_IS_LOCKED -->locked-icon<!-- ELSE -->post-icon<!-- ENDIF -->" title="<!-- IF S_IS_LOCKED -->{L_FORUM_LOCKED}<!-- ELSE -->{L_POST_TOPIC}<!-- ENDIF -->"><a href="{U_POST_NEW_TOPIC}"><span></span><!-- IF S_IS_LOCKED -->{L_FORUM_LOCKED}<!-- ELSE -->{L_POST_TOPIC}<!-- ENDIF --></a></div>
-		</div>
+		<a type="button" class="btn btn-default btn-sm" href="{U_POST_NEW_TOPIC}"><!-- IF S_IS_LOCKED --><span class="glyphicon glyphicon-lock right-spacer"></span>{L_FORUM_LOCKED}<!-- ELSE --><span class="glyphicon glyphicon-edit right-spacer"></span>{L_POST_TOPIC}<!-- ENDIF --></a>
 	<!-- ENDIF -->
 
 	<!-- IF S_DISPLAY_SEARCHBOX -->
-		<div class="search-box">
-			<form method="get" id="forum-search" action="{S_SEARCHBOX_ACTION}">
-			<fieldset>
-				<input class="inputbox search tiny" type="text" name="keywords" id="search_keywords" size="20" value="{L_SEARCH_FORUM}" onclick="if (this.value == '{LA_SEARCH_FORUM}') this.value = '';" onblur="if (this.value == '') this.value = '{LA_SEARCH_FORUM}';" />
-				<input class="button2" type="submit" value="{L_SEARCH}" />
-				{S_SEARCH_LOCAL_HIDDEN_FIELDS}
-			</fieldset>
-			</form>
-		</div>
+		<form class="form-inline" method="get" id="forum-search" action="{S_SEARCHBOX_ACTION}">
+			<div class="input-group">
+				<input class="form-control input-sm" type="text" name="keywords" id="search_keywords" size="20" value="{L_SEARCH_FORUM}" onclick="if (this.value == '{LA_SEARCH_FORUM}') this.value = '';" onblur="if (this.value == '') this.value = '{LA_SEARCH_FORUM}';" />
+				<div class="input-group-btn">
+					<button class="btn btn-default btn-sm" type="submit" value="{L_SEARCH}"><span class="glyphicon glyphicon-search"/></button>
+				</div>
+			</div>
+			{S_SEARCH_LOCAL_HIDDEN_FIELDS}
+		</form>
 	<!-- ENDIF -->
 
 	<!-- IF PAGINATION or TOTAL_POSTS or TOTAL_TOPICS -->
-		<div class="pagination">
-			<!-- IF not S_IS_BOT and U_MARK_TOPICS --><a href="{U_MARK_TOPICS}" accesskey="m">{L_MARK_TOPICS_READ}</a> &bull; <!-- ENDIF --><!-- IF TOTAL_TOPICS -->{TOTAL_TOPICS}<!-- ENDIF -->
-			<!-- IF PAGE_NUMBER -->
-				<!-- IF PAGINATION --> &bull; <a href="#" onclick="jumpto(); return false;" title="{L_JUMP_TO_PAGE}">{PAGE_NUMBER}</a> &bull; <span>{PAGINATION}</span><!-- ELSE --> &bull; {PAGE_NUMBER}<!-- ENDIF -->
-			<!-- ENDIF -->
-		</div>
+		<!-- IF not S_IS_BOT and U_MARK_TOPICS --><a href="{U_MARK_TOPICS}" accesskey="m">{L_MARK_TOPICS_READ}</a> &bull; <!-- ENDIF -->
+		<!-- IF PAGE_NUMBER -->
+			<!-- IF PAGINATION --> <ul class="pagination pagination-forum">{PAGINATION}</ul><!-- ELSE --> &bull; {PAGE_NUMBER}<!-- ENDIF -->
+		<!-- ENDIF -->
 	<!-- ENDIF -->
 
 	</div>

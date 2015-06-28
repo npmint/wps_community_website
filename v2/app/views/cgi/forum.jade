@@ -9,3 +9,24 @@ block title
 block content
   .forum
     != body
+
+block script
+  script.
+    $('.pagination-forum').each(function() {
+      var pagi = $(this);
+      pagi.children().each(function() {
+        var e = $(this);
+        var name = e.prop('tagName');
+        if (name === 'STRONG') {
+          pagi.append('<li class="active"><a href="#">' + e.text() + '</a></li>');
+          e.remove();
+        } else if (e.hasClass('page-sep')) {
+          e.remove();
+        } else if (name === 'A') {
+          $('<li></li>').append(e).appendTo(pagi);
+        } else if (e.hasClass('page-dots')) {
+          $('<li><a href="#" onclick="jumpto(); return false;">...</a></li>').appendTo(pagi);
+          e.remove();
+        }
+      });
+    });
