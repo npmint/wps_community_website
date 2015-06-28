@@ -76,6 +76,16 @@ footer p {
 }
 
 /* forum */
+.forum {
+  font-size: 0.85em;
+}
+
+.forum h3 {
+  font-size: 1.05em;
+  font-weight: bold;
+  border-bottom: 1px solid #ccc;
+}
+
 .breadcrumb-forum {
   margin-top: 10px;
 }
@@ -118,6 +128,20 @@ footer p {
 }
 .table-forum-list>tbody>tr>td:first-child {
   padding-left: 20px;
+}
+
+.btn-group-readpost {
+  margin-bottom: 5px;
+}
+
+.navbar-footer-forum>li>a, .navbar-footer-forum>a {
+  font-size: inherit;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height: auto;
+}
+.navbar-footer-forum {
+  min-height: 0;
 }
 
 /* fixup: express-debug covered by bootstrap */
