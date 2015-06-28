@@ -12,7 +12,6 @@
 
 <!-- IF S_FORUM_RULES -->
 	<div class="rules">
-		<div class="inner"><span class="corners-top"><span></span></span>
 
 		<!-- IF U_FORUM_RULES -->
 			<a href="{U_FORUM_RULES}">{L_FORUM_RULES}</a>
@@ -20,8 +19,6 @@
 			<strong>{L_FORUM_RULES}</strong><br />
 			{FORUM_RULES}
 		<!-- ENDIF -->
-
-		<span class="corners-bottom"><span></span></span></div>
 	</div>
 <!-- ENDIF -->
 
@@ -66,9 +63,7 @@
 <!-- IF S_NO_READ_ACCESS -->
 
 	<div class="panel">
-		<div class="inner"><span class="corners-top"><span></span></span>
 		<strong>{L_NO_READ_ACCESS}</strong>
-		<span class="corners-bottom"><span></span></span></div>
 	</div>
 
 	<!-- IF not S_USER_LOGGED_IN and not S_IS_BOT -->
@@ -76,8 +71,6 @@
 		<form action="{S_LOGIN_ACTION}" method="post">
 
 		<div class="panel">
-			<div class="inner"><span class="corners-top"><span></span></span>
-
 			<div class="content">
 				<h3><a href="{U_LOGIN_LOGOUT}">{L_LOGIN_LOGOUT}</a><!-- IF S_REGISTER_ENABLED -->&nbsp; &bull; &nbsp;<a href="{U_REGISTER}">{L_REGISTER}</a><!-- ENDIF --></h3>
 
@@ -99,8 +92,6 @@
 				{S_LOGIN_REDIRECT}
 				</fieldset>
 			</div>
-
-			<span class="corners-bottom"><span></span></span></div>
 		</div>
 
 		</form>
@@ -112,55 +103,49 @@
 <!-- BEGIN topicrow -->
 
 	<!-- IF not topicrow.S_TOPIC_TYPE_SWITCH and not topicrow.S_FIRST_ROW -->
-		</ul>
-		<span class="corners-bottom"><span></span></span></div>
+			</tbody>
+		</table>
 	</div>
 	<!-- ENDIF -->
 
 	<!-- IF topicrow.S_FIRST_ROW or not topicrow.S_TOPIC_TYPE_SWITCH -->
-		<div class="forumbg<!-- IF topicrow.S_TOPIC_TYPE_SWITCH and (topicrow.S_POST_ANNOUNCE or topicrow.S_POST_GLOBAL) --> announcement<!-- ENDIF -->">
-		<div class="inner"><span class="corners-top"><span></span></span>
-		<ul class="topiclist">
-			<li class="header">
-				<dl class="icon">
-					<dt><!-- IF S_DISPLAY_ACTIVE -->{L_ACTIVE_TOPICS}<!-- ELSEIF topicrow.S_TOPIC_TYPE_SWITCH and (topicrow.S_POST_ANNOUNCE or topicrow.S_POST_GLOBAL) -->{L_ANNOUNCEMENTS}<!-- ELSE -->{L_TOPICS}<!-- ENDIF --></dt>
-					<dd class="posts">{L_REPLIES}</dd>
-					<dd class="views">{L_VIEWS}</dd>
-					<dd class="lastpost"><span>{L_LAST_POST}</span></dd>
-				</dl>
-			</li>
-		</ul>
-		<ul class="topiclist topics">
+		<div class="forumbg<!-- IF topicrow.S_TOPIC_TYPE_SWITCH and (topicrow.S_POST_ANNOUNCE or topicrow.S_POST_GLOBAL) --> announcement<!-- ENDIF --> panel panel-primary">
+			<table class="table table-hover table-bordered table-forum-list">
+				<thead>
+					<tr>
+						<th><!-- IF S_DISPLAY_ACTIVE -->{L_ACTIVE_TOPICS}<!-- ELSEIF topicrow.S_TOPIC_TYPE_SWITCH and (topicrow.S_POST_ANNOUNCE or topicrow.S_POST_GLOBAL) -->{L_ANNOUNCEMENTS}<!-- ELSE -->{L_TOPICS}<!-- ENDIF --></th>
+						<th width="8%" class="posts">{L_REPLIES}</th>
+						<th width="8%" class="views">{L_VIEWS}</th>
+						<th width="190" class="lastpost"><span>{L_LAST_POST}</span></th>
+					</tr>
+				</thead>
+				<tbody>
 	<!-- ENDIF -->
 
-		<li class="row<!-- IF topicrow.S_ROW_COUNT is even --> bg1<!-- ELSE --> bg2<!-- ENDIF --><!-- IF topicrow.S_POST_GLOBAL --> global-announce<!-- ENDIF --><!-- IF topicrow.S_POST_ANNOUNCE --> announce<!-- ENDIF --><!-- IF topicrow.S_POST_STICKY --> sticky<!-- ENDIF --><!-- IF topicrow.S_TOPIC_REPORTED --> reported<!-- ENDIF -->">
-			<dl class="icon" style="background-image: url({topicrow.TOPIC_FOLDER_IMG_SRC}); background-repeat: no-repeat;">
-				<dt<!-- IF topicrow.TOPIC_ICON_IMG and S_TOPIC_ICONS --> style="background-image: url({T_ICONS_PATH}{topicrow.TOPIC_ICON_IMG}); background-repeat: no-repeat;"<!-- ENDIF --> title="{topicrow.TOPIC_FOLDER_IMG_ALT}"><!-- IF topicrow.S_UNREAD_TOPIC --><a href="{topicrow.U_NEWEST_POST}">{NEWEST_POST_IMG}</a> <!-- ENDIF --><a href="{topicrow.U_VIEW_TOPIC}" class="topictitle">{topicrow.TOPIC_TITLE}</a>
-					<!-- IF topicrow.S_TOPIC_UNAPPROVED or topicrow.S_POSTS_UNAPPROVED --><a href="{topicrow.U_MCP_QUEUE}">{topicrow.UNAPPROVED_IMG}</a> <!-- ENDIF -->
-					<!-- IF topicrow.S_TOPIC_REPORTED --><a href="{topicrow.U_MCP_REPORT}">{REPORTED_IMG}</a><!-- ENDIF --><br />
-					<!-- IF topicrow.PAGINATION --><strong class="pagination"><span>{topicrow.PAGINATION}</span></strong><!-- ENDIF -->
-					<!-- IF topicrow.ATTACH_ICON_IMG -->{topicrow.ATTACH_ICON_IMG} <!-- ENDIF -->{L_POST_BY_AUTHOR} {topicrow.TOPIC_AUTHOR_FULL} &raquo; {topicrow.FIRST_POST_TIME}
-				</dt>
-				<dd class="posts">{topicrow.REPLIES} <dfn>{L_REPLIES}</dfn></dd>
-				<dd class="views">{topicrow.VIEWS} <dfn>{L_VIEWS}</dfn></dd>
-				<dd class="lastpost"><span><dfn>{L_LAST_POST} </dfn>{L_POST_BY_AUTHOR} {topicrow.LAST_POST_AUTHOR_FULL}
-					<!-- IF not S_IS_BOT --><a href="{topicrow.U_LAST_POST}">{LAST_POST_IMG}</a> <!-- ENDIF --><br />{topicrow.LAST_POST_TIME}</span>
-				</dd>
-			</dl>
-		</li>
+		<tr>
+			<td<!-- IF topicrow.TOPIC_ICON_IMG and S_TOPIC_ICONS --> style="background-image: url({T_ICONS_PATH}{topicrow.TOPIC_ICON_IMG}); background-repeat: no-repeat;"<!-- ENDIF --> title="{topicrow.TOPIC_FOLDER_IMG_ALT}"><!-- IF topicrow.S_UNREAD_TOPIC --><a href="{topicrow.U_NEWEST_POST}">{NEWEST_POST_IMG}</a> <!-- ENDIF --><a href="{topicrow.U_VIEW_TOPIC}" class="topictitle">{topicrow.TOPIC_TITLE}</a>
+				<!-- IF topicrow.S_TOPIC_UNAPPROVED or topicrow.S_POSTS_UNAPPROVED --><a href="{topicrow.U_MCP_QUEUE}">{topicrow.UNAPPROVED_IMG}</a> <!-- ENDIF -->
+				<!-- IF topicrow.S_TOPIC_REPORTED --><a href="{topicrow.U_MCP_REPORT}">{REPORTED_IMG}</a><!-- ENDIF -->
+				<!-- IF topicrow.PAGINATION --><ul class="pagination pagination-forum">{topicrow.PAGINATION}</ul><!-- ENDIF --><br/>
+				<!-- IF topicrow.ATTACH_ICON_IMG -->{topicrow.ATTACH_ICON_IMG} <!-- ENDIF -->{L_POST_BY_AUTHOR} {topicrow.TOPIC_AUTHOR_FULL} &raquo; {topicrow.FIRST_POST_TIME}
+			</td>
+			<td class="posts text-center vcenter">{topicrow.REPLIES}</td>
+			<td class="views text-center vcenter">{topicrow.VIEWS}</td>
+			<td class="lastpost vcenter"><span>{L_POST_BY_AUTHOR} {topicrow.LAST_POST_AUTHOR_FULL}
+				<!-- IF not S_IS_BOT --><a href="{topicrow.U_LAST_POST}">{LAST_POST_IMG}</a> <!-- ENDIF --><br />{topicrow.LAST_POST_TIME}</span>
+			</td>
+		</tr>
 
 	<!-- IF topicrow.S_LAST_ROW -->
-			</ul>
-		<span class="corners-bottom"><span></span></span></div>
+			</tbody>
+		</table>
 	</div>
 	<!-- ENDIF -->
 
 <!-- BEGINELSE -->
 	<!-- IF S_IS_POSTABLE -->
 	<div class="panel">
-		<div class="inner"><span class="corners-top"><span></span></span>
 		<strong>{L_NO_TOPICS}</strong>
-		<span class="corners-bottom"><span></span></span></div>
 	</div>
 	<!-- ENDIF -->
 <!-- END topicrow -->
