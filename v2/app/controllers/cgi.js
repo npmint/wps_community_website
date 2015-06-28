@@ -1,7 +1,7 @@
 var cgi = require('serve-cgi');
 
 exports.forum = cgi({
-  root: __dirname + '/../../../root/forum',
+  root: __dirname + '/../../forum',
   roles: {
     '.php': '/usr/bin/php5-cgi'
   },
