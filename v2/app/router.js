@@ -28,7 +28,7 @@ router.get('/development', action('main.development'));
 router.get('/donate', action('main.donate'));
 router.get('/about', action('main.about'));
 router.get('/distribution', action('main.distribution'));
-router.get('/forum/**', action('cgi.forum'));
+router.use('/forum', action('cgi.forum'));
 
 // redirect
 router.get('/forum', redirect('/forum/'));
