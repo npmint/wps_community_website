@@ -1,53 +1,122 @@
-title={PAGE_TITLE} - Kingsoft WPS Office Community
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="{S_CONTENT_DIRECTION}" lang="{S_USER_LANG}" xml:lang="{S_USER_LANG}" data-ng-app>
+<head>
 
-<a id="top" name="top" accesskey="t"></a>
-<ol class="breadcrumb breadcrumb-forum">
-	<li><a href="{U_INDEX}" accesskey="h"><span class='glyphicon glyphicon-home right-spacer'></span>{L_INDEX}</a></li>
-	<!-- BEGIN navlinks --><li><a href="{navlinks.U_VIEW_FORUM}">{navlinks.FORUM_NAME}</a></li><!-- END navlinks -->
-	<a></a>
-	<ol class="list-right-side list-unstyled">
-		<li><a href="#" onclick="fontsizeup(); return false;" onkeypress="return fontsizeup(event);" class="fontsize" title="{L_CHANGE_FONT_SIZE}">{L_CHANGE_FONT_SIZE}</a></li>
-		<!-- IF U_EMAIL_TOPIC --><li><a href="{U_EMAIL_TOPIC}" title="{L_EMAIL_TOPIC}" class="sendemail">{L_EMAIL_TOPIC}</a></li><!-- ENDIF -->
-		<!-- IF U_EMAIL_PM --><li><a href="{U_EMAIL_PM}" title="{L_EMAIL_PM}" class="sendemail">{L_EMAIL_PM}</a></li><!-- ENDIF -->
-		<!-- IF U_PRINT_TOPIC --><li><a href="{U_PRINT_TOPIC}" title="{L_PRINT_TOPIC}" accesskey="p" class="print">{L_PRINT_TOPIC}</a></li><!-- ENDIF -->
-		<!-- IF U_PRINT_PM --><li><a href="{U_PRINT_PM}" title="{L_PRINT_PM}" accesskey="p" class="print">{L_PRINT_PM}</a></li><!-- ENDIF -->
-	</ol>
-	<div class="breadcrumb-line2 clearfix">
-			<!-- IF not S_IS_BOT and S_USER_LOGGED_IN -->
-			<ul class="list-unstyled leftside">
-				<li class="icon-ucp">
-					<a href="{U_PROFILE}" title="{L_PROFILE}" accesskey="e">{L_PROFILE}</a>
-						<!-- IF S_DISPLAY_PM --> (<a href="{U_PRIVATEMSGS}">{PRIVATE_MESSAGE_INFO}</a>)<!-- ENDIF -->
-					<!-- IF S_DISPLAY_SEARCH --> &bull;
-					<a href="{U_SEARCH_SELF}">{L_SEARCH_SELF}</a>
-					<!-- ENDIF -->
-					<!-- IF U_RESTORE_PERMISSIONS --> &bull;
-					<a href="{U_RESTORE_PERMISSIONS}">{L_RESTORE_PERMISSIONS}</a>
-					<!-- ENDIF -->
-				</li>
-			</ul>
-			<!-- ENDIF -->
-			<ul class="list-unstyled right-side">
-				<!-- IF not S_IS_BOT -->
-					<!-- IF S_DISPLAY_MEMBERLIST --><li class="icon-members"><a href="{U_MEMBERLIST}" title="{L_MEMBERLIST_EXPLAIN}">{L_MEMBERLIST}</a></li><!-- ENDIF -->
-					<!-- IF S_USER_LOGGED_IN -->
-						<li class="icon-logout"><a href="{U_LOGIN_LOGOUT}" title="{L_LOGIN_LOGOUT}" accesskey="x">{L_LOGIN_LOGOUT}</a></li>
-					<!-- ELSE -->
-						<li class="icon-login">{L_LOGIN_AS}: <a href="{U_LOGIN_LOGOUT}" title="{L_LOGIN_LOGOUT}" accesskey="x">
-							<img src="{T_THEME_PATH}/images/google.png" style="vertical-align: -15%"/>
-						</a></li>
-					<!-- ENDIF -->
-				<!-- ENDIF -->
-			</ul>
-	</div>
-</ol>
+<meta charset="{S_CONTENT_ENCODING}" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<link rel="shortcut icon" href="{T_THEME_PATH}/images/favicon.ico" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+{META}
+<title>{SITENAME} &bull; <!-- IF S_IN_MCP -->{L_MCP} &bull; <!-- ELSEIF S_IN_UCP -->{L_UCP} &bull; <!-- ENDIF -->{PAGE_TITLE}</title>
 
-<a name="start_here"></a>
-<div id="page-body">
-	<!-- IF S_BOARD_DISABLED and S_USER_LOGGED_IN and (U_MCP or U_ACP) -->
-	<div id="information" class="rules">
-		<div class="inner"><span class="corners-top"><span></span></span>
-			<strong>{L_INFORMATION}:</strong> {L_BOARD_DISABLED}
-		<span class="corners-bottom"><span></span></span></div>
-	</div>
+<!-- IF S_ENABLE_FEEDS -->
+	<!-- IF S_ENABLE_FEEDS_OVERALL --><link rel="alternate" type="application/atom+xml" title="{L_FEED} - {SITENAME}" href="{U_FEED}" /><!-- ENDIF -->
+	<!-- IF S_ENABLE_FEEDS_NEWS --><link rel="alternate" type="application/atom+xml" title="{L_FEED} - {L_FEED_NEWS}" href="{U_FEED}?mode=news" /><!-- ENDIF -->
+	<!-- IF S_ENABLE_FEEDS_FORUMS --><link rel="alternate" type="application/atom+xml" title="{L_FEED} - {L_ALL_FORUMS}" href="{U_FEED}?mode=forums" /><!-- ENDIF -->
+	<!-- IF S_ENABLE_FEEDS_TOPICS --><link rel="alternate" type="application/atom+xml" title="{L_FEED} - {L_FEED_TOPICS_NEW}" href="{U_FEED}?mode=topics" /><!-- ENDIF -->
+	<!-- IF S_ENABLE_FEEDS_TOPICS_ACTIVE --><link rel="alternate" type="application/atom+xml" title="{L_FEED} - {L_FEED_TOPICS_ACTIVE}" href="{U_FEED}?mode=topics_active" /><!-- ENDIF -->
+	<!-- IF S_ENABLE_FEEDS_FORUM and S_FORUM_ID --><link rel="alternate" type="application/atom+xml" title="{L_FEED} - {L_FORUM} - {FORUM_NAME}" href="{U_FEED}?f={S_FORUM_ID}" /><!-- ENDIF -->
+	<!-- IF S_ENABLE_FEEDS_TOPIC and S_TOPIC_ID --><link rel="alternate" type="application/atom+xml" title="{L_FEED} - {L_TOPIC} - {TOPIC_TITLE}" href="{U_FEED}?f={S_FORUM_ID}&amp;t={S_TOPIC_ID}" /><!-- ENDIF -->
+<!-- ENDIF -->
+
+<!--
+	phpBB style name: ComBoot Free
+	Based on style:   prosilver (this is the default phpBB3 style)
+	Original author:  Tom Beddard ( http://www.subBlue.com/ )
+	Modified by: Florian Gareis (http://www.florian-gareis.de)
+	Version: 1.0
+-->
+
+<script type="text/javascript">
+// <![CDATA[
+	var jump_page = '{LA_JUMP_PAGE}:';
+	var on_page = '{ON_PAGE}';
+	var per_page = '{PER_PAGE}';
+	var base_url = '{A_BASE_URL}';
+	var style_cookie = 'phpBBstyle';
+	var style_cookie_settings = '{A_COOKIE_SETTINGS}';
+	var onload_functions = new Array();
+	var onunload_functions = new Array();
+
+	<!-- IF S_USER_PM_POPUP and S_NEW_PM -->
+		var url = '{UA_POPUP_PM}';
+		window.open(url.replace(/&amp;/g, '&'), '_phpbbprivmsg', 'height=225,resizable=yes,scrollbars=yes, width=400');
 	<!-- ENDIF -->
+
+	/**
+	* Find a member
+	*/
+	function find_username(url)
+	{
+		popup(url, 760, 570, '_usersearch');
+		return false;
+	}
+
+	/**
+	* New function for handling multiple calls to window.onload and window.unload by pentapenguin
+	*/
+	window.onload = function()
+	{
+		for (var i = 0; i < onload_functions.length; i++)
+		{
+			eval(onload_functions[i]);
+		}
+	};
+
+	window.onunload = function()
+	{
+		for (var i = 0; i < onunload_functions.length; i++)
+		{
+			eval(onunload_functions[i]);
+		}
+	};
+
+// ]]>
+</script>
+<script type="text/javascript" src="{T_TEMPLATE_PATH}/styleswitcher.js"></script>
+<script type="text/javascript" src="{T_TEMPLATE_PATH}/forum_fn.js"></script>
+
+<link href="{T_THEME_PATH}/print.css" rel="stylesheet" type="text/css" media="print" title="printonly" />
+<!--link href="{T_STYLESHEET_LINK}" rel="stylesheet" type="text/css" media="screen, projection" /-->
+
+<!-- INCLUDE additional_files.html -->
+
+<!-- IF S_CONTENT_DIRECTION eq 'rtl' -->
+	<link href="{T_THEME_PATH}/bidi.css" rel="stylesheet" type="text/css" media="screen, projection" />
+<!-- ENDIF -->
+
+</head>
+
+<body id="phpbb" class="section-{SCRIPT_NAME} {S_CONTENT_DIRECTION}">
+	<a id="top" accesskey="t"></a>
+	<!-- INCLUDE overall_header_nav.html -->
+	<div class="jumbotron no-margin-bottom no-padding-bottom">
+		<div class="container text-center">
+			<div id="site-logo"><a href="{U_INDEX}" title="{L_INDEX}">{SITE_LOGO_IMG}</a></div>
+			<p>{SITE_DESCRIPTION}</p>
+			<!-- IF U_MCP or U_ACP -->
+				<div class="alert alert-warning" id="update-notification">A new version (<span class="version"></span>) is available: <a href="http://zoker.me/go/comboot-changelog" target="_blank">Changelog</a> | <a href="http://zoker.me/go/comboot-download" target="_blank">Download</a> (Don`t worry, this message is only visible to admins)</div>
+			<!-- ENDIF -->
+			<p class="skiplink"><a href="#start_here">{L_SKIP}</a></p>
+		</div>
+	</div>
+	<a id="start_here"></a>
+	<div class="container" id="content-wrapper">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="btn-group btn-breadcrumb">
+					 <a href="{U_INDEX}" accesskey="h" class="btn btn-primary" title="{L_INDEX}"><i class="glyphicon glyphicon-home"></i></a> <!-- BEGIN navlinks --> <a href="{navlinks.U_VIEW_FORUM}" class="btn btn-primary">{navlinks.FORUM_NAME}</a><!-- END navlinks -->
+				</div>
+			</div>
+		</div>		
+		<!-- IF S_BOARD_DISABLED and S_USER_LOGGED_IN and (U_MCP or U_ACP) -->
+			<div class="row">
+				<div class="col-md-12">
+					<div class="alert alert-danger rules">
+						<strong>{L_INFORMATION}:</strong> {L_BOARD_DISABLED}
+					</div>
+				</div>
+			</div>
+		<!-- ENDIF -->
