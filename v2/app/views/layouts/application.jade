@@ -41,20 +41,21 @@ html(lang='en')
     .container
       block content
     .container
-      footer
-        p
-          a(href='http://www.wps.com' target='_blank') Official Site
-          |  | 
-          a(href='http://www.wps.cn' target='_blank') Chinese Site
-          |  | 
-          a(href='http://community.wps.cn' target='_blank') Chinese Community
-          |  | 
-          a(href='/aboutus') About us
-          |  | 
-          a(href='mailto:wps_linux@kingsoft.com') Contact us
-          |  | 
-          a(href='/distribution') Distribution
-        p Copyright © 1988-2015 Kingsoft Office Corporation, All Rights Reserved
+      block footer
+        footer
+          p
+            a(href='http://www.wps.com' target='_blank') Official Site
+            |  | 
+            a(href='http://www.wps.cn' target='_blank') Chinese Site
+            |  | 
+            a(href='http://community.wps.cn' target='_blank') Chinese Community
+            |  | 
+            a(href='/aboutus') About us
+            |  | 
+            a(href='mailto:wps_linux@kingsoft.com') Contact us
+            |  | 
+            a(href='/distribution') Distribution
+          p Copyright © 1988-2015 Kingsoft Office Corporation, All Rights Reserved
     script(src='/bower_components/jquery/dist/jquery.min.js')
     script(src='/bower_components/bootstrap/dist/js/bootstrap.min.js')
     script(src='/bower_components/bootstrap3-ie10-viewport-bug-workaround/ie10-viewport-bug-workaround.js')

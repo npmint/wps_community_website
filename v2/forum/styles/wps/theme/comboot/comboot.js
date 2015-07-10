@@ -152,7 +152,7 @@ $(document).ready(function() {
 
     $("select").addClass("selectpicker");
     $(".selectpicker").attr({"data-width": "auto"});
-    $(".selectpicker").selectpicker();
+    // $(".selectpicker").selectpicker();
 
     $('.top, .to-top, .top2').click(function(event){        
         event.preventDefault();
@@ -161,9 +161,9 @@ $(document).ready(function() {
 
     $('#site-logo img').addClass('img-responsive center-block');
 
-    $('.progress .progress-bar').progressbar({
-        percent_format: function(percent) { return percent; }
-    });
+    // $('.progress .progress-bar').progressbar({
+    //     percent_format: function(percent) { return percent; }
+    // });
 
     $('.pagination-line a:not(.btn)').attr('class','btn btn-default btn-xs');
     $('.topic-pagination a:not(.btn), .forum-pagination a:not(.btn)').attr('class','btn btn-default btn-sm');
@@ -217,9 +217,9 @@ $(document).ready(function() {
     var dangercolor = $('.alert-danger').css('color');
     $('#alert-area').css('border-color', dangercolor);
 
-    $('.colour-picker').colorpicker({
-        format: 'hex'
-    });
+    // $('.colour-picker').colorpicker({
+    //     format: 'hex'
+    // });
 
     // Update notification function
     $.ajax('http://comboot.io/version.php').success(function (data) {

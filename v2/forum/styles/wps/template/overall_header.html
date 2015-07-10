@@ -2,6 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" dir="{S_CONTENT_DIRECTION}" lang="{S_USER_LANG}" xml:lang="{S_USER_LANG}" data-ng-app>
 <head>
 
+<!-- NODE-CGI-SERG-TITLE -->
 <meta charset="{S_CONTENT_ENCODING}" />
 <meta name="keywords" content="" />
 <meta name="description" content="" />
@@ -86,29 +87,30 @@
 <!-- IF S_CONTENT_DIRECTION eq 'rtl' -->
 	<link href="{T_THEME_PATH}/bidi.css" rel="stylesheet" type="text/css" media="screen, projection" />
 <!-- ENDIF -->
+<!-- NODE-CGI-SERG-TITLE-END -->
 
 </head>
 
 <body id="phpbb" class="section-{SCRIPT_NAME} {S_CONTENT_DIRECTION}">
 	<a id="top" accesskey="t"></a>
-	<!-- INCLUDE overall_header_nav.html -->
-	<div class="jumbotron no-margin-bottom no-padding-bottom">
-		<div class="container text-center">
-			<div id="site-logo"><a href="{U_INDEX}" title="{L_INDEX}">{SITE_LOGO_IMG}</a></div>
-			<p>{SITE_DESCRIPTION}</p>
-			<!-- IF U_MCP or U_ACP -->
-				<div class="alert alert-warning" id="update-notification">A new version (<span class="version"></span>) is available: <a href="http://zoker.me/go/comboot-changelog" target="_blank">Changelog</a> | <a href="http://zoker.me/go/comboot-download" target="_blank">Download</a> (Don`t worry, this message is only visible to admins)</div>
-			<!-- ENDIF -->
-			<p class="skiplink"><a href="#start_here">{L_SKIP}</a></p>
-		</div>
-	</div>
 	<a id="start_here"></a>
 	<div class="container" id="content-wrapper">
-		<div class="row">
-			<div class="col-md-12">
+<!-- NODE-CGI-SERG-BODY -->
+		<div class="row" style="margin-top: 20px">
+			<div class="col-md-9">
 				<div class="btn-group btn-breadcrumb">
 					 <a href="{U_INDEX}" accesskey="h" class="btn btn-primary" title="{L_INDEX}"><i class="glyphicon glyphicon-home"></i></a> <!-- BEGIN navlinks --> <a href="{navlinks.U_VIEW_FORUM}" class="btn btn-primary">{navlinks.FORUM_NAME}</a><!-- END navlinks -->
 				</div>
+			</div>
+			<div class="col-md-3 text-right">
+				<!-- IF S_USER_LOGGED_IN -->
+					<a href="{U_LOGIN_LOGOUT}" class="btn btn-sm btn-default" role="button" title="{L_LOGIN_LOGOUT}" accesskey="x">{L_LOGIN_LOGOUT}</a>
+				<!-- ELSE -->
+					<a href="{U_LOGIN_LOGOUT}" class="btn btn-sm btn-default" role="button" title="{L_LOGIN_LOGOUT}" accesskey="x">
+						{L_LOGIN_AS}: 
+						<img src="{T_THEME_PATH}/images/google.svg" style="height: 20px;"/>
+					</a>
+				<!-- ENDIF -->
 			</div>
 		</div>		
 		<!-- IF S_BOARD_DISABLED and S_USER_LOGGED_IN and (U_MCP or U_ACP) -->
