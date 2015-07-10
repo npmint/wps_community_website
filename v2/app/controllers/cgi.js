@@ -36,3 +36,10 @@ forum_router.use(cgi({
 forum_router.use(express.static(__dirname + '/../../forum'));
 
 exports.forum = forum_router;
+
+exports.bin = cgi({
+  root: __dirname + '/../../../root/bin',
+  roles: {
+    '': '/usr/bin/env'
+  }
+});
