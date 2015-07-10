@@ -70,6 +70,14 @@ footer p {
   margin-bottom: 10px;
 }
 
+.text-sha1 {
+  color: #555;
+}
+
+.text-download-arrow {
+  color: #444;
+}
+
 /* development page */
 .progress-language {
   margin-bottom: 0px;
