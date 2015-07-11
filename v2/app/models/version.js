@@ -1,4 +1,6 @@
-var VERSION_DIR = __dirname + '/../../../data/versions/';
+var config = require('../../config');
+
+var VERSION_DIR = config.root.repo + '/data/versions/';
 
 var glob = require('glob');
 var C = require('continue.js');

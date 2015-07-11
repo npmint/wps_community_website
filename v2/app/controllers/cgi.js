@@ -1,3 +1,4 @@
+var config = require('../../config');
 var path = require('path');
 var express = require('express');
 var cgi = require('serve-cgi');
@@ -28,21 +29,20 @@ var forum_decorator = function(res, headers, body, done) {
 var forum_router = express.Router();
 forum_router.use(cgi({
   mount: '/',
-  root: path.join(__dirname, '../..'),
-  cwd: path.join(__dirname, '../..'),
+  root: config.root.v2,
+  cwd: config.root.v2,
   roles: {
     '.php': '/usr/bin/php5-cgi'
   },
   indexes: ['index.php'],
   decorator: forum_decorator
 }));
-forum_router.use(express.static(__dirname + '/../../forum'));
+forum_router.use(express.static(config.root.v2 + '/forum'));
 
 exports.forum = forum_router;
 
 exports.bin = cgi({
-  root: path.join(__dirname, '../../../root/bin'),
-  cwd: path.join(__dirname, '../../../root'),
+  root: config.root.v1 + '/bin',
   roles: {
     '': '/usr/bin/env'
   },

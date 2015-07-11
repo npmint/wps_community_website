@@ -1,4 +1,6 @@
-var ST_FILE = __dirname + '/../../../var/wps_mui.st';
+var config = require('../../config');
+
+var ST_FILE = config.root.repo + '/var/wps_mui.st';
 
 var fs = require('fs');
 
