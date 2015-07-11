@@ -16,7 +16,7 @@ $user->setup('ucp');
 
 function oauth_show_register($oauth_info, $nickname_repeat = false, $nickname_too_short = false)
 {
-	global $phpEx, $template;
+	global $phpEx, $template, $phpbb_root_path;
 	
 	if (session_id() == '')
 		session_start();
@@ -43,7 +43,7 @@ function oauth_show_register($oauth_info, $nickname_repeat = false, $nickname_to
 
 function oauth_login()
 {
-	global $phpEx, $config, $auth, $user;
+	global $phpEx, $config, $auth, $user, $phpbb_root_path;
 	
 	$info = false;
 	$method = trim(basename($config['auth_method']));
@@ -157,7 +157,7 @@ function oauth_new_user_row($userinfo)
 
 function oauth_register()
 {
-	global $db, $phpEx;
+	global $db, $phpEx, $phpbb_root_path;
 	
 	if (session_id() == '')
 		session_start();

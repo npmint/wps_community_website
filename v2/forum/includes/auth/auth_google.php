@@ -30,7 +30,7 @@ function oauth_exchange_code()
 		'code' => $code,
 		'client_id' => $config['oauth_client_id'],
 		'client_secret' => $config['oauth_client_secret'],
-		'redirect_uri' => $config['server_protocol'] . $config['server_name'] . $config['script_path'] . '/oauth.php',
+		'redirect_uri' => $config['server_protocol'] . $_SERVER['HTTP_HOST'] . $config['script_path'] . '/oauth.php',
 		'grant_type' => 'authorization_code',
 		);
 	
