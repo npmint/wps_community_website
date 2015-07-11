@@ -1,0 +1,35 @@
+extends /layouts/application.jade
+
+block title
+  title #{title} - WPS Office Community
+
+block content
+  ol.breadcrumb(style='margin-top: 20px')
+    - p = ''
+    each level in levels
+      li
+        - p = p + '/' + level
+        a(href=p)= level
+  if marked
+    .marked
+      != marked
+  table.table.table-hover.mono
+    thead
+      th File Name
+      th File Size
+      th Last Modified (UTC)
+      th SHA1
+    tbody
+      each fi in fileInfos
+        tr
+          td
+            if fi.isDir
+              span.glyphicon.glyphicon-folder-close
+            else
+              span.glyphicon.glyphicon-file
+            |  
+            a(href=(p + '/' + fi.name))
+              = fi.name
+          td= fi.size
+          td= fi.mtime
+          td= fi.sha1

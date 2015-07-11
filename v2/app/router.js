@@ -31,6 +31,9 @@ router.get('/distribution', action('main.distribution'));
 router.use('/forum', action('cgi.forum'));
 router.use('/bin', action('cgi.bin'));
 
+router.get('/download', action('dirlist.index'));
+router.get('/download/**', action('dirlist.index'));
+
 // redirect
 router.get('/forum', redirect('/forum/'));
 
