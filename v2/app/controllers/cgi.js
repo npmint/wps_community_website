@@ -27,15 +27,13 @@ var forum_decorator = function(res, headers, body, done) {
 
 var forum_router = express.Router();
 forum_router.use(cgi({
-  root: path.join(__dirname, '../../forum'),
+  mount: '/',
+  root: path.join(__dirname, '../..'),
   cwd: path.join(__dirname, '../..'),
   roles: {
     '.php': '/usr/bin/php5-cgi'
   },
   indexes: ['index.php'],
-  env: {
-    DOCUMENT_ROOT: path.join(__dirname, '../..')
-  },
   decorator: forum_decorator
 }));
 forum_router.use(express.static(__dirname + '/../../forum'));
@@ -48,7 +46,4 @@ exports.bin = cgi({
   roles: {
     '': '/usr/bin/env'
   },
-  env: {
-    DOCUMENT_ROOT: path.join(__dirname, '../../../root')
-  }
 });
