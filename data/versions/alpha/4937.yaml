@@ -1,7 +1,8 @@
 version: 9.1.0.4937
 linux_version: Alpha16 Patch2
+linux_version_line: a16
 linux_version_short: a16p2
-release_data: 2014-11-14
+release_date: 2014-11-14
 full_name: WPS Office for Linux Alpha16 Patch2
 whats_new: |
     Fixed Presentation have extra margin on exported pdf file.

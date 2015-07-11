@@ -1,0 +1,62 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    meta(name='description', content='')
+    meta(name='author', content='')
+    block title
+    link(href='/bower_components/bootstrap/dist/css/bootstrap.min.css', rel='stylesheet')
+    link(href='/app/css/application.css', rel='stylesheet')
+    //if lt IE 9
+      script(src='/bower_components/html5shiv/dist/html5shiv.min.js')
+      script(src='/bower_components/respond/dest/respond.min.js')
+  body(class=field)
+    header.navbar.navbar-inverse.navbar-fixed-top
+      .container
+        .navbar-header
+          button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#navbar', aria-expanded='false', aria-controls='navbar')
+            span.sr-only Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a.navbar-brand(href='/') WPS Communtiy
+        #navbar.collapse.navbar-collapse
+          ul.nav.navbar-nav
+            li(class=(action === 'main.index') ? 'active' : '')
+              a(href='/') Home
+            li(class=(action === 'main.download') ? 'active' : '')
+              a(href='/download') Downloads
+            li(class=(action === 'cgi.forum') ? 'active' : '')
+              a(href='/forum/') Forum
+            li(class=(action === 'main.faq') ? 'active' : '')
+              a(href='/faq') FAQ
+            li(class=(action === 'main.helpus') ? 'active' : '')
+              a(href='/helpus') Help us
+            li(class=(action === 'main.development') ? 'active' : '')
+              a(href='/development') Development
+            li(class=(action === 'main.donate') ? 'active' : '')
+              a(href='/donate') Donate
+    .container
+      block content
+    .container
+      block footer
+        footer
+          p
+            a(href='http://www.wps.com' target='_blank') Official Site
+            |  | 
+            a(href='http://www.wps.cn' target='_blank') Chinese Site
+            |  | 
+            a(href='http://community.wps.cn' target='_blank') Chinese Community
+            |  | 
+            a(href='/aboutus') About us
+            |  | 
+            a(href='mailto:wps_linux@kingsoft.com') Contact us
+            |  | 
+            a(href='/distribution') Distribution
+          p Copyright © 1988-2015 Kingsoft Office Corporation, All Rights Reserved
+    script(src='/bower_components/jquery/dist/jquery.min.js')
+    script(src='/bower_components/bootstrap/dist/js/bootstrap.min.js')
+    script(src='/bower_components/bootstrap3-ie10-viewport-bug-workaround/ie10-viewport-bug-workaround.js')
+    block script

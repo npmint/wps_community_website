@@ -1,7 +1,8 @@
 version: 9.1.0.4244
 linux_version: Alpha12 Patch3
+linux_version_line: a12
 linux_version_short: a12p3
-release_data: 2013-12-04
+release_date: 2013-12-04
 full_name: Kingsoft Office for Linux Alpha12 Patch3
 whats_new: |
     Fixed the crash issue while checking the printer information after adding or deleting a printer during program run.

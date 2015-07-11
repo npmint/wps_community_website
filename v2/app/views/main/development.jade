@@ -1,0 +1,33 @@
+extends /layouts/application.jade
+
+block title
+  title Development
+
+block content
+  h1 Develop for WPS
+
+  h2 Translate WPS
+  | Project Address: 
+  a(href='https://github.com/wps-community/wps_i18n') https://github.com/wps-community/wps_i18n
+  table.table.table-hover.table-condensed
+    thead
+      tr
+        th Locale
+        th Done / Total
+        th(width='80%') Progress
+    tbody
+      each lang in langs
+        tr
+          td.text-nowrap= lang.locale
+          td.text-nowrap #{lang.done} / #{lang.total}
+          td
+            div.progress.progress-language
+              div.progress-bar(role='progressbar' style='width: #{lang.percent * 100}%;')
+
+  h2 Qt modified by WPS
+  | Project Address: 
+  a(href='https://gitcafe.com/wpsv9/qt-kso-integration') https://gitcafe.com/wpsv9/qt-kso-integration
+
+  h2 Source of WPS Community Website
+  | Project Address:
+  a(href='https://github.com/wps-community/wps_community_website') https://github.com/wps-community/wps_community_website

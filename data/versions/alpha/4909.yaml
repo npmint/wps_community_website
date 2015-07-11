@@ -1,7 +1,8 @@
 version: 9.1.0.4909
 linux_version: Alpha16 Patch1
+linux_version_line: a16
 linux_version_short: a16p1
-release_data: 2014-10-31
+release_date: 2014-10-31
 full_name: WPS Office for Linux Alpha16 Patch1
 whats_new: |
     Fixed unable change UI language on certain locales.

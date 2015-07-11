@@ -1,7 +1,8 @@
 version: 9.1.0.4280
 linux_version: Alpha12 Patch4
+linux_version_line: a12
 linux_version_short: a12p4
-release_data: 2014-03-17
+release_date: 2014-03-17
 full_name: Kingsoft Office for Linux Alpha12 Patch4
 whats_new: |
     Update End User License Agreement for Kingsoft Office.

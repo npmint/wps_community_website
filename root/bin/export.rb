@@ -6,3 +6,6 @@ puts
 ENV.each do |k, v|
   puts "#{k} = #{v}"
 end
+
+puts
+puts "workdir: #{Dir.pwd}"

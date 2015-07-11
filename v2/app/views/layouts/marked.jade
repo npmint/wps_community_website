@@ -1,0 +1,11 @@
+extends /layouts/application.jade
+
+block title
+  if title
+    title= title
+  else
+    title WPS Community
+
+block content
+  .markdown
+    != content

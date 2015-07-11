@@ -1,0 +1,14 @@
+{
+  "name": "jcz-im-2",
+  "version": "0.0.0",
+  "authors": [
+    "jinchizhong <jinchizhong@kingsoft.com>"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.5",
+    "bootstrap3-ie10-viewport-bug-workaround": "~1.0.0",
+    "html5shiv": "~3.7.2",
+    "respond": "~1.4.2"
+  }
+}

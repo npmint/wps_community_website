@@ -13,3 +13,15 @@
 
 *~
 *.swp
+
+# node js
+node_modules
+npm-debug.log
+bower_components
+
+/v2/forum/cache
+/v2/forum/.buildpath
+/v2/forum/.project
+/v2/forum/.settings
+/v2/forum/images/avatars/upload
+/v2/forum/files/

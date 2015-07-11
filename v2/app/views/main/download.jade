@@ -1,0 +1,48 @@
+extends /layouts/application.jade
+
+block title
+  title Downloads
+
+block content
+  .row
+    .col-sm-3.sidebar
+      .panel.panel-default
+        .panel-heading
+          | Version Lines
+        .list-group
+          each val, vl in version_lines
+            a.list-group-item(class=(current_version_line === vl ? 'active' : '') href=('?vl='+vl+'#download'))= vl
+    .col-sm-9.main
+      span(id='download').anchor
+      h1 Product Download
+      big
+        p
+          | Feel free with your creation. Writing, calculating, showing as your mind. 
+          | When you are feeling good, share to your friends.
+          | When you are feeling bad, 
+          a(href='/forum/') we are here
+          | .
+      each version, key in version_lines[current_version_line]
+        h2
+          = version.full_name
+          small= '[' + version.release_date.toISOString().replace(/T.*/, '') + ']'
+          if version.whats_new
+            h4 What's new:
+            ol
+              each news in version.whats_new.split('\n')
+                if news
+                  li= news
+          if version.release_notes
+            h4 Notes:
+            ul
+              each note in version.release_notes.split('\n')
+                if note
+                  li!= note
+          h4 Addresses:
+          ul
+            each addr in version.addresses
+              li.list-unstyled.list-download.clearfix
+                span.text-download-arrow.glyphicon.glyphicon-download.li-leader.x2
+                a(href=addr.address)= addr.address.replace(/.*\//, '')
+                br
+                span.text-sha1= 'SHA1SUM: ' + addr.sha1sum
