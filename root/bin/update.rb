@@ -15,8 +15,12 @@ e = `git rev-parse HEAD`
 
 if s == e
   puts "No file updated."
-elsif File.exists? $root + "/forum/cache"
-  puts `rm #{$root + "/forum/cache/*.php"} -v`
+else
+  puts `rm -vf #{$root + "/forum/cache/*.php"}`
+  puts `rm -vf #{$root + "/../v2/forum/cache/*.php"}`
+  puts `cd #{$root + "/../v2"} && PATH=/opt/node/bin:$PATH npm install`
+  # restart node
+  puts `pkill node`
 end
 
 if not $root2
