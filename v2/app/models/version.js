@@ -9,21 +9,21 @@ var fs = require('fs');
 var cache;
 
 var readYamlFile = function(fpath, done) {
-  C(function(c) {
-    fs.readFile(fpath, c.assigner('err', 'content'));
-  })(function(c) {
-    c.obj = jsyaml.load(c.content);
+  C().then(function(c) {
+    fs.readFile(fpath, c.assign('err', 'content'));
+  }).then(function(c, locals) {
+    locals.obj = jsyaml.load(locals.content);
     c();
-  }).report('obj', done);
+  }).stdend('obj', done);
 };
 
 exports.prepare = function(done) {
-  C(function(c) {
-    glob(VERSION_DIR + '**/*.yaml', c.assigner('err', 'files'));
-  })(function(c) {
-    async.map(c.files, readYamlFile, c.assigner('err', 'versions'));
-  })(function(c) {
-    c.versions.sort(function(a, b) {
+  C().then(function(c) {
+    glob(VERSION_DIR + '**/*.yaml', c.assign('err', 'files'));
+  }).then(function(c, locals) {
+    async.map(locals.files, readYamlFile, c.assign('err', 'versions'));
+  }).then(function(c, locals) {
+    locals.versions.sort(function(a, b) {
       if (a.version < b.version) {
         return 1;
       } else if (a.version > b.version) {
@@ -32,14 +32,9 @@ exports.prepare = function(done) {
         return 0;
       }
     });
+    cache = locals.versions;
     c();
-  }).end(function (err, c) {
-    if (err) {
-      throw err;
-    }
-    cache = c.versions;
-    done();
-  });
+  }).end(done);
 };
 
 exports.all = function(done) {

@@ -1,7 +1,6 @@
 var FAQ_FILE = __dirname + '/../../../data/faqs.yaml';
 
 var fs = require('fs');
-var C = require('continue.js');
 var jsyaml = require('js-yaml');
 
 var cache;

@@ -11,12 +11,12 @@ if (config.cluster && cluster.isMaster) {
   var server = require('./server');
   var C = require('continue.js');
 
-  C.then(function(c) {
+  C().then(function(c) {
     server.prepare ? server.prepare(c) : c();
   }).then(function(c) {
-    c.server = server.listen(process.env.PORT || 3000, c);
+    c.locals.server = server.listen(process.env.PORT || 3000, c);
   }).then(function(c) {
-    var addr = c.server.address();
+    var addr = c.locals.server.address();
     console.log('Listening at http://%s:%s', addr.address, addr.port);
   }).end();
 }
