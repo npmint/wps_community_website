@@ -12,6 +12,7 @@ block content
         .list-group
           each val, vl in version_lines
             a.list-group-item(class=(current_version_line === vl ? 'active' : '') href=('?vl='+vl+'#download'))= vl
+          a.list-group-item(href='/download') Other resources
     .col-sm-9.main
       span(id='download').anchor
       h1 Product Download
