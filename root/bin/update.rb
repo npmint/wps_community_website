@@ -13,20 +13,19 @@ puts gitret
 
 e = `git rev-parse HEAD`
 
+$root = `git rev-parse --show-toplevel`
+
 if s == e
   puts "No file updated."
 else
-  puts `rm -vf #{$root + "/forum/cache/*.php"}`
-  puts `rm -vf #{$root + "/../v2/forum/cache/*.php"}`
-  puts `cd #{$root + "/../v2"} && PATH=/opt/node/bin:$PATH npm install`
+  puts `rm -vf #{$root + "/root/forum/cache/*.php"}`
+  puts `rm -vf #{$root + "/v2/forum/cache/*.php"}`
+  puts `cd #{$root + "/v2"} && PATH=/opt/node/bin:$PATH npm install`
   # restart node
   puts `pkill node`
 end
 
-if not $root2
-  $root2 = "../.."
-end
-log = open($root2 + "/log/update.log", "a")
+log = open($root + "/log/update.log", "a")
 log.puts Time.now
 log.puts "Call from #{ENV["REMOTE_ADDR"]}"
 log.puts gitlog
