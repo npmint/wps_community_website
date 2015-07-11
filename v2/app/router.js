@@ -21,7 +21,7 @@ var redirect = function(url) {
 
 router.get('/', action('main.index'));
 router.get('/about', action('main.about'));
-router.get('/download', action('main.download'));
+router.get('/downloads', action('main.downloads'));
 router.get('/faq', action('main.faq'));
 router.get('/helpus', action('main.helpus'));
 router.get('/development', action('main.development'));
@@ -35,7 +35,7 @@ router.use('/bin', action('cgi.bin'));
 router.get('/forum', redirect('/forum/'));
 
 // legacy
-router.get('/download.html', action('main.download'));
+router.get('/download.html', action('main.downloads'));
 router.get('/faq.html', action('main.faq'));
 router.get('/helpus.md', action('main.helpus'));
 router.get('/dev.html', action('main.development'));

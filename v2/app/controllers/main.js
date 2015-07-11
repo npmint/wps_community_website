@@ -6,7 +6,7 @@ exports.about = function(req, res) {
   res.marked('main/about.md');
 };
 
-exports.download = function(req, res) {
+exports.downloads = function(req, res) {
   var models = req.app.models;
   models.version.all(function (err, versions) {
     if (err) {
@@ -24,7 +24,7 @@ exports.download = function(req, res) {
 
     var current_version_line = req.query.vl || last_vl;
 
-    res.render('main/download', {versions: versions, version_lines: vls, current_version_line: current_version_line});
+    res.render('main/downloads', {versions: versions, version_lines: vls, current_version_line: current_version_line});
   });
 };
 
