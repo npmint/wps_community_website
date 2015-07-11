@@ -25,3 +25,5 @@ bower_components
 /v2/forum/.settings
 /v2/forum/images/avatars/upload
 /v2/forum/files/
+
+test.php

@@ -150,7 +150,7 @@ function auth_redirect_google($info)
 	global $config, $user;
 	
 	$client_id = $config['oauth_client_id'];
-	$redirect_uri = $config['server_protocol'] . $config['server_name'] . $config['script_path'] . '/oauth.php';
+	$redirect_uri = $config['server_protocol'] . $_SERVER['HTTP_HOST'] . $config['script_path'] . '/oauth.php';
 	$scope = 'https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile';
 	$response_type = 'code';
 	$append_info = array(
