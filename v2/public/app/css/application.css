@@ -31,6 +31,10 @@ footer p {
   margin-bottom: 1px;
 }
 
+table>thead>tr>th {
+  white-space: nowrap;
+}
+
 /* common tools */
 .anchor {
   position: relative;
