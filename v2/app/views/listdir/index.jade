@@ -13,7 +13,7 @@ block content
   if marked
     .marked
       != marked
-  table.table.table-hover.mono
+  table.table.table-hover.mono.hide
     thead
       th File Name
       th File Size
@@ -31,5 +31,12 @@ block content
             a(href=(p + '/' + fi.name))
               = fi.name
           td= fi.size
-          td= fi.mtime
+          td.mtime= fi.mtime.getTime ? fi.mtime.getTime() : '-'
           td= fi.sha1
+  script.
+    d3.selectAll('.mtime').text(function() {
+      var text = d3.select(this).text();
+      return isNaN(text) ? text : new Date(+text);
+    });
+    d3.select('table').classed('hide', false)
+
