@@ -3,5 +3,23 @@ extends /layouts/application.jade
 block title
   title main#index
 
-block content
-  h1 main#index
+block content-wide
+  .call-to-action
+    .container(style='position: relative')
+      img(src='/app/images/world.png')
+      .call-to-action-text
+        img(src='/app/images/call-to-action-text.svg')
+      .call-to-action-buttons
+        a.btn.btn-lg.btn-primary(href='/forum/') 
+          span.fa.fa-comments
+          |  Discussion
+        a.btn.btn-lg.btn-primary.float-right(href='/downloads')
+          span.fa.fa-download
+          |  Get it now
+  .container
+    h1 Announcements
+    each n in news
+      h3= n.title
+      .news-body
+        != n.body
+

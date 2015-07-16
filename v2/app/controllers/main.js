@@ -1,5 +1,8 @@
 exports.index = function(req, res) {
-  res.render('main/index');
+  var models = req.app.models;
+  models.news.all(function (err, news) {
+    res.render('main/index', {news: news});
+  });
 };
 
 exports.about = function(req, res) {
