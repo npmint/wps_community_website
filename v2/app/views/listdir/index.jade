@@ -17,16 +17,16 @@ block content
     thead
       th File Name
       th File Size
-      th Last Modified (UTC)
+      th Last Modified
       th SHA1
     tbody
       each fi in fileInfos
         tr
           td
             if fi.isDir
-              span.glyphicon.glyphicon-folder-close
+              span.fa.fa-folder
             else
-              span.glyphicon.glyphicon-file
+              span.fa.fa-file
             |  
             a(href=(p + '/' + fi.name))
               = fi.name
@@ -34,9 +34,10 @@ block content
           td.mtime= fi.mtime.getTime ? fi.mtime.getTime() : '-'
           td= fi.sha1
   script.
+    var format = d3.time.format('%Y-%m-%d %X');
     d3.selectAll('.mtime').text(function() {
       var text = d3.select(this).text();
-      return isNaN(text) ? text : new Date(+text);
+      return isNaN(text) ? text : format(new Date(+text));
     });
     d3.select('table').classed('hide', false)
 
