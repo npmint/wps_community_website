@@ -13,7 +13,7 @@ puts gitret
 
 e = `git rev-parse HEAD`
 
-$root = `git rev-parse --show-toplevel`
+$root = `git rev-parse --show-toplevel`.strip()
 
 if s == e
   puts "No file updated."
