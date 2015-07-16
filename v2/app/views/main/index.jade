@@ -51,8 +51,8 @@ block script
         .enter()
         .append('circle')
         .attr({
-            cx: width / 2,
-            cy: height / 3,
+            cx: function() {return Math.random() > 0.5 ? 0 : width; },
+            cy: 0,
             r: 0
           })
         .transition()
