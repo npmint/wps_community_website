@@ -43,7 +43,7 @@ block content
           ul
             each addr in version.addresses
               li.list-unstyled.list-download.clearfix
-                span.text-download-arrow.glyphicon.glyphicon-download.li-leader.x2
+                span.text-download-arrow.fa.fa-download.fa-2x.li-leader
                 a(href=addr.address)= addr.address.replace(/.*\//, '')
                 br
                 span.text-sha1= 'SHA1SUM: ' + addr.sha1sum
