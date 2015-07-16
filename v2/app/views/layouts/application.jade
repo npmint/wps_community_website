@@ -23,9 +23,7 @@ html(lang='en')
             span.icon-bar
           a.navbar-brand(href='/') WPS Communtiy
         #navbar.collapse.navbar-collapse
-          ul.nav.navbar-nav
-            li(class=(action === 'main.index') ? 'active' : '')
-              a(href='/') Home
+          ul.nav.navbar-nav.navbar-right
             li(class=(action === 'main.downloads') ? 'active' : '')
               a(href='/downloads') Downloads
             li(class=(action === 'cgi.forum') ? 'active' : '')
