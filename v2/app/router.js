@@ -46,4 +46,7 @@ router.get('/donate.md', action('main.donate'));
 router.get('/aboutus.html', action('main.about'));
 router.get('/distribution.md', action('main.distribution'));
 
+// 404
+router.get('**', action('application.e404'));
+
 module.exports = router;
