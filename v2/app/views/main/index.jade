@@ -51,13 +51,13 @@ block script
         .enter()
         .append('circle')
         .attr({
-            cx: function() {return Math.random() > 0.5 ? 0 : width; },
+            cx: width / 2,
             cy: 0,
             r: 0
           })
         .transition()
-        .duration(function() {return Math.random() * 4300 + 700;})
-        .delay(function() {return Math.random() * 2000;})
+        .duration(function() {return Math.random() * 1300 + 700;})
+        .delay(function() {return Math.random() * 5000;})
         .attr({
             cx: function(d) {return d.x * 10 + 20;},
             cy: function(d) {return d.y * 10 + 50;},
