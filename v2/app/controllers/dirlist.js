@@ -30,7 +30,7 @@ exports.index = function(req, res) {
 
   C().then(function(c) {
     fs.stat(path, c.assign(null, 'stats'));
-  }).then(function(c, locals, err) {
+  }).then(function(c, err) {
     if (err) {
       // passby if not exists, or throw
       if (err.code === 'ENOENT') {
@@ -40,51 +40,51 @@ exports.index = function(req, res) {
         throw err;
       }
     }
-    if (locals.stats.isFile()) {
+    if (this.stats.isFile()) {
       res.sendFile(path);
       c.break();
     } else {
       fs.readdir(path, c.assign('err', 'files'));
     }
-  }).then(function(c, locals) {
-    var i = locals.files.indexOf('README.md');
+  }).then(function(c) {
+    var i = this.files.indexOf('README.md');
     if (i !== -1) {
-      locals.files.splice(i, 1); // hide README.md
+      this.files.splice(i, 1); // hide README.md
       res.marked(path + '/README.md', c.assign('marked'));
     } else {
       c();
     }
-  }).then(function(c, locals) {
-    async.map(locals.files, function(fname, done) {
+  }).then(function(c) {
+    async.map(this.files, function(fname, done) {
       fs.stat(path + '/' + fname, done);
     }, c.assign('err', 'files_stats'));
-  }).then(function(c, locals) {
-    async.map(locals.files, function(fname, done) {
-      var i = locals.files.indexOf(fname);
-      if (locals.files_stats[i].isDirectory()) {
+  }).then(function(c) {
+    async.map(this.files, function(fname, done) {
+      var i = c.ctx.files.indexOf(fname);
+      if (c.ctx.files_stats[i].isDirectory()) {
         done(null, '-');
       } else {
-        sha1(path + '/' + fname, locals.files_stats[i].mtime, done);
+        sha1(path + '/' + fname, c.ctx.files_stats[i].mtime, done);
       }
     }, c.assign('err', 'files_sha1'));
-  }).then(function(c, locals) {
+  }).then(function(c) {
     var fileInfos = [];
-    var files = locals.files;
-    var files_stats = locals.files_stats;
-    for (var i = 0; i < locals.files.length; ++i) {
+    var files = this.files;
+    var files_stats = this.files_stats;
+    for (var i = 0; i < this.files.length; ++i) {
       var info = {
         name: files[i],
         isDir: files_stats[i].isDirectory(),
         size: files_stats[i].isDirectory() ? '-' : filesize(files_stats[i].size),
         mtime: files_stats[i].mtime,
-        sha1: locals.files_sha1[i]
+        sha1: this.files_sha1[i]
       };
       fileInfos.push(info);
     }
-    locals.fileInfos = fileInfos;
-    locals.title = req.url;
-    locals.levels = req.url.replace(/^\/|\/$/g, '').split('/');
-    if (locals.levels.length > 1) {
+    this.fileInfos = fileInfos;
+    this.title = req.url;
+    this.levels = req.url.replace(/^\/|\/$/g, '').split('/');
+    if (this.levels.length > 1) {
       fileInfos.unshift({
         name: '..',
         isDir: true,
@@ -93,6 +93,6 @@ exports.index = function(req, res) {
         sha1: '-'
       });
     }
-    res.render('listdir/index.jade', locals);
+    res.render('listdir/index.jade', this);
   }).end();
 };

@@ -14,9 +14,9 @@ if (config.cluster && cluster.isMaster) {
   C().then(function(c) {
     server.prepare ? server.prepare(c) : c();
   }).then(function(c) {
-    c.locals.server = server.listen(process.env.PORT || 3000, c);
+    this.server = server.listen(process.env.PORT || 3000, c);
   }).then(function(c) {
-    var addr = c.locals.server.address();
+    var addr = this.server.address();
     console.log('Listening at http://%s:%s', addr.address, addr.port);
   }).end();
 }

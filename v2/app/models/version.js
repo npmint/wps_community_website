@@ -12,9 +12,9 @@ var cache;
 
 var readYamlFile = function(fpath, done) {
   C().then(function(c) {
-    fs.readFile(fpath, c.assign('err', 'content'));
-  }).then(function(c, locals) {
-    locals.obj = jsyaml.load(locals.content);
+    fs.readFile(fpath, c.assign('$err', 'content'));
+  }).then(function(c) {
+    this.obj = jsyaml.load(this.content);
     c();
   }).stdend('obj', done);
 };
@@ -22,10 +22,10 @@ var readYamlFile = function(fpath, done) {
 exports.prepare = function(done) {
   C().then(function(c) {
     glob(VERSION_DIR + '**/*.yaml', c.assign('err', 'files'));
-  }).then(function(c, locals) {
-    async.map(locals.files, readYamlFile, c.assign('err', 'versions'));
-  }).then(function(c, locals) {
-    locals.versions.sort(function(a, b) {
+  }).then(function(c) {
+    async.map(this.files, readYamlFile, c.assign('err', 'versions'));
+  }).then(function(c) {
+    this.versions.sort(function(a, b) {
       if (a.version < b.version) {
         return 1;
       } else if (a.version > b.version) {
@@ -34,7 +34,7 @@ exports.prepare = function(done) {
         return 0;
       }
     });
-    cache = locals.versions;
+    cache = this.versions;
     c();
   }).end(done);
 };
