@@ -37,7 +37,7 @@ forum_router.use(cgi({
   indexes: ['index.php'],
   decorator: forum_decorator
 }));
-forum_router.use(express.static(config.root.v2 + '/forum'));
+forum_router.use(express.static(config.root.v2 + '/forum', {maxage: 86400000}));
 
 exports.forum = forum_router;
 
