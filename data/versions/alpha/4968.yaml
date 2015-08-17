@@ -1,0 +1,33 @@
+version: 9.1.0.4968
+linux_version: Alpha19
+linux_version_line: a19
+linux_version_short: a19
+release_date: 2015-08-17
+full_name: WPS Office for Linux Alpha19
+whats_new: |
+    Fixed Writer Chinese word segmentation not usable.
+    Fixed Writer not render some complex text correctly.
+    Fixed some fonts unusable even they exists.
+    Fixed no read/write ActiveX control, OLE object and VBA macro stream/storages.
+    Improved stability.
+release_notes: |
+    We now removed the libstdc++ dependency, as changed to libc++.
+addresses:
+    - type: deb_x86
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a19/wps-office_9.1.0.4968~a19_i386.deb
+      sha1sum: bd1b17077eef2546128c54dcd0e3830ea3a19d59
+    - type: deb_x64
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a19/wps-office_9.1.0.4968~a19_amd64.deb
+      sha1sum: ec0468992aafa7fe5d9975f498aedecdbbe1743f
+    - type: rpm_x86
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a19/wps-office-9.1.0.4968-1.a19.i686.rpm
+      sha1sum: 744f5a3822877eef985e2ff39ef896681f1df5bc
+    - type: rpm_x64
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a19/wps-office-9.1.0.4968-1.a19.x86_64.rpm
+      sha1sum: 06f78aae0fb41b0e2b075cbf1c66b86e21960bc4
+    - type: tar.xz_x86
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a19/wps-office_9.1.0.4968~a19_x86.tar.xz
+      sha1sum: ad0b6fe2ee4c02efea2d38673b683c72f19c7266
+    - type: tar.xz_x64
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a19/wps-office_9.1.0.4968~a19_x86_64.tar.xz
+      sha1sum: 8ab8287f75bba00b94ee3c108af29f9ee31961f4
