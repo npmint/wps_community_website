@@ -72,8 +72,18 @@ table>thead>tr>th {
 }
 
 .news-body {
-  background-color: #eee;
+  background-color: #f9fbfc;
+  border-radius: 3px;
   padding: 1em 1.4em;
+  margin-bottom: 3em;
+}
+
+.news-image {
+  width: 100%;
+}
+
+.news-more {
+  text-align: right;
 }
 
 /* common tools */

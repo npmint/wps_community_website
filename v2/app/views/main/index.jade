@@ -27,9 +27,17 @@ block content-wide
   .container
     h1 Announcements
     each n in news
+      - var idx = news.indexOf(n)
       h3= n.title
       .news-body
-        != n.body
+        .row
+          .col-sm-4(class=(idx % 2 ? 'col-sm-push-8' : ''))
+            img.news-image(src=(n.image || '/app/images/no-image.png'))
+          .col-sm-8(class=(idx % 2 ? 'col-sm-pull-4' : ''))
+            != n.body
+            if n.more
+              .news-more
+                a(href=n.more) Get More >>>
 
 block script
   script.
