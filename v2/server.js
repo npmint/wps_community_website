@@ -9,6 +9,7 @@ app.set('views', __dirname + '/app/views');
 
 // middlewares
 app.use(require('express-domain-middleware'));
+app.use(require('./lib/redirect.js'));
 app.use(Express.static('public', {maxage: 86400000}));
 app.use(require('express-grab-body').init());
 app.use(require('express-grab-body').grab());
