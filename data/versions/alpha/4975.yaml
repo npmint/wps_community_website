@@ -10,7 +10,7 @@ whats_new: |
     Fixed AutoBackup unable re-enabled after disabled.
     Fixed application hangs when open the Online Templates window on Fedora 22.
 release_notes: |
-    If you can't enable AutoBackup, please run <a href="http://wps-community.org/download/tools/fix-autobackup.sh">fix-autobackup.sh</a> from terminal to resolve to problem (do chmod +x on the scipt before runing). Or, execute "sed -i '/ForceAutoBackupEnabled/d' ~/.config/Kingsoft/Office.conf" manully.
+    If you can't enable AutoBackup, please run <a href="http://wps-community.org/download/tools/fix-autobackup.sh">fix-autobackup.sh</a> from terminal to resolve the problem (do chmod +x on the scipt before runing). Or, execute "sed -i '/ForceAutoBackupEnabled/d' ~/.config/Kingsoft/Office.conf" manully.
 addresses:
     - type: deb_x86
       address: http://kdl.cc.ksosoft.com/wps-community/download/a19/wps-office_9.1.0.4975~a19p1_i386.deb
