@@ -1,0 +1,32 @@
+version: 9.1.0.4975
+linux_version: Alpha19 Patch1
+linux_version_line: a19
+linux_version_short: a19p1
+release_date: 2015-08-19
+full_name: WPS Office for Linux Alpha19 Patch1
+whats_new: |
+    Fixed Spreadsheets no reads OOXML formats document.
+    Fixed Writer crashes on saving as OOXML formats document (64bit only).
+    Fixed AutoBackup unable re-enabled after disabled.
+    Fixed application hangs when open the Online Templates window on Fedora 22.
+release_notes: |
+    If you can't enable AutoBackup, please run <a href="http://wps-community.org/download/tools/fix-autobackup.sh">fix-autobackup.sh</a> from terminal to resolve to problem (do chmod +x on the scipt before runing). Or, execute "sed -i '/ForceAutoBackupEnabled/d' ~/.config/Kingsoft/Office.conf" manully.
+addresses:
+    - type: deb_x86
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a19/wps-office_9.1.0.4975~a19p1_i386.deb
+      sha1sum: 2ad6c211eeade4aeb0e1fdee6cc1332787791500
+    - type: deb_x64
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a19/wps-office_9.1.0.4975~a19p1_amd64.deb
+      sha1sum: 27db649595758d847941d7e6149d03cd55d6266b
+    - type: rpm_x86
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a19/wps-office-9.1.0.4975-1.a19p1.i686.rpm
+      sha1sum: 1aa5daea4d3d3c1213195a6d569be3aa455c44ca
+    - type: rpm_x64
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a19/wps-office-9.1.0.4975-1.a19p1.x86_64.rpm
+      sha1sum: a6eea05226ef6c466725f4f4b2b0bf548d593f0d
+    - type: tar.xz_x86
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a19/wps-office_9.1.0.4975~a19p1_x86.tar.xz
+      sha1sum: 4529daf48c06c50ddbbe2ce4eb1362b0ddb4920a
+    - type: tar.xz_x64
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a19/wps-office_9.1.0.4975~a19p1_x86_64.tar.xz
+      sha1sum: 512b94132d18a896684e4470acc61c6f2f6d3a60
