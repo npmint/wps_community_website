@@ -6,6 +6,7 @@ var app = Express();
 // options
 app.set('view engine', 'jade');
 app.set('views', __dirname + '/app/views');
+app.set('trust proxy', ['loopback', 'linklocal', 'uniquelocal']);
 
 // middlewares
 app.use(require('express-domain-middleware'));
