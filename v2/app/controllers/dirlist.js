@@ -24,7 +24,7 @@ var sha1 = function(fpath, mtime, done) {
   });
 };
 
-exports.index = function(req, res) {
+exports.index = function(req, res, next) {
   var root = config.root.v1;
   var path = (root + req.url).replace(/\/$/, '');
 
