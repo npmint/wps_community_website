@@ -36,6 +36,7 @@ exports.index = function(req, res, next) {
       if (err.code === 'ENOENT') {
         next();
         c.break();
+        return;
       } else {
         throw err;
       }
