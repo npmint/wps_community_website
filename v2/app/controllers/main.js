@@ -64,3 +64,7 @@ exports.donate = function(req, res) {
 exports.distribution = function(req, res) {
   res.marked('main/distribution.md');
 };
+
+exports.license = function(req, res) {
+  res.marked('main/license.md');
+};

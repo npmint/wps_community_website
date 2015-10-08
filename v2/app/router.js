@@ -28,6 +28,7 @@ router.get('/development', action('main.development'));
 router.get('/donate', action('main.donate'));
 router.get('/about', action('main.about'));
 router.get('/distribution', action('main.distribution'));
+router.get('/license', action('main.license'));
 router.use('/forum', action('cgi.forum'));
 router.use('/bin', action('cgi.bin'));
 
@@ -45,6 +46,7 @@ router.get('/dev.html', action('main.development'));
 router.get('/donate.md', action('main.donate'));
 router.get('/aboutus.html', action('main.about'));
 router.get('/distribution.md', action('main.distribution'));
+router.get('/license.md', action('main.license'));
 
 // 404
 router.get('**', action('application.e404'));
