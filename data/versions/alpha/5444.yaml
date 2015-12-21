@@ -1,0 +1,36 @@
+version: 10.1.0.5444
+linux_version: Alpha20
+linux_version_line: a20
+linux_version_short: a20
+release_date: 2015-12-21
+full_name: WPS Office for Linux Alpha20
+whats_new: |
+    Add charts support.
+    Add Drawing Canvas support for WPS Writer.
+    Add save as pptx format support for WPS Presentation.
+    Add Reading View for WPS Presentation.
+    New 2D/3D effects for text and objects.
+    New compatibility for SmartArt and WordArt (read only).
+    New UI interfaces (includes white and black).
+release_notes: |
+    In this release, you still unable to edit the OLE Charts or other OLE Objects, but WPS Office ensure it won't lost after storage. You'd better saving as OOXML formats so WPS Office for Linux can edit the charts again.
+    Due to the development cycle problem, this release is intended to release for Chinese only. You can wait for next release or upgrade to this, but there might have some bugs that not function properly in language other than Chinese.
+addresses:
+    - type: deb_x86
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a20/wps-office_10.1.0.5444~a20_i386.deb
+      sha1sum: 2bb9286bea00a6601faefc1883f153a2c315d6e6
+    - type: deb_x64
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a20/wps-office_10.1.0.5444~a20_amd64.deb
+      sha1sum: 928dbce092756aa5043370afb22b3439561833ed
+    - type: rpm_x86
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a20/wps-office-10.1.0.5444-1.a20.i686.rpm
+      sha1sum: 196264267132395ca84f3b1c1f0ea6b2f2cfa7b0
+    - type: rpm_x64
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a20/wps-office-10.1.0.5444-1.a20.x86_64.rpm
+      sha1sum: d71f56fd7e826c4b4808fddc299bcd00a53de012
+    - type: tar.xz_x86
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a20/wps-office_10.1.0.5444~a20_x86.tar.xz
+      sha1sum: 0fd8c6285b6e0ab357f1ebf647ab147fe99f59b1
+    - type: tar.xz_x64
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a20/wps-office_10.1.0.5444~a20_x86_64.tar.xz
+      sha1sum: 3f9e68232b2ad31b1a39dc12fd65394f92932841
