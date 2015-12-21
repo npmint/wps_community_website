@@ -1,0 +1,17 @@
+version: 1.0.0.0
+linux_version: 1.0
+linux_version_line: fonts
+linux_version_short: fonts
+release_date: 2014-08-15
+full_name: WPS Office Fonts
+release_notes: |
+    The wps-office-fonts package contains Founder fonts only, and mainly uses for Chinese. If you never works with Chinese documents, install it helps nothing.
+    The intellectual property rights of all the Founder fonts (referred to as the "Founder font") contained in the package belongs to Beijing Founder Electronics Co., Ltd. (referred to as "Founder"), you only obtain the right of using Founder fonts for the WPS Office Linux version.
+addresses:
+    - type: deb-fonts
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a15/wps-office-fonts_1.0_all.deb
+      sha1sum: c548da6be4618b3f8d60fbbc4485c028b702809c
+    - type: rpm-fonts
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a15/wps-office-fonts-1.0-1.noarch.rpm
+      sha1sum: 519b27120a9f0ec868b3f43d775b3f212e481b91
+
