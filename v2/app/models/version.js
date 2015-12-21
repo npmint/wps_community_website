@@ -19,6 +19,23 @@ var readYamlFile = function(fpath, done) {
   }).stdend('obj', done);
 };
 
+var compareVersion = function(a, b) {
+  var va = a.split('.');
+  var vb = b.split('.');
+
+  for (var i = 0; i < va.length; ++i) {
+    var na = +va[i];
+    var nb = +vb[i];
+
+    if (na < nb) {
+      return 1;
+    } else if (na > nb) {
+      return -1;
+    }
+  }
+  return 0;
+}
+
 exports.prepare = function(done) {
   C().then(function(c) {
     glob(VERSION_DIR + '**/*.yaml', c.assign('err', 'files'));
@@ -26,13 +43,7 @@ exports.prepare = function(done) {
     async.map(this.files, readYamlFile, c.assign('err', 'versions'));
   }).then(function(c) {
     this.versions.sort(function(a, b) {
-      if (a.version < b.version) {
-        return 1;
-      } else if (a.version > b.version) {
-        return -1;
-      } else {
-        return 0;
-      }
+      return compareVersion(a.version, b.version);
     });
     cache = this.versions;
     c();
