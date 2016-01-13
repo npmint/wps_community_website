@@ -1,0 +1,27 @@
+version: 10.1.0.5460
+linux_version: Alpha20 Patch1
+linux_version_line: a20
+linux_version_short: a20p1
+release_date: 2016-01-13
+full_name: WPS Office for Linux Alpha20 Patch1
+whats_new: |
+    Bug fixes and stability improvements.
+addresses:
+    - type: deb_x86
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a20/wps-office_10.1.0.5460~a20p1_i386.deb
+      sha1sum: 79a515418cd140199babe56beded932a60f559fe
+    - type: deb_x64
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a20/wps-office_10.1.0.5460~a20p1_amd64.deb
+      sha1sum: 9cb8740f5f431196eed9a3ed50d1ebb53460be66
+    - type: rpm_x86
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a20/wps-office-10.1.0.5460-1.a20p1.i686.rpm
+      sha1sum: 5d269bdcd76d91adedc723c300daa9a5b8c017b5
+    - type: rpm_x64
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a20/wps-office-10.1.0.5460-1.a20p1.x86_64.rpm
+      sha1sum: 263cac036c097ca7889cddf6b73e49012ebf5230
+    - type: tar.xz_x86
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a20/wps-office_10.1.0.5460~a20p1_x86.tar.xz
+      sha1sum: 1425841622106ba30e37f64b0b61cb3cd98be0a1
+    - type: tar.xz_x64
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a20/wps-office_10.1.0.5460~a20p1_x86_64.tar.xz
+      sha1sum: 7fae4dfc331393035814ac6d50a3b7a92b31ba50
