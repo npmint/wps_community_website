@@ -1,0 +1,29 @@
+version: 10.1.0.5495
+linux_version: Alpha20 Patch2
+linux_version_line: a20
+linux_version_short: a20p2
+release_date: 2016-01-29
+full_name: WPS Office for Linux Alpha20 Patch2
+whats_new: |
+    Fixed a laggy/hangs.
+    Fixed open samba share file in readonly mode.
+    Updated German and Russian.
+addresses:
+    - type: deb_x86
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a20/wps-office_10.1.0.5495~a20p2_i386.deb
+      sha1sum: 8d0b2dc58a6b6db38b48c10b2474a56951a22065
+    - type: deb_x64
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a20/wps-office_10.1.0.5495~a20p2_amd64.deb
+      sha1sum: aa505f9b50b469f06bdd12e86073045e361629b4
+    - type: rpm_x64
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a20/wps-office-10.1.0.5495-1.a20p2.x86_64.rpm
+      sha1sum: cfab0e5147de1ec757e52a9ffc1570e2ae8ae17b
+    - type: rpm_x86
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a20/wps-office-10.1.0.5495-1.a20p2.i686.rpm
+      sha1sum: 6af77c444d31bad4c5d32faa3c1ba981c35f3cc9
+    - type: tar.xz_x64
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a20/wps-office_10.1.0.5495~a20p2_x86_64.tar.xz
+      sha1sum: 17bf115b0cbbec37b45826311113fc1918317716
+    - type: tar.xz_x86
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a20/wps-office_10.1.0.5495~a20p2_x86.tar.xz
+      sha1sum: bb3f5eebf44667c3c0ed77908681fa5ac5337bac
