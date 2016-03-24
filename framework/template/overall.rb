@@ -49,7 +49,7 @@ def html_tail
     | <a href="mailto:wps_linux@kingsoft.com">Contact us</a>
     | <a href="/distribution.md">Distribution</a>
   </span>
-  <span>Copyright &copy; 1988-2014 Kingsoft Office Corporation, All Rights Reserved</span>
+  <span>Copyright &copy; 1988-2016 Kingsoft Office Corporation, All Rights Reserved</span>
 </div>
 </body>
 </html>
