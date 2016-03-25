@@ -19,9 +19,9 @@ cont = <<EOF
 #{html_header "FAQ"}
 <div class="body">
   <h1>Page Not Found</h1>
-  Sorry, the page you visit does not exist, the problem we have been recorded.
-  If you can provide more details, please <a href="mailto:linux_wps@kingsoft.com">contact us</a>.<br/><br/>
-  <h3>Detail:</h3>
+  Oh no! You've taken a turn to somewhere we don't know exists :o
+  If you can provide details on why this happened, please <a href="mailto:linux_wps@kingsoft.com">contact us</a>.<br/><br/>
+  <br><br><h3>Detail:</h3>
   <div class="framed">
     Domain: #{ENV['HTTP_HOST']}<br/>
     Request URI: #{ENV['REQUEST_URI']}<br/>
