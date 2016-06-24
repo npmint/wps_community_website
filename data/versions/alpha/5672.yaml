@@ -1,0 +1,27 @@
+version: 10.1.0.5672
+linux_version: Alpha21
+linux_version_line: a21
+linux_version_short: a21
+release_date: 2016-06-24
+full_name: WPS Office for Linux Alpha21
+whats_new: |
+    Bug fixes and stability improvements.
+addresses:
+    - type: deb_x86
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a21/wps-office_10.1.0.5672~a21_i386.deb
+      sha1sum: a5e33090a58289db4b6ed7c0a05532e51428f9a7
+    - type: deb_x64
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a21/wps-office_10.1.0.5672~a21_amd64.deb
+      sha1sum: 80d884c47eaeee3305958ed87e61eafbee30b0cf
+    - type: rpm_x64
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a21/wps-office-10.1.0.5672-1.a21.x86_64.rpm
+      sha1sum: b49bf9567ea091489717efbebb95baa831a8a5d3
+    - type: rpm_x86
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a21/wps-office-10.1.0.5672-1.a21.i686.rpm
+      sha1sum: e6476f2797aa8900a836991d7f4f8453ef8447a2
+    - type: tar.xz_x64
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a21/wps-office_10.1.0.5672~a21_x86_64.tar.xz
+      sha1sum: 7e9b17572ed5cea50af24f01457f726fc558a515
+    - type: tar.xz_x86
+      address: http://kdl.cc.ksosoft.com/wps-community/download/a21/wps-office_10.1.0.5672~a21_x86.tar.xz
+      sha1sum: 3e417203613c178d881be2ad7db21edb72d3f524
