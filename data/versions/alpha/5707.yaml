@@ -5,9 +5,27 @@ linux_version_short: a21
 release_date: 2017-06-15
 full_name: WPS Office for Linux Alpha21
 whats_new: |
-    WHAT'S NEW
-release_notes: |
-    RELEASE_NOTES
+     1.WPS audiovideo playback reconstruction，supports more video formats and smoother playback；
+
+    2.WPS added search function and access path；
+
+    3.WPS added opening Linux remote file sharing feature；
+
+    4.Optimized IO operations，improved WPS efficiency of opening files in 3 modules；
+
+    5.Fixed differences in display effects of some controls in Linux versus Windows；
+
+    6.Fixed display effects of special fonts in Presentation module；
+
+    7.Fixed some incorrect texture fill effects in WPS export to PDF.
+
+    8.Fixed broken hyperlinks in WPS export to PDF；
+
+    9.Fixed thumbnail preview effects in Presentation；
+
+    10.Added opening the file name and the maximum length supported by the path；
+
+    11.WPS open dialogs will not always persist when opening documents，but will close after confirmation，enhances user experience
 addresses:
     - type: deb_x86
       address: http://kdl.cc.ksosoft.com/wps-community/download/a21/wps-office_10.1.0.5707~a21_i386.deb
