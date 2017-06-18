@@ -22,7 +22,7 @@ exports.downloads = function(req, res) {
       var vl = v.linux_version_line;
       last_vl = last_vl || vl;
       vls[vl] = vls[vl] || {};
-      vls[vl][v.linux_version_short] = v;
+      vls[vl][v.version] = v;
     });
 
     var current_version_line = req.query.vl || last_vl;
