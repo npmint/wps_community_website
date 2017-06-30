@@ -1,0 +1,969 @@
+﻿<languages>
+  <language locale="de_DE">
+    <display_name>German (Germany)</display_name>
+    <local_display_name>Deutsch (Deutschland)</local_display_name>
+    <product_version>10.1.0.5707</product_version>
+    <source_branch_name>func_v10_linux_a20_branch</source_branch_name>
+    <build_number>0</build_number>
+    <icon>
+      iVBORw0KGgoAAAANSUhEUgAAACgAAAAeCAMAAABpA6zvAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7O
+      HOkAAAECUExURUxpcQAAAAAAAAAAAAAAAAAAALyqAAAAAAAAAAAAAAQAANsAANYAAAQEAAAAAAAAAAAA
+      AAAAAAAAANbBANvFAAAAAAAAAAAAAAAAAL2qAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEoAAAAAANUAAAAAAAIAAEwAAAEBANkAAAAAANbDANqrAAQDANTA
+      ANoWANYVANvHANaoANnEAKeWAPriAK6dAB8cAJOFACMgAPvjAJeIAL2qAAAAAAAAAL2rAP/mAAAAAP8A
+      AP/oAFgAAP0AAP7IAP4ZAP/nAP/pAP/JAP8ZAJybeEsAAABKdFJOUwBeJQGrG9MDAggmvbkmBh65Jr25
+      vRgJEwfTVhBdcm+nqBYU+3n6dLMZriIkubu5tya9Jb0jub0mtr25vbm7kPyUSaNJ/KXPPz7Pqu3fgwAA
+      AMVJREFUOMvd1McSgkAMgGF1LVixASr23nvvvYEVef9XcVgYb2RPXPzP32Qmh8RkMiTkcwL5kMaoTCJt
+      BUolsxSGbD4ngBWKLB5YLgmEKowy0tFvkGCr6lBgIEiCfotBsN25E6qr0NUTH2BiU4NukZDnH+FEfoHJ
+      UxWOhp8n2GeuQu9MuoFJAw2G31ewd8go2F2Q4LiGIb3ew8uslrQCEbc7XKJ23aLH7YbDpx2hz7G4Wbd4
+      7ERHtD/BMzYghv/9CoQoIITZF4DI4pERCocxAAAAAElFTkSuQmCC
+    </icon>
+    <url>http://kdl1.cache.wps.com/ksodl/download/linux/a21/lang/mui_de_de.7z</url>
+    <sha1></sha1>
+    <string src="&amp;Follow system locale">&amp;Folgen Systemgebietsschema</string>
+    <string src="&amp;Install new language">&amp;Installieren Sie die neue Sprache</string>
+    <string src="&amp;Reset personal template">Pe&amp;rsöhnliche-Vorlagen zurücksetzen</string>
+    <string src="A network error occurred.">Netzwerkfehler</string>
+    <string src="Cancel">Abbrechen</string>
+    <string src="Choose Language">Sprache wählen</string>
+    <string src="Click to open the credits page.">Zum Öffnen der Autorenvermerkseite klicken.</string>
+    <string src="Download language packs failed.">Fehler beim Erhalten der Sprachpaketen!</string>
+    <string src="Downloading %1...">Herunterladen %1...</string>
+    <string src="Follow system locale">&amp;Folgen Systemgebietsschema</string>
+    <string src="Get &amp;More...">Holen Sie &amp;mehr</string>
+    <string src="Get language package failed!">Fehler beim Erhalten der Sprachpaketen!</string>
+    <string src="Information">Informationen</string>
+    <string src="Installing %1...">installieren %1...</string>
+    <string src="Loading...">Laden...</string>
+    <string src="Local Language Packs">Lokale Sprachpaketen</string>
+    <string src="Local language packages">Lokale Sprachpaketen</string>
+    <string src="Network error">Netzwerkfehler</string>
+    <string src="Network error...">Netzwerkfehler...</string>
+    <string src="OK">OK</string>
+    <string src="Online Language Packs">Online-Sprachpaketen</string>
+    <string src="Online language packages">Online-Sprachpaketen</string>
+    <string src="Settings will be effected after application restarted.">Einstellungen werden nach Neustart der Applikation wirksam.</string>
+    <string src="Settings will take effect after the application restarts.">Spracheinstellungen werden nach Neustart der Applikation wirksam.</string>
+  </language>
+  <language locale="en_GB">
+    <display_name>English (United Kingdom)</display_name>
+    <local_display_name>English (United Kingdom)</local_display_name>
+    <product_version>10.1.0.5707</product_version>
+    <source_branch_name>func_v10_linux_a20_branch</source_branch_name>
+    <build_number>0</build_number>
+    <icon>
+      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
+    </icon>
+    <fallback>en_US</fallback>
+    <url>http://kdl1.cache.wps.com/ksodl/download/linux/a21/lang/mui_en_gb.7z</url>
+    <sha1></sha1>
+  </language>
+  <language locale="en_US">
+    <display_name>English (USA)</display_name>
+    <local_display_name>English (USA)</local_display_name>
+    <product_version>10.1.0.5707</product_version>
+    <source_branch_name>func_v10_linux_a20_branch</source_branch_name>
+    <build_number>0</build_number>
+    <icon>
+      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
+      JiYOPIAJrAwAjNpyWzX6S1kAAAAASUVORK5CYII=
+    </icon>
+    <url>http://kdl1.cache.wps.com/ksodl/download/linux/a21/lang/mui_en_us.7z</url>
+    <sha1></sha1>
+  </language>
+  <language locale="es_ES">
+    <display_name>Spanish (Spain)</display_name>
+    <local_display_name>Español (España)</local_display_name>
+    <product_version>10.1.0.5707</product_version>
+    <source_branch_name>func_v10_linux_a20_branch</source_branch_name>
+    <build_number>0</build_number>
+    <icon>
+      iVBORw0KGgoAAAANSUhEUgAAACgAAAAeCAMAAABpA6zvAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7O
+      HOkAAAMAUExURUxpcQAAAAAAAAQEAcIAAJcAAAAAAAAAABAAAAAAANvbLNbWKwAAAK4AAAgAAMsAAAAA
+      AAAAAAQAAKsAAAAAAMMAALoAAGoAAAIAAAQBAHcAAAAAAJcAAAAAAAAAAK8AAMFbEr1ZEq0AAKwAALYA
+      AAEAALEAALMAALcnCLMmCNfLKdPGKKoAAIUAABgAAIsAABwAAP//M8wAAMsAAM4AAOFqFc0AANYtCPzs
+      L///NMoCAv//MbZYALdXALZUAK82AuJrFfztL74dHMcTFMUQAcoAAcgzE7wJDcARCnNfZs8sDGFre35Z
+      Wr4SCroVBri7NLUgDpaXKr8eAPXhK74SAcpEAMpBALQoCqxHA8JVBMxeJcZGAfvwLq09A/LpLtbRLL5b
+      U+zuSOCUGrx/gujMO6BmA0JkYeGYHdjAGdB0J6eaLe3vTNfBI8UaGNN5H76/r+HgbcyMob+irOGIGryr
+      rq9tR7E6DZSFc5Z6cMAGCrdSRa5kMfjsMcEGCaA4GMAGCb8GCqQ0Fr0fDccHBsYIBrtRL8UMAeBsF+zj
+      LalEFPfrMqw8Ed/cSvblK6swFaoxFeLCJLNGAbM8Dfz3L867Hru2i7ddGNC6JMPHNsmZSO7JJsdRArY1
+      C8g9A8bJNt5sGOvYKuLgUuezJcPDucA4AdnBG8ELAY9jA/TdK9rJKLm1iM+hVLRXFqxDBWxBPfD0VMIH
+      AdOtScqyG82uHrxNJOHiV9egMrlgCm49Pfv1L+vrQcHBtbg9BtjKIZFxCZwdEOzAJY9nAteyU76PfLg4
+      BaUiCb08BXU1OcBKLLAtA6R3CadeDJgsAnZSXKhTTZdtBrFaQMtOAMEWE7yLedmhONq0RvHySNSWMtKw
+      ZeHeK79vUL91aNvEH7cfAL2ipLdkALeqT8QDANJTELSKAdabGsW5wODhZbNtBs0/DL9pT72XmM2aX614
+      S+LjLr4fArOgCcGNnrUnANKVL78tAL6go93PJLaPk7JjDPHTK8azuubnY5x4G8F6aLuVlah1CL6vtqI+
+      BZgAAAAxdFJOUwBeJSar0xsDCAK9uQG9BvweESa5GKhwFSImpD7PVl15vbm3dLMZu669ub25tpBJlEn0
+      dfpBAAACD0lEQVQ4y2NgoAng4ePAA/h4oMo4xcVEWfAAUTFxTrBCDnl+I7yAX5kDbKCqihmKuJmLC5qA
+      ugjISHYJNWRxqxaPukaPZitkhUoS7CCFQrxGxnDgG9Dv19nt1xfgixAzEmYCK5RUcDCFgflrNoSHTJoT
+      Er5sWjtc0EERopCZy9IQAiwtLXOO2MdGRMTa71kJ5MCEuWEKoQKGCzbHGeac2peaev7fHeu46R0wcXSF
+      lpsOfv2R/v3M0QtvHjy7tnf5FEscCg3js94WP7S/m3uv5G9Jwc2seFwmWv/KTywOenw/98uHwv8F2flb
+      rXEojLnyMu/Fu/fPL70qKvz5Ou/WthjsCi0PnLj86dHn36ePn/1W9PTG9cNbZlliN3HnoeTMJx9P7k9L
+      O/fn9tXM5I2TcVi9IiohJcPOZu26HccuRielJEQF41AYvHp3doadre3EJZHbw5LWL57Zi8vXC1ftWgpU
+      aBc9OzI0PXFqD7qvtRwtwKDLP3DeBBsbm+rWsNC5i2YE+tdAxB21oYlCwxwC3Dy9fbyCykrLK6qa2rx8
+      vD3doBKaTCjJzMiqwb0WSDo7OTlbGbnWu1e6GqEkMyFeWMI1MzODUEgcEAuqkInXDH+eMdOBKBTQ5zfB
+      C/h1BUAKeQQNpGRY8QAZKT1BcNbmEJCWlWPECeRkpQU4oOWEoAgbHiAiCC8reHg48QAesDIA/1Pyev2g
+      9KkAAAAASUVORK5CYII=
+    </icon>
+    <url>http://kdl1.cache.wps.com/ksodl/download/linux/a21/lang/mui_es_es.7z</url>
+    <sha1></sha1>
+    <string src="&amp;Follow system locale">Seguir con&amp;figuración regional del sistema</string>
+    <string src="A network error occurred.">Error de red.</string>
+    <string src="Cancel">Cancelar</string>
+    <string src="Choose Language">Seleccionar idioma</string>
+    <string src="Click to open the credits page.">Haga clic para abrir la página de créditos. </string>
+    <string src="Download language packs failed.">Error al descargar paquete de idioma.</string>
+    <string src="Downloading %1...">Descargando %1...</string>
+    <string src="Get language package failed!">¡Error al conseguir paquete de idioma!</string>
+    <string src="Information">Información</string>
+    <string src="Installing %1...">Instalando %1...</string>
+    <string src="Loading...">Cargando...</string>
+    <string src="Local Language Packs">Paquetes de idioma vernáculo</string>
+    <string src="Local language packages">Paquetes de idiomas locales</string>
+    <string src="Network error">Error de red</string>
+    <string src="Network error...">Error de red...</string>
+    <string src="OK">Aceptar</string>
+    <string src="Online Language Packs">Paquetes de idioma en línea</string>
+    <string src="Online language packages">Paquetes de idioma en línea</string>
+    <string src="Settings will take effect after the application restarts.">La configuración surtirá efecto después de que la aplicación se reinicie.</string>
+  </language>
+  <language locale="es_MX">
+    <display_name>Spanish (Mexico)</display_name>
+    <local_display_name>Español (México)</local_display_name>
+    <product_version>10.1.0.5707</product_version>
+    <source_branch_name>func_v10_linux_a20_branch</source_branch_name>
+    <build_number>0</build_number>
+    <icon>
+      iVBORw0KGgoAAAANSUhEUgAAACgAAAAeCAMAAABpA6zvAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7O
+      HOkAAAKyUExURUxpcQAAAJ4AABYWFgAAAAACAQliIQAAAAAAAAAAAAEKA/Pz8wAAALy8vBAAALMAAIsA
+      AAhUHApsJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMKBQptJPT39wQMDAttJawDA7IAANaEhLQBAQ1q
+      JRMMDAcEBBEAAApBGBADAwtyJgljIQABAfb19rsAAAhrIgEBAWAEBKADAwACAQpmIoOykAAAAAxkI6AA
+      AAABAaUBAQwQDQAAAAAAAAEBAZ0BAXwCAgpiIQpPHLkAABcBAQtxJgMRBm4CAghFGAAAAIwBAQAAAAlV
+      Hb++vwZTGqZnZ4oAAL2/v2aKcP///wtyJrwAAAtzJr0AAAhwI7sAAOGLi4q7l74AAIq8l/39/P///uKL
+      jP3///79/eKNjghxJP7+/vLv7dC4q+jc1q98YPz8/MCdirUEAevg2eGMjdm/sroAAPn7+adpUZ7OoObq
+      4QpxJY28mZAbAIu9mc3ZzqEPAJVSL96Mi5tULsKdiIpKKZ5tTow8EsC7qAxxJQlyHsnWyIe5kuDc1oQ3
+      Dom7h1RmIJS5jnatcO307hFuINrg0Y06D7bVtYo5D7eLcvj7+JGkdF+cZIqTZdfTzoc8Fez07ZlvPpWO
+      UcHLu+ro5HWwdoo7Eo1DHNrX0Yc6EYo6EL+fjoayfi+INJ61i22nZKjDoGuqarLBsbXFqoameZivi4Ca
+      c9WwrtTKwaJvVIQ5EayLeXSabJSWe4GEb8XJtpWgf598YKOGcICOioY4EKm0pYU4EJJWNlGRSsHYvbnB
+      rJxqT7yZip5cO6V/bI6HWYA3Ecitn2+rbXaVmL2njE+BP4JCG0VVFlGOSaBvUHmTXpG3w3GhoX9ENoU7
+      FGRnQIE1DaC6mHpLPpFsOl2GXGqMOo2PabSehIxMI0OaR22FKXuNb/gRHuMAAABTdFJOUwAluQheJr0D
+      AhsIqwHTCKvT06seEwcGVhBdGAarqwGocKurqHMIAQgWBvu7GKv6qxkVdSOzqwl6twmuCCIkJbeRu5T8
+      Sf1JpKU/zz7P09PT09PTxHaylAAAAX9JREFUOMtjYKAJUJPmggJrZjhQ5YMAdU05qDIODRV5GSEw0DfV
+      5YYCWSVFfghQVjDkACs0M9cKgYKI2GA4iAqFAT0jS7CBBiYhcIXRSAojYQrDrXRARrIbaxNSaGHDDlLI
+      yhZGQCETI3aF8XHEKEzNSkvPzM5IIqiwsqmhvrGjOp+gwtY5s2cuWDypNjcZr8KK9rnrd+87tWXJhLo8
+      vArb5m3YfuLGgaObF06uKcCjsGX+xl0n7164dfD01qVTy2NwK+xbt/PQg3MPLz86fmzT9Kpw3Aqblx++
+      ff7S4/tPruxZ25WDx+rSaSuOXL128+K9bau6i8LxeaZs4sr9Z+9c37umpzgBr69jg/uXnXm6Y3VnSSLB
+      uJ4ya9GM3kKiEgXRqYdihXaOhBTa24IVCju5hkFBCnLmCo+BAmcHYZBCHhE3Dx9BCPAL8uWFgkD/AAEI
+      8HJ3EeEBZUNRYW9xSRacQFLcU1gUnK95xCSkOPEAKQkxHmhZwcPDgQfwgJUBALV9JsoeY5T0AAAAAElF
+      TkSuQmCC
+    </icon>
+    <fallback>es_ES</fallback>
+    <url>http://kdl1.cache.wps.com/ksodl/download/linux/a21/lang/mui_es_mx.7z</url>
+    <sha1></sha1>
+    <string src="&amp;Follow system locale">Seguir con&amp;figuración regional del sistema</string>
+    <string src="A network error occurred.">Error de red.</string>
+    <string src="Cancel">Cancelar</string>
+    <string src="Choose Language">Seleccionar idioma</string>
+    <string src="Click to open the credits page.">Haga clic para abrir la página de créditos. </string>
+    <string src="Download language packs failed.">Error al descargar paquete de idioma.</string>
+    <string src="Downloading %1...">Descargando %1...</string>
+    <string src="Get language package failed!">¡Error al conseguir paquete de idioma!</string>
+    <string src="Information">Información</string>
+    <string src="Installing %1...">Instalando %1...</string>
+    <string src="Loading...">Cargando...</string>
+    <string src="Local Language Packs">Paquetes de idioma vernáculo</string>
+    <string src="Local language packages">Paquetes de idiomas locales</string>
+    <string src="Network error">Error de red</string>
+    <string src="Network error...">Error de red...</string>
+    <string src="OK">Aceptar</string>
+    <string src="Online Language Packs">Paquetes de idioma en línea</string>
+    <string src="Online language packages">Paquetes de idioma en línea</string>
+    <string src="Settings will take effect after the application restarts.">La configuración surtirá efecto después de que la aplicación se reinicie.</string>
+  </language>
+  <language locale="fr_CA">
+    <display_name>French (Canada)</display_name>
+    <local_display_name>Français (Canada)</local_display_name>
+    <product_version>10.1.0.5707</product_version>
+    <source_branch_name>func_v10_linux_a20_branch</source_branch_name>
+    <build_number>0</build_number>
+    <icon>
+      iVBORw0KGgoAAAANSUhEUgAAACgAAAAeCAMAAABpA6zvAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7O
+      HOkAAAIWUExURUxpcaQJKaAIKBYWFgAAAAAAAAMAAQAAAAAAAAAAAPPz87y8vAAAALYKLhABBI0HIwAA
+      AAAAAAAAABEBBLYJLfP29RECBQAAAAAAAAAAAI0HJAAAAAAAAAAAAL2/vrcKLq0JLA8BBAEAALcKLg4B
+      BK4JLL4KMAIAAGcFGqQJKV8FGKIIKaUJKqcJKgQAAQEAAKoJK74KMKEIKAAAALgUNhUREubDyvDGz7kX
+      OeS9xfHM1BUSEgAAAJ8IKH0HH6MJKYIHIbwKLxcBBm4GHL0KLxoBB40HJHEGHAAAAI4HJAAAAI8PKrGS
+      mY8RLLKXnL8KMP///78JL8AKMPHM1MEVOe/Gz8IYO8EKMP/+/v79/eafrr4HLsAMMvrs774HLf78/b0D
+      Kr4ILr8JML8LMcIWOu/DzPjk6NBKZsEJMPbd4v76+/78/MIVOfnp7OGMnvPR2MMYPNhqgfXX3c5EYb4G
+      LNdlfeSWp8AOM+GOn/be49+GmOquu+CJm91/ksANM9lvhc9GYv75+vHL09+Dluagr8cpS80+XMUgQtRc
+      deOVpt+GmdNWcOGKnPz198MaPc9HZPbc4sgsTfDEzeqvu/ff5PXX3r4GLf35+sMZPfvx878ILvvu8f33
+      +MQcP/3299BJZuKQoey4w9NXccs5WOGNn85DYMAONMcqS+Wcq8ESNv34+e/EzdBMaPvw8vPQ18MVOcQY
+      PPDGzxlBTQoAAABPdFJOUwC9uQheJSYDAhur0wGrCNMeGAkIq6sIEwcG01YQXdOnbwYBqAZy+wEWeRS3
+      u64jGbP6dCKqCKr+qqr+CCS2kLuU/Emj/EnPpT/PPtPS09Ibi0J6AAABgElEQVQ4y2NgoAlQVxTm4+MT
+      s2ZGA6ZiQGFhFSWoMg4NVWVeXl4RCzNRLhQgamkiApSQV9DiACsU0lTzB4LAAqsANGCekwSSMTQSAhuo
+      bxAEVhgWjK4wNCQQJBOkKwgykl1Ph5BCbWN2kEI2RjSFTbFoCplYsSiMCIhtaAmIJ6ywN6o5pq0zlbDC
+      +A6gZMokAgrXrlo9tSvOP3HihIWzZ07HozBqzfL0njr/uP4lc9MXpeFRmLoyOrk9xj+wL2VWwvw5eBSu
+      WJbkD5ILDPSfthifieuWRvtDQOKMBfPw+XpKdzJYXWDr5Ej8wZNbnBDtH1hSXk0oHLPy6itKq2oL8wkp
+      jMgOCCirDIiIJBgzQFBTREyiAIKoTCIVNkYSqRAj4UIVstoTUmhrA1Yo4OASDgQZGzAUblyfAZJxtBMA
+      KeQRd3X3lOLn5/f1k+NGAXI+3kBhKTdnJ3EeUDaUEPCSlmXBCWSlPQQkwPmaR1JGkBMPEJSR5IGWFTw8
+      HHgAD1gZALKpA3s9BkQ8AAAAAElFTkSuQmCC
+    </icon>
+    <fallback>fr_FR</fallback>
+    <url>http://kdl1.cache.wps.com/ksodl/download/linux/a21/lang/mui_fr_ca.7z</url>
+    <sha1></sha1>
+    <string src="&amp;Follow system locale">Suivre l'option régionale du système(&amp;F)</string>
+    <string src="&amp;Install new language">&amp;Installer une nouvelle langue</string>
+    <string src="&amp;Reset personal template">&amp;Réinitialiser un modèle personnel</string>
+    <string src="A network error occurred.">Une erreur réseau s'est produite.</string>
+    <string src="Cancel">Annuler</string>
+    <string src="Choose Language">Choisir une langue</string>
+    <string src="Choose Language Installation Package">Choisir une langue dans le package d'installation</string>
+    <string src="Click to open the credits page.">Cliquez pour ouvrir la page de crédits.</string>
+    <string src="Download language packs failed.">Le téléchargement des packs de langue a échoué.</string>
+    <string src="Downloading %1...">Téléchargement de %1...</string>
+    <string src="Follow system locale">Suivre l'option régionale du système</string>
+    <string src="Get &amp;More...">&amp;Plus...</string>
+    <string src="Information">Informations</string>
+    <string src="Install Language Package">Installer un pack de langues</string>
+    <string src="Installation fails, make sure to install the complete package.">Échec de l'installation. Assurez-vous d'installer le package complet.</string>
+    <string src="Installing %1...">Installation de %1...</string>
+    <string src="Loading...">Chargement en cours...</string>
+    <string src="Local Language Packs">Packs de langue locaux</string>
+    <string src="Network error...">Erreur réseau...</string>
+    <string src="OK">OK</string>
+    <string src="Online Language Packs">Packs de langue en ligne</string>
+    <string src="Settings will be effected after application restarted.">Les paramètres prendront effet une fois l'application redémarrée.</string>
+    <string src="Settings will take effect after the application restarts.">Les paramètres prendront effet après le redémarrage de l'application.</string>
+    <string src="ZIP File (*.zip)">Fichier ZIP (*.zip)</string>
+  </language>
+  <language locale="fr_FR">
+    <display_name>French</display_name>
+    <local_display_name>Français</local_display_name>
+    <product_version>10.1.0.5707</product_version>
+    <source_branch_name>func_v10_linux_a20_branch</source_branch_name>
+    <build_number>0</build_number>
+    <icon>
+      iVBORw0KGgoAAAANSUhEUgAAACgAAAAeCAMAAABpA6zvAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7O
+      HOkAAAEdUExURUxpcQAAAMwUKBYWFgAAAAAhbQABAgAAAAAAAAAAABUCBPPz8wADCwAAALy8vOcXLgAk
+      eQAcXrMSIwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAN0YLu2MlwQFBAwEBBQEBgMFCwMldegYL+cUKwQY
+      R/P29gAmfwElehUNDgAieAEAAAAAAPf29fIYMM0XKwABAtUWK3sQHAEicc4UKQAhbomZvgEBAgMjbwwO
+      EQAAAAAAAAEBAcsVKQEhbaASIQIcWB4EB+8YMI4QHQEGEwAmfgIYTbQSJAAAALQSIwEdXwAAAGp3k7ht
+      db+/vgAbXbMQIry/vwAmf/MYMP///wAmgPMVLgAkfpChx/mTn/QYMPUYMPqUn5ChyPUWLgAlf/io7bMA
+      AABRdFJOUwAluQhevSYDAhsIqwgB06ur09MeGBMHBhBWXXCrAQEGBnOoqxar+6gIqwkJq/p1I64Vs7e7
+      qxl6CCIkJbe7kZRJ/KRJ/aXPP9PPPtPT09PT06XvZxwAAADGSURBVDjLY2CgCZBT4IECC2Y40OCCAnlZ
+      qDIOFUV1AQjQNNXhhgJVGWV+CFCSNuQAK9QyVwuEgrDwYDiIDg2CAl09bbCBZkaB2BRGwBVGGoiAjGTX
+      NwkhoNDYkh2kkI2VkEImxlGFowoHnUJrW0IKbazACoXtXUKgIC4GKXPFRkGBo50wSCGvqLOrpyAE+Hn7
+      8kFBgI+/EBh4uDk5iPKCsqGYsJekFAtOICXpLiwGzte84hIinHiAiIQ4L7Ss4OXlwAN4wcoAsIX4JIkA
+      iu0AAAAASUVORK5CYII=
+    </icon>
+    <url>http://kdl1.cache.wps.com/ksodl/download/linux/a21/lang/mui_fr_fr.7z</url>
+    <sha1></sha1>
+    <string src="&amp;Follow system locale">Suivre l'option régionale du système(&amp;F)</string>
+    <string src="&amp;Install new language">&amp;Installer une nouvelle langue</string>
+    <string src="&amp;Reset personal template">&amp;Réinitialiser un modèle personnel</string>
+    <string src="A network error occurred.">Une erreur réseau s'est produite.</string>
+    <string src="Cancel">Annuler</string>
+    <string src="Choose Language">Choisir une langue</string>
+    <string src="Choose Language Installation Package">Choisir une langue dans le package d'installation</string>
+    <string src="Click to open the credits page.">Cliquez pour ouvrir la page de crédits.</string>
+    <string src="Download language packs failed.">Le téléchargement des packs de langue a échoué.</string>
+    <string src="Downloading %1...">Téléchargement de %1...</string>
+    <string src="Follow system locale">Suivre l'option régionale du système</string>
+    <string src="Get &amp;More...">&amp;Plus...</string>
+    <string src="Information">Informations</string>
+    <string src="Install Language Package">Installer un pack de langues</string>
+    <string src="Installation fails, make sure to install the complete package.">Échec de l'installation. Assurez-vous d'installer le package complet.</string>
+    <string src="Installing %1...">Installation de %1...</string>
+    <string src="Loading...">Chargement en cours...</string>
+    <string src="Local Language Packs">Packs de langue locaux</string>
+    <string src="Network error...">Erreur réseau...</string>
+    <string src="OK">OK</string>
+    <string src="Online Language Packs">Packs de langue en ligne</string>
+    <string src="Settings will be effected after application restarted.">Les paramètres prendront effet une fois l'application redémarrée.</string>
+    <string src="Settings will take effect after the application restarts.">Les paramètres prendront effet après le redémarrage de l'application.</string>
+    <string src="ZIP File (*.zip)">Fichier ZIP (*.zip)</string>
+  </language>
+  <language locale="ja_JP">
+    <display_name>Japanese (Japan)</display_name>
+    <local_display_name>日本語</local_display_name>
+    <product_version>10.1.0.5707</product_version>
+    <source_branch_name>func_v10_linux_a20_branch</source_branch_name>
+    <build_number>0</build_number>
+    <icon>
+      iVBORw0KGgoAAAANSUhEUgAAACgAAAAeCAMAAABpA6zvAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7O
+      HOkAAAGGUExURUxpcQAAAAQEBNvb2xYWFgAAALy8vAAAAAAAAPPz8wAAANbW1gAAAAAAAAAAABcXFxMT
+      EwAAAAAAAAAAAAAAAL29vb29vQAAAAAAAAAAAAICAvT09Onp6f7+/ufn5/T09AMDA4mJid/f393d3dfX
+      1wICAgUFBdjY2OPj4/7+/n5+ftvb2wAAAAAAAAEBAdTU1NnZ2aenp/r6+h8fH66urvv7+yMjI5OTk5eX
+      lwAAAAAAANMAAP///9IAAP/9/f3y8uyRkdQFBf/+/tMEBNcYGN9ERPzs7NstLf739/TAwOVqauVnZ/Ky
+      stQHB/Guru6cnOuKivvq6tMBAfO4uP76+v74+P309PCnp9UMDN9GRuFQUNYVFd4/P/jY2N05OeNbW+mC
+      guVpafO8vNkmJt9ISP77+9YTE+BLS9ULC+2ZmeZtbdMDA/75+eZwcPnd3eqHh+BKSu+iovzw8ORjY9cW
+      FtghIfzt7ffR0dcaGv/8/N9FRffOzuh9fel/f/S9veqIiP3z8+qGhsGiSnMAAAA7dFJOUwBeJr0IG9MD
+      AqsluQEeGAgGCRMHBs/TVhBdAady+2+oARauu3QZI7ez+hR5IiQltruQ/EmU/EmjpT8+HGiPLQAAATdJ
+      REFUOMu11NVSxDAUgOFFt0DadcPd3SFN1xV3d3d3W96cbacDycBJr/gvM9+cqZzWZPqXKq2WXDCLtVhn
+      QlVpRQGnkvJmQYO2ljKZW1OtTRtY1ygbVC2pI831NexxIhZLsCcNrWYVZudQZ08vr9F4/PntQaEOiwp/
+      wevNCCEYE/J44edB/8gJ1gsfz3PgZBh/FwzAcO0OU+2cgzBAOzx9BEFlg9CQ3EBwLsrCg1kAnu6ycHkP
+      usYtFp6BN7MQpOHYOAin1qmRZPUefuCj+z/wdobzZpSJFX0miVyFeEuhbC8dZlYCL14mQ9ztyezF+2cq
+      9ZFMy7IB/CsdtncawY42DYq9fXzX3SWqENn7B13ufDC3a6DHjtTP0CEOe3xZYD7PkOjQvmvk9Ep5nCSv
+      E+n/CoQETkhjX9qGu9No5oJoAAAAAElFTkSuQmCC
+    </icon>
+    <url>http://kdl1.cache.wps.com/ksodl/download/linux/a21/lang/mui_ja_jp7z</url>
+    <sha1></sha1>
+    <string src="&amp;Follow system locale">システム言語に従ってください(&amp;F)</string>
+    <string src="&amp;Install new language">新しい言語をインストールする(&amp;I)</string>
+    <string src="&amp;Reset personal template">個人的なテンプレートをリセット(&amp;R)</string>
+    <string src="A network error occurred.">ネットワークエラーが発生しています</string>
+    <string src="Cancel">キャンセル</string>
+    <string src="Choose Language">あなたの言語を選択してください</string>
+    <string src="Choose Language Installation Package">インストールパッケージの言語を選択して下さい。</string>
+    <string src="Click to open the credits page.">クリックすると明細ページが開きます</string>
+    <string src="Download language packs failed.">言語パッチエラー</string>
+    <string src="Downloading %1..."> %1...ダウンロード</string>
+    <string src="Follow system locale">システム言語に従ってください</string>
+    <string src="Get &amp;More...">もっと...(&amp;M)</string>
+    <string src="Information">情報</string>
+    <string src="Install Language Package">言語パッケージのインストール</string>
+    <string src="Installation fails, make sure to install the complete package.">インストールに失敗しました。完全パッケージのインストールを確認してください。</string>
+    <string src="Installing %1...">%1...インストール</string>
+    <string src="Loading...">読み込み中...</string>
+    <string src="Local Language Packs">ローカル言語パッケージ</string>
+    <string src="Network error...">言語パッケージのダウンロードに失敗しました</string>
+    <string src="OK">OK</string>
+    <string src="Online Language Packs">オンライン言語パッケージ</string>
+    <string src="Settings will be effected after application restarted.">セットには、起動後に有効になります。</string>
+    <string src="Settings will take effect after the application restarts.">セットには、起動後に有効になります。</string>
+    <string src="ZIP File (*.zip)">ZIP File (*zip)</string>
+  </language>
+  <language locale="pl_PL">
+    <display_name>Polish (Poland)</display_name>
+    <local_display_name>Polski (Polska)</local_display_name>
+    <product_version>10.1.0.5707</product_version>
+    <source_branch_name>func_v10_linux_a20_branch</source_branch_name>
+    <build_number>0</build_number>
+    <icon>
+      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
+      np6kfE7qAAAAAElFTkSuQmCC
+    </icon>
+    <community>true</community>
+    <url>http://kdl1.cache.wps.com/ksodl/download/linux/a21/lang/mui_pl_pl.7z</url>
+    <sha1></sha1>
+    <string src="&amp;Follow system locale">&amp;Zastosuj ustawienia regionalne systemu</string>
+    <string src="A network error occurred.">Wystąpił błąd sieciowy.</string>
+    <string src="Cancel">Anuluj</string>
+    <string src="Choose Language">Wybieranie języka</string>
+    <string src="Click to open the credits page.">Kliknij, aby otworzyć stronę autorów.</string>
+    <string src="Download language packs failed.">Pobieranie pakietów językowych nie powiodło się.</string>
+    <string src="Downloading %1...">Pobieranie %1...</string>
+    <string src="Information">Informacje</string>
+    <string src="Installing %1...">Instalowanie %1...</string>
+    <string src="Loading...">Ładowanie...</string>
+    <string src="Local Language Packs">Lokalne pakiety językowe</string>
+    <string src="Network error...">Błąd sieciowy...</string>
+    <string src="OK">OK</string>
+    <string src="Online Language Packs">Pakiety językowe online</string>
+    <string src="Settings will take effect after the application restarts.">Ustawienia zostaną wprowadzone po ponownym uruchomieniu aplikacji.</string>
+  </language>
+  <language locale="pt_BR">
+    <display_name>Portuguese (Brazil)</display_name>
+    <local_display_name>Português (Brasil)</local_display_name>
+    <product_version>10.1.0.5707</product_version>
+    <source_branch_name>func_v10_linux_a20_branch</source_branch_name>
+    <build_number>0</build_number>
+    <icon>
+      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
+      rkJggg==
+    </icon>
+    <community>true</community>
+    <url>http://kdl1.cache.wps.com/ksodl/download/linux/a21/lang/mui_pt_br.7z</url>
+    <sha1></sha1>
+    <string src="&amp;Follow system locale">&amp;Siga localidade do sistema</string>
+    <string src="&amp;Install new language">&amp;Instalar novo Idioma</string>
+    <string src="A network error occurred.">Ocorreu um erro de rede.</string>
+    <string src="Cancel">Cancelar</string>
+    <string src="Choose Language">Escolha o Idioma</string>
+    <string src="Choose Language Installation Package">Escolha o idioma do pacote de instalação</string>
+    <string src="Click to open the credits page.">Clique para abrir a página de créditos.</string>
+    <string src="Download language packs failed.">O download dos pacotes de idiomas falhou.</string>
+    <string src="Downloading %1...">Baixando %1...</string>
+    <string src="Get &amp;More...">Obtenha mais ...</string>
+    <string src="Information">Informações</string>
+    <string src="Install Language Package">Instalar Pacote de Idioma</string>
+    <string src="Installation fails, make sure to install the complete package.">Instalação falhar, certifique-se de instalar o pacote completo.</string>
+    <string src="Installing %1...">Instalando %1...</string>
+    <string src="Loading...">Carregando...</string>
+    <string src="Local Language Packs">Pacotes de Idiomas Locais</string>
+    <string src="Network error...">Erro de rede...</string>
+    <string src="OK">OK</string>
+    <string src="Online Language Packs">Pacotes de Idiomas Online</string>
+    <string src="Settings will take effect after the application restarts.">Configurações terá efeito após a aplicação é reiniciada .</string>
+    <string src="ZIP File (*.zip)">ZIP arquivo (* zip)</string>
+  </language>
+  <language locale="pt_PT">
+    <display_name>Portuguese (Portugal)</display_name>
+    <local_display_name>Português (Portugal)</local_display_name>
+    <product_version>10.1.0.5707</product_version>
+    <source_branch_name>func_v10_linux_a20_branch</source_branch_name>
+    <build_number>0</build_number>
+    <icon>
+      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
+    </icon>
+    <community>true</community>
+    <url>http://kdl1.cache.wps.com/ksodl/download/linux/a21/lang/mui_pt_pt.7z</url>
+    <sha1></sha1>
+    <string src="&amp;Follow system locale">&amp;Seguir região do sistema</string>
+    <string src="A network error occurred.">Ocorreu um erro na rede.</string>
+    <string src="Cancel">Cancelar</string>
+    <string src="Choose Language">Escolher Idioma</string>
+    <string src="Click to open the credits page.">Clique para abrir a página de créditos.</string>
+    <string src="Download language packs failed.">Falha ao transferir os pacotes de idiomas.</string>
+    <string src="Downloading %1...">A transferir %1...</string>
+    <string src="Information">Informações</string>
+    <string src="Installing %1...">A instalar %1...</string>
+    <string src="Loading...">A carregar...</string>
+    <string src="Local Language Packs">Pacotes de Idiomas Locais</string>
+    <string src="Network error...">Erro na rede...</string>
+    <string src="OK">OK</string>
+    <string src="Online Language Packs">Pacotes de Idiomas Online</string>
+    <string src="Settings will take effect after the application restarts.">As definições produzirão efeito depois de a aplicação reiniciar.</string>
+  </language>
+  <language locale="ru_RU">
+    <display_name>Russian (Russian Federation)</display_name>
+    <local_display_name>Русский (Российская Федерация)</local_display_name>
+    <product_version>10.1.0.5707</product_version>
+    <source_branch_name>func_v10_linux_a20_branch</source_branch_name>
+    <build_number>0</build_number>
+    <icon>
+      iVBORw0KGgoAAAANSUhEUgAAACgAAAAeCAMAAABpA6zvAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7O
+      HOkAAAEaUExURUxpcQAAAAAAAAAAABYWFgAAALwBAQAAAAAAAPPz8wAAAgEBbAEBagQAAAAAANvb2wQE
+      BNbW1tUBAdoBAQAAABcXFxMTEwAAAAAAAAAAAAAAALwBAQAAAAAAAAAAAPT09PT09AICAomJiQMDA+fn
+      5+np6X5+fv7+/tvb2/7+/tfX19/f3+Pj4wICAt3d3QICbQAAAAICa5CQtdjY2I2NsQUAAAUFBQMDBAAA
+      AAEAANMBAboBDtsBANYBABkBYAABawABbb4BDxkBXgEAAqYCA9gBAa0CAx8BAfoBAZMCAiMBAfsBAQAA
+      AJcCAgAAALwBAf///wEBfv4BAf8BAQMDf/8BAB4BcKio0wABf90BEQEBf6io1AABgN4BETgOfXgAAABQ
+      dFJOUwBeJQEIG9MDAqsmvbkmHr0mubm9GAgGCRMHBs8QVl2nqAEWAW9yFPt5+nSusxm7vSK5vbe5JiMm
+      JCW3ub25vbm9vbkmkbuVSfykSf0/pT7SrE16SwAAANpJREFUOMtjYKAJUBYTZcEJRMUUoco4lFQVOPEA
+      eRU1DrBCcQ31ALxAU0scbKCuTgABoC0CMpLdTI+QQmMDdpBCAX5CCgWZaKTQ3Cg6HC+INoEo5NIPIQAM
+      oQq5owLxgiieIaTQISYCL4ixhyh0tgsjAJwgCnkdYyPxglhrqEKbUALAFqpQODgILwgWIlGhKbEKLV0J
+      KbSyACvkc/MOxgs8XPhACpklvHyl/dlwA2lPdwlmUDaU5POTlWPECeRkffgkwfmaWUpGhBUPEJGRYoaW
+      FczMHHgAM1gZAPCS9fh2Cw2eAAAAAElFTkSuQmCC
+    </icon>
+    <community>true</community>
+    <url>http://kdl1.cache.wps.com/ksodl/download/linux/a21/lang/mui_ru_ru.7z</url>
+    <sha1></sha1>
+    <string src="&amp;Follow system locale">&amp;Придерживаться языка системы</string>
+    <string src="&amp;Install new language">&amp;Установить новый язык</string>
+    <string src="A network error occurred.">Сетевая ошибка.</string>
+    <string src="Cancel">Отмена</string>
+    <string src="Choose Language">Выбрать язык</string>
+    <string src="Choose Language Installation Package">Выбрать установочный пакет для языка</string>
+    <string src="Click to open the credits page.">Щёлкните, чтобы открыть страницу с перечислением участников проекта.</string>
+    <string src="Download language packs failed.">Ошибка загрузки языковых пакетов.</string>
+    <string src="Downloading %1...">Загрузка %1...</string>
+    <string src="Get &amp;More...">&amp;Дополнительно...</string>
+    <string src="Information">Информация</string>
+    <string src="Install Language Package">Установить языковой пакет</string>
+    <string src="Installation fails, make sure to install the complete package.">Ошибка установки. Убедитесь, что устанавливается полный пакет.</string>
+    <string src="Installing %1...">Установка %1...</string>
+    <string src="Loading...">Загрузка...</string>
+    <string src="Local Language Packs">Локальные языковые пакеты</string>
+    <string src="Network error...">Сетевая ошибка...</string>
+    <string src="OK">ОК</string>
+    <string src="Online Language Packs">Языковые пакеты из Интернета</string>
+    <string src="Settings will take effect after the application restarts.">Настройки вступят в силу после перезапуска приложения.</string>
+    <string src="ZIP File (*.zip)">Файл ZIP (*.zip)</string>
+  </language>
+  <language locale="ug_CN">
+    <display_name>Uyghur (China)</display_name>
+    <local_display_name>维吾尔文（中国）</local_display_name>
+    <product_version>10.1.0.5707</product_version>
+    <source_branch_name>func_v10_linux_a20_branch</source_branch_name>
+    <build_number>0</build_number>
+    <icon>
+      iVBORw0KGgoAAAANSUhEUgAAACgAAAAeCAYAAABe3VzdAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMA
+      AABIAAAASABGyWs+AAADOElEQVRYw+3Xy4tcRRQG8N+93c10ZkBnwsRXVBQhYnChIILBjeDCB7iIIAgK
+      Qf8BN4q4CDgrBbciLlwIvjYGF1GI4kJw4QNF8hAUogaj4xhJCMlMMpnuWy6qur3T0497mUlWfnC5j6pz
+      6quvzjl1i/+xOWSDHxqZbLah1czkIWzSezfdWyjGkMjoBMWZjrWCdaOWCeav7jS/b95TM7l7A40NnsIQ
+      q1EIuAY3pv7foDlWqc65rq/eOOXdhUWne1Mqm0ztnfPsjqaFbJSrtkj7fAWSBW7Ci/gBJ3B6vN107vEn
+      t2stLHodFyDvqZcz287sGUmui7vxwPjl2oC/cQaXJnfNaLVze3B1j1uPTNbITF8K2iOtc9yPG3AIaxNG
+      y3EM+zGFcyU5xmC1sA3TPa37agUaRdlFOVQD5pKC89iJ4wMDDlu6taQelchB4tCP/+HLmWNmvZW7cLMY
+      h/fhn5KbDMsjVK2SUGPQHPn1ITwiLk8Qo6IXAM/gsTSRAl/gHTHOxhEK6aqo5miCqziYFNonLmsZc+k6
+      jw/wnhhjk9TaLUbXXzhZTd3hc8mwgvfxAo4M6fO7mABv4myFwRp4EK/g9uoKjhY7S9f3+HZI+3F8KS7x
+      JHIB28Ra+J2odqsawebY1oCrxOwlFtpVXI87xGw+UYFglkgdFHeUP1WOw/HdCtyK23AUL+E5fI7tYmZX
+      3a+z5G+xOrnJCma4E5/hreQ8w8t4ArvELO9UH7Bu2WlObP0aH4k7Y6/uLeNtca+tokZIvnKTS1EtggV+
+      Tc+Du0bAbxUJzuAezIo18+xWEeyRGYWq6s3haexIEz6ssoqTCW4WGU7hU7FI/1HP/PITJCbRATFkclsY
+      g1uF8v9jt55pjYpUg0xNla4cwZZY2B8WM3YL0F/ibhCKUOtnfiO6eBR7xS3yAC6qpWYRvfT3p76CgdVj
+      F/3UCXWjpIQMv4i17nB9cmtB98iKn5VOMD0FCyw/f9LHS2vmdrXtRrP2sTjDh/gkabBcjWDq0vnxgqOv
+      LTmULAsD5lO4FrfguvS+RaE+EUH8T1oSS/lSel9HIBPDfNp/J+Aria4YFCvi6SYMEiwTHdV2OREG7uBf
+      23PHA3fejN8AAAAldEVYdGRhdGU6Y3JlYXRlADIwMTMtMDQtMjVUMTQ6MjE6MzMrMDg6MDCUx94yAAAA
+      JXRFWHRkYXRlOm1vZGlmeQAyMDEzLTA0LTI1VDE0OjIxOjMzKzA4OjAw5ZpmjgAAAABJRU5ErkJggg==
+    </icon>
+    <url>http://kdl1.cache.wps.com/ksodl/download/linux/a21/lang/mui_ug_cn.7z</url>
+    <sha1></sha1>
+    <string src="&amp;Follow system locale">跟随系统语言(&amp;F)</string>
+    <string src="&amp;Install new language">安装新语言(&amp;I)</string>
+    <string src="&amp;Reset personal template">重置个人模板(&amp;R)</string>
+    <string src="A network error occurred.">网络出错</string>
+    <string src="Cancel">取消</string>
+    <string src="Choose Language">选择语言</string>
+    <string src="Choose Language Installation Package">选择语言安装包</string>
+    <string src="Choose your language">选择语言</string>
+    <string src="Click to open the credits page.">点击此处打开贡献者页面。</string>
+    <string src="Download language packs failed.">下载语言包失败！</string>
+    <string src="Downloading %1...">下载 %1...</string>
+    <string src="Follow system locale">跟随系统语言</string>
+    <string src="Get &amp;More...">获取更多...(&amp;M)</string>
+    <string src="Get More...">获取更多...</string>
+    <string src="Get language package failed!">下载语言包失败！</string>
+    <string src="Information">信息</string>
+    <string src="Install Language Package">安装语言包</string>
+    <string src="Install Locale">安装语言</string>
+    <string src="Installation fails, make sure to install the complete package.">安装失败，请确保安装包的完整性！</string>
+    <string src="Installing %1...">正在安装%1...</string>
+    <string src="Loading...">正在加载...</string>
+    <string src="Local Language Packs">本地语言包</string>
+    <string src="Local language packages">本地语言包</string>
+    <string src="Network error">网络出错</string>
+    <string src="Network error...">网络错误...</string>
+    <string src="OK">确定</string>
+    <string src="Online Language Packs">在线语言包</string>
+    <string src="Online language packages">在线语言包</string>
+    <string src="Settings will be effected after application restarted.">设置将在启动后生效。</string>
+    <string src="Settings will take effect after the application restarts.">请重新启动 WPS Office，以便语言更改生效。</string>
+    <string src="ZIP File (*.zip)">压缩文档 (*.zip)</string>
+    <string src="archives (*.zip)">压缩文档 (*.zip)</string>
+    <string src="installation fails, make sure to install the complete package">安装失败，请确保安装包的完整性！</string>
+    <string src="installation fails, make sure to install the complete package!">安装失败，请确保安装包的完整性！</string>
+  </language>
+  <language locale="zh_CN">
+    <display_name>Chinese (China)</display_name>
+    <local_display_name>简体中文</local_display_name>
+    <product_version>10.1.0.5707</product_version>
+    <source_branch_name>func_v10_linux_a20_branch</source_branch_name>
+    <build_number>0</build_number>
+    <icon>
+      iVBORw0KGgoAAAANSUhEUgAAACgAAAAeCAMAAABpA6zvAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7O
+      HOkAAAHmUExURUxpcbwmAAAAANYrAAAAABYEAPMxAAAAAAAAAAAAANssAAQBAAAAAAAAAPMwAAAAABME
+      ABcFAAAAAAAAABYBAAAAAAAAAL0mAAAAAAAAAL0mAAAAAOcuAAIAAAMBAPQxAPQxAIkbAH4ZAOkvAP4z
+      ANgrANcrAN8tAAAAAP4zANssAOMtAAIAAN0sAAUBAAAAAAEAANQrANkrAKchAPNjAPNGAPMtABYGAPNi
+      APoyAK4jAB8GAPsyACMHAJMdAAAAAJceAAAAALwoALwlALwwALwnALwxAP8zAP8yAP//AP8xAP81AP8w
+      AP82AP84AP9CAP80AP8/AP85AP89AP9AAP8+AP+BAP9OAP83AP+IAP/uAP9xAP/OAP+bAP9TAP/aAP/Z
+      AP/SAP9DAP/tAP9jAP86AP9EAP+MAP9eAP+dAP+7AP9mAP91AP9oAP9cAP9LAP+gAP9gAP+SAP/jAP9F
+      AP9RAP+mAP9QAP+LAP88AP+TAP/zAP+AAP+KAP+sAP/6AP9BAP/cAP/rAP/xAP9JAP/YAP/oAP+8AP9W
+      AP9sAP/CAP9hAP+oAP/TAP9/AP8vAP/nAP/3AP/mAP87AP9nAP9yAP/iAP+/AP9KAP+rAP/FAP/bAP+a
+      AP9+AP9SAP+wAP97AP/vAFjw3j8AAABHdFJOUwDTJbleCKsDAhu9JgEeqxgGCAkTCAcGzxBW011vAQGn
+      qBYUcvq3dK4i+3mzGbsjJCW2u5Crq6sIq/yUSfxJoz+lPtPT09PT/CnaSAAAAbNJREFUOMu1lFVbAkEY
+      Rm1QF7BRsbu7u2e2CMFusbu7u7vbf+rusoEs8nDjuZrvmTPv1M46OPwLYV7erhb4+eWzLW+vUFaTRkZH
+      uNHI5W4c8tyCnDy2HR4SJWVEn6REwHDbAAEL1vf6PMBVMXE+TGBKsqkmji8IQXx5E4bFK+hISVqqqYRn
+      J2quC6h7nzC+iE2Q0KKnByVBiGm6jZ0E1WCH8XkAODtxIm4wGBrur9FBnUbTK8SKxfqWnu79KxRt7dru
+      6tBxWRATiXB5aQdlWO3Y4uecGG2CFiK1otMe2nto0/IeOdU6JhIBuBymxUec96CucWS8WSRCfTtqvEEP
+      FoVDgfgkBkQiMbR7fnd0uLlGmO0WArGIrW/sEZh+ZaEZABvHAwDe2U/NA7Xz9XwcqbaWyN2EsER9W6PG
+      mmgJbGqfnYZ2iNRtzczZJeKklrRn6r92/QsM19olqj/eB6yJGVmWqxv+Huw3+25BZjojyopKfovk1+eQ
+      uVeYLaNFxLe0QhnsaEZtVV1NNV8FK8uKfRH6GfrLKoNULn+iCiqX+TPvGgkIVLjbQBEYgLD/CgSR2gBh
+      tB8pF+bs3qU81QAAAABJRU5ErkJggg==
+    </icon>
+    <url>http://kdl1.cache.wps.com/ksodl/download/linux/a21/lang/mui_zh_cn.7z</url>
+    <sha1></sha1>
+    <string src="&amp;Follow system locale">跟随系统语言(&amp;F)</string>
+    <string src="&amp;Install new language">安装新语言(&amp;I)</string>
+    <string src="&amp;Reset personal template">重置个人模板(&amp;R)</string>
+    <string src="A network error occurred.">网络出错</string>
+    <string src="Cancel">取消</string>
+    <string src="Choose Language">选择语言</string>
+    <string src="Choose Language Installation Package">选择语言安装包</string>
+    <string src="Choose your language">选择语言</string>
+    <string src="Click to open the credits page.">点击此处打开贡献者页面。</string>
+    <string src="Download language packs failed.">下载语言包失败！</string>
+    <string src="Downloading %1...">下载 %1...</string>
+    <string src="Follow system locale">跟随系统语言</string>
+    <string src="Get &amp;More...">获取更多...(&amp;M)</string>
+    <string src="Get More...">获取更多...</string>
+    <string src="Get language package failed!">下载语言包失败！</string>
+    <string src="Information">信息</string>
+    <string src="Install Language Package">安装语言包</string>
+    <string src="Install Locale">安装语言</string>
+    <string src="Installation fails, make sure to install the complete package.">安装失败，请确保安装包的完整性！</string>
+    <string src="Installing %1...">正在安装%1...</string>
+    <string src="Loading...">正在加载...</string>
+    <string src="Local Language Packs">本地语言包</string>
+    <string src="Local language packages">本地语言包</string>
+    <string src="Network error">网络出错</string>
+    <string src="Network error...">网络错误...</string>
+    <string src="OK">确定</string>
+    <string src="Online Language Packs">在线语言包</string>
+    <string src="Online language packages">在线语言包</string>
+    <string src="Settings will be effected after application restarted.">设置将在启动后生效。</string>
+    <string src="Settings will take effect after the application restarts.">请重新启动 WPS Office，以便语言更改生效。</string>
+    <string src="ZIP File (*.zip)">压缩文档 (*.zip)</string>
+    <string src="archives (*.zip)">压缩文档 (*.zip)</string>
+    <string src="installation fails, make sure to install the complete package">安装失败，请确保安装包的完整性！</string>
+    <string src="installation fails, make sure to install the complete package!">安装失败，请确保安装包的完整性！</string>
+  </language>
+  <language locale="zh_Hant_CN">
+    <display_name>Chinese (Traditional, China)</display_name>
+    <local_display_name>繁體中文 (中國)</local_display_name>
+    <product_version>10.1.0.5707</product_version>
+    <source_branch_name>func_v10_linux_a20_branch</source_branch_name>
+    <build_number>0</build_number>
+    <icon>
+      iVBORw0KGgoAAAANSUhEUgAAACgAAAAeCAMAAABpA6zvAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7O
+      HOkAAAHmUExURUxpcbwmAAAAANYrAAAAABYEAPMxAAAAAAAAAAAAANssAAQBAAAAAAAAAPMwAAAAABME
+      ABcFAAAAAAAAABYBAAAAAAAAAL0mAAAAAAAAAL0mAAAAAOcuAAIAAAMBAPQxAPQxAIkbAH4ZAOkvAP4z
+      ANgrANcrAN8tAAAAAP4zANssAOMtAAIAAN0sAAUBAAAAAAEAANQrANkrAKchAPNjAPNGAPMtABYGAPNi
+      APoyAK4jAB8GAPsyACMHAJMdAAAAAJceAAAAALwoALwlALwwALwnALwxAP8zAP8yAP//AP8xAP81AP8w
+      AP82AP84AP9CAP80AP8/AP85AP89AP9AAP8+AP+BAP9OAP83AP+IAP/uAP9xAP/OAP+bAP9TAP/aAP/Z
+      AP/SAP9DAP/tAP9jAP86AP9EAP+MAP9eAP+dAP+7AP9mAP91AP9oAP9cAP9LAP+gAP9gAP+SAP/jAP9F
+      AP9RAP+mAP9QAP+LAP88AP+TAP/zAP+AAP+KAP+sAP/6AP9BAP/cAP/rAP/xAP9JAP/YAP/oAP+8AP9W
+      AP9sAP/CAP9hAP+oAP/TAP9/AP8vAP/nAP/3AP/mAP87AP9nAP9yAP/iAP+/AP9KAP+rAP/FAP/bAP+a
+      AP9+AP9SAP+wAP97AP/vAFjw3j8AAABHdFJOUwDTJbleCKsDAhu9JgEeqxgGCAkTCAcGzxBW011vAQGn
+      qBYUcvq3dK4i+3mzGbsjJCW2u5Crq6sIq/yUSfxJoz+lPtPT09PT/CnaSAAAAbNJREFUOMu1lFVbAkEY
+      Rm1QF7BRsbu7u2e2CMFusbu7u7vbf+rusoEs8nDjuZrvmTPv1M46OPwLYV7erhb4+eWzLW+vUFaTRkZH
+      uNHI5W4c8tyCnDy2HR4SJWVEn6REwHDbAAEL1vf6PMBVMXE+TGBKsqkmji8IQXx5E4bFK+hISVqqqYRn
+      J2quC6h7nzC+iE2Q0KKnByVBiGm6jZ0E1WCH8XkAODtxIm4wGBrur9FBnUbTK8SKxfqWnu79KxRt7dru
+      6tBxWRATiXB5aQdlWO3Y4uecGG2CFiK1otMe2nto0/IeOdU6JhIBuBymxUec96CucWS8WSRCfTtqvEEP
+      FoVDgfgkBkQiMbR7fnd0uLlGmO0WArGIrW/sEZh+ZaEZABvHAwDe2U/NA7Xz9XwcqbaWyN2EsER9W6PG
+      mmgJbGqfnYZ2iNRtzczZJeKklrRn6r92/QsM19olqj/eB6yJGVmWqxv+Huw3+25BZjojyopKfovk1+eQ
+      uVeYLaNFxLe0QhnsaEZtVV1NNV8FK8uKfRH6GfrLKoNULn+iCiqX+TPvGgkIVLjbQBEYgLD/CgSR2gBh
+      tB8pF+bs3qU81QAAAABJRU5ErkJggg==
+    </icon>
+    <fallback>zh_TW</fallback>
+    <url>http://kdl1.cache.wps.com/ksodl/download/linux/a21/lang/mui_zh_hant_cn.7z</url>
+    <sha1></sha1>
+    <string src="&amp;Follow system locale">跟隨系統語言(&amp;F)</string>
+    <string src="&amp;Install new language">安裝新語言(&amp;I)</string>
+    <string src="&amp;Reset personal template">重置個人模板(&amp;R)</string>
+    <string src="A network error occurred.">網路發生錯誤。</string>
+    <string src="Cancel">取消</string>
+    <string src="Choose Language">選擇語言</string>
+    <string src="Choose Language Installation Package">選擇語言安裝包</string>
+    <string src="Click to open the credits page.">按一下這裡開啟參與名單。</string>
+    <string src="Download language packs failed.">下載語言套件失敗。</string>
+    <string src="Downloading %1...">正在下載 %1...</string>
+    <string src="Follow system locale">跟隨系統語言</string>
+    <string src="Get &amp;More...">獲取更多...(&amp;M)</string>
+    <string src="Information">情報</string>
+    <string src="Install Language Package">安裝語言包</string>
+    <string src="Installation fails, make sure to install the complete package.">安裝失敗，請確保安裝包的完整性。</string>
+    <string src="Installing %1...">正在安裝 %1...</string>
+    <string src="Loading...">正在載入...</string>
+    <string src="Local Language Packs">本機語言套件</string>
+    <string src="Network error...">網路錯誤。</string>
+    <string src="OK">確定</string>
+    <string src="Online Language Packs">線上語言套件</string>
+    <string src="Settings will be effected after application restarted.">設置將在啟動後生效。</string>
+    <string src="Settings will take effect after the application restarts.">設置將在重新啟動後生效。</string>
+    <string src="ZIP File (*.zip)">ZIP 檔案 (*.zip)</string>
+  </language>
+  <language locale="zh_HK">
+    <display_name>Chinese (Traditional, Hong Kong S.A.R.)</display_name>
+    <local_display_name>繁體中文 (香港特別行政區)</local_display_name>
+    <product_version>10.1.0.5707</product_version>
+    <source_branch_name>func_v10_linux_a20_branch</source_branch_name>
+    <build_number>0</build_number>
+    <icon>
+      iVBORw0KGgoAAAANSUhEUgAAACgAAAAeCAMAAABpA6zvAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7O
+      HOkAAAHvUExURUxpcQAAAAAAAAMAALEAAAAAAIkAAAAAAAAAABAAAJwAAJ8AAAAAAAAAAAAAAA4AAAAA
+      AKAAAAAAAAAAAAAAAIoAAAAAAIoAAAAAAAAAALIAAKoAALIAAAIAAAEAAKkAAGQAALkAAJ4AAKYAAAEA
+      AJ0AALkAAKAAAFwAAKEAAAQAAKMAAAAAAAAAAJsAAHoAAJ8AALcAAH8AABYAAGwAABoAALgAAAAAAG4A
+      AAAAALoAALsAALwAALkAAPru7vzz87oBAfjl5cUqKvrt7f34+NdqavLOzs1HR8AWFsIdHboDA/vx8fnp
+      6fTX1/fh4eu1tfrs7N6Ghthvb/339/Xb292BgeOWluGQkO7AwMo8PLoCAsIeHrsDA89PT7sEBNBRUcg0
+      NLwICM9OTtBQUNFVVfTW1rwHB81ISMcwMOu0tPz09MxBQbwKCr8SEvDIyPDHx74NDf77+7sFBdlycsEY
+      GMczM/DJyfvu7uGRkb0KCu6/v/fi4t2AgLwJCffk5LsGBueoqL8UFM5LS9FUVN6FhdFWVu2+vvrr69t7
+      e/LPz74SEtJbW/XY2P/+/uKUlMYtLeWfn+elpf35+d2Cgs1GRtFTU+29vfvw8PXc3NViYsxDQ+emptds
+      bMUpKdZoaNp3d8s+PuCMjOmurv76+vz29jICWQwAAAA6dFJOUwBeJSarG9MDAgi5vQEeGAYJvRMHBs9W
+      0xBdqHKnAQFvFvu3sxl0+nkUuyOuIiS2kLv8lEmjSfw/pT7IUOaPAAABZUlEQVQ4y2NgoAmQ5efEA/jl
+      oMo4FKSlWPAAGXkNDrBCAXVFK7xATVUAbKCKsjV+hdbafCAj2bU00RTa2qIpVNJhBylkFkRVmJOeHIeq
+      kIsJopAbRWFlRWFmGhEKbVvtqx2dbAko9LK1dZhg7xNQWuCRaItHYZFrkGv/RGfnsJoyX/+kKNwKa9t6
+      g90WzpgZ2G7n6Gznbovb6j77kMVz5kfOC3UMts+Lx22irZPbEjv/KXMXuHY0BHri84ytU1jEoqmzIiN8
+      m23xB49t1+TZ4dO6O+3cSggoDHKZNL0n1KXOO9sWr8LcqgA/l/Amb78sd7wKbRPyy0NaGuuLfVKj8Zvo
+      4JHh6QWkU2IJxzXYpBgHwqkHS8KFKRQkUiGTASGFerpghbxGZjZ4gaE+L0ghj5Cphag4G04gLmpiLMQD
+      yobCvJZikow4gaSYOa8wOF/ziEjwseIBfBIiPNCygoeHAw/gASsDAOI/xaRx/rmkAAAAAElFTkSuQmCC
+    </icon>
+    <fallback>zh_TW</fallback>
+    <url>http://kdl1.cache.wps.com/ksodl/download/linux/a21/lang/mui_zh_hk.7z</url>
+    <sha1></sha1>
+    <string src="&amp;Follow system locale">跟隨系統語言(&amp;F)</string>
+    <string src="&amp;Install new language">安裝新語言(&amp;I)</string>
+    <string src="&amp;Reset personal template">重置個人模板(&amp;R)</string>
+    <string src="A network error occurred.">網路發生錯誤。</string>
+    <string src="Cancel">取消</string>
+    <string src="Choose Language">選擇語言</string>
+    <string src="Choose Language Installation Package">選擇語言安裝包</string>
+    <string src="Click to open the credits page.">按一下這裡開啟參與名單。</string>
+    <string src="Download language packs failed.">下載語言套件失敗。</string>
+    <string src="Downloading %1...">正在下載 %1...</string>
+    <string src="Follow system locale">跟隨系統語言</string>
+    <string src="Get &amp;More...">獲取更多...(&amp;M)</string>
+    <string src="Information">情報</string>
+    <string src="Install Language Package">安裝語言包</string>
+    <string src="Installation fails, make sure to install the complete package.">安裝失敗，請確保安裝包的完整性。</string>
+    <string src="Installing %1...">正在安裝 %1...</string>
+    <string src="Loading...">正在載入...</string>
+    <string src="Local Language Packs">本機語言套件</string>
+    <string src="Network error...">網路錯誤。</string>
+    <string src="OK">確定</string>
+    <string src="Online Language Packs">線上語言套件</string>
+    <string src="Settings will be effected after application restarted.">設置將在啟動後生效。</string>
+    <string src="Settings will take effect after the application restarts.">設置將在重新啟動後生效。</string>
+    <string src="ZIP File (*.zip)">ZIP 檔案 (*.zip)</string>
+  </language>
+  <language locale="zh_MO">
+    <display_name>Chinese (Traditional, Macao S.A.R.)</display_name>
+    <local_display_name>繁體中文 (澳門特別行政區)</local_display_name>
+    <product_version>10.1.0.5707</product_version>
+    <source_branch_name>func_v10_linux_a20_branch</source_branch_name>
+    <build_number>0</build_number>
+    <icon>
+      iVBORw0KGgoAAAANSUhEUgAAACgAAAAeCAMAAABpA6zvAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7O
+      HOkAAAI9UExURUxpcQAAAAAAAAADAAINABJ0AAAAAAAAAAAAABiVABWHABWEAAAAAAAAAAAAAAIOAAIM
+      AAAAAAAAAAAAABmbAAAAAAAAAAAAAAAAAA1UABePABiWABeOABmdAAABABiWAAACABaMABaIABWFAAAB
+      AAADABWHABmcAAxOABaJABWEAAAAAAAAABWDABBnABWGABFrAAMTAA5bAAMWAAAAABN0AA9dABN1AAAA
+      ABmdABmeABidABudABicABecABqdAP///ySeABedAByeAxacAP7///z+/RueAyCeAE+jAFylADysJ4zO
+      gJzVkbvitLnhscPmvV26TCOeABydABmdAjGnGzeqIRqdAk+0PRueAjqhAGClABqeAiyfAGK8UUWwMUix
+      NGrAWorNfafaniylFS+mGD6tKT2sKCKhCnTEZSGhDSKeACGeAKzco27BXlu5SpXSimzBXZ7WlCGgCTyh
+      AJLRhpvVkSCgB5PRh1WkAKLYmKPYmSaeAB+eAJjTjbjhsKDXloXLeJzVksnoxLnhsmW+VSikFcjow6nb
+      oXjGap/WlLfgr6bZnT6iAzWpIDGnGh6fBRObAKzcpOr26UOiAxOaAHHDYjSpH3vHbzqrJrPfrJrUj+v3
+      6rTfrNfu1M/ryqHXl3HCYfr9+2i/V6LXmPb79rnis0OvLs7qykmxN4PLeOz36tnv1fz+/IrNfvv+/P3/
+      /trv1/D570qyNr3jtsfowvL68cTmvtTt0Pv++/7//vn9+vr9+tDrzLritBejUXEAAAA5dFJOUwBeJSYI
+      0xsDAqu9uQEeGAgGCRMH/AZWEF0Wcqdv+wGoAbO7txkjefoUrnQiJLaQu5RJo0k/z6XPPmmGPlgAAAGB
+      SURBVDjLY2CgCVAQ4GfBCfgF5KDKOCSl5DnxAGkZDQ6wQkE1WUu8QF1LEGygiqIVfoVWmnwgI9lVlQgp
+      VNZmBylk5kJWaG1paW8PphAKuZkwFQY7Wlp7VTrZO9rgV2gd62XjMqXXJSc6yBqvQieb2gnTV83oc/aw
+      dMKn0KPExsV72abVs/rtsqPscSu0dvS0mbpy44adK2ZOrPG0wWOiXdu0wM17Hdz2LQ9szbLGo7C8c/6a
+      LTscdm/3m9de6IzH6uIOV4e161137XFzcC3DpzCjMWCO27aArUsXTW7OjMRjdUx+Xc/cJet8Fkxq8knA
+      50br+IKGrtmLF/r6FiWF4VNo6R6XW9/t79/ilxxhiz8KQ7zzKqqrShNDbQkkCks799S09JRwW0KpBwhs
+      7exsUdMjDoWYCReqkEmfkEJdHbBCXgMRK7xARI8XpJBHyNjMnBUPMDUyFOIBZUNhXgsxCUacQELMhFcY
+      nK95RMX52PAAPnFRHmhZwcPDgQfwgJUBAKKHzozNNB4MAAAAAElFTkSuQmCC
+    </icon>
+    <fallback>zh_TW</fallback>
+    <url>http://kdl1.cache.wps.com/ksodl/download/linux/a21/lang/mui_zh_mo.7z</url>
+    <sha1></sha1>
+    <string src="&amp;Follow system locale">跟隨系統語言(&amp;F)</string>
+    <string src="&amp;Install new language">安裝新語言(&amp;I)</string>
+    <string src="&amp;Reset personal template">重置個人模板(&amp;R)</string>
+    <string src="A network error occurred.">網路發生錯誤。</string>
+    <string src="Cancel">取消</string>
+    <string src="Choose Language">選擇語言</string>
+    <string src="Choose Language Installation Package">選擇語言安裝包</string>
+    <string src="Click to open the credits page.">按一下這裡開啟參與名單。</string>
+    <string src="Download language packs failed.">下載語言套件失敗。</string>
+    <string src="Downloading %1...">正在下載 %1...</string>
+    <string src="Follow system locale">跟隨系統語言</string>
+    <string src="Get &amp;More...">獲取更多...(&amp;M)</string>
+    <string src="Information">情報</string>
+    <string src="Install Language Package">安裝語言包</string>
+    <string src="Installation fails, make sure to install the complete package.">安裝失敗，請確保安裝包的完整性。</string>
+    <string src="Installing %1...">正在安裝 %1...</string>
+    <string src="Loading...">正在載入...</string>
+    <string src="Local Language Packs">本機語言套件</string>
+    <string src="Network error...">網路錯誤。</string>
+    <string src="OK">確定</string>
+    <string src="Online Language Packs">線上語言套件</string>
+    <string src="Settings will be effected after application restarted.">設置將在啟動後生效。</string>
+    <string src="Settings will take effect after the application restarts.">設置將在重新啟動後生效。</string>
+    <string src="ZIP File (*.zip)">ZIP 檔案 (*.zip)</string>
+  </language>
+  <language locale="zh_TW">
+    <display_name>Chinese (Taiwan)</display_name>
+    <local_display_name>繁體中文 (台灣)</local_display_name>
+    <product_version>10.1.0.5707</product_version>
+    <source_branch_name>func_v10_linux_a20_branch</source_branch_name>
+    <build_number>0</build_number>
+    <icon>
+      iVBORw0KGgoAAAANSUhEUgAAACgAAAAeCAMAAABpA6zvAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7O
+      HOkAAAI3UExURUxpcbocDQEFDdMfDwAAAAAAAAAAAAAAAAAAAKQYDBMDAQQBAAAAAL4cDgABAwg2lAcx
+      hgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAY1lBQDAckeDtQgDwIAABACAQgzi90hEG4QCAcxhwEA
+      AQkxhcIdDggfU7wcDrscDQAAALscDQABAwYBAgg5mwo0jagkLA8DBBM1jdYfDQc2lQIFDQMEDAAAAAQx
+      hwg2lbkcDQEBArUdFL8cDQEFDi4sbJEWCr0cDtsgEAg2lRsEApcWCx4FAoATCdshEAAAAIMUCaQYDKUY
+      DAAAAAc2lAU0kwEEDAADCQ48lx1Ind4hEN8hEAg5nOAhENMiFzY0fuEhDrEmLgc5nBM4lAg5nQU5nv//
+      /wY4mwY6ntQiFws7nQc4nCdSqQM4nTRcrgo7nbAmLuAhD9whErolJz8zeBE4lgQ5ngc5nRQ4lQU6nwk6
+      nBA/nww8nhtIpGyIxDVerhE/oGyJxAU3m5at1GKRt0Z0sBlHoylUqTYzfnihvxVDoQw8nX6hxDJbrJOq
+      06LB036fx+Ls8S1Xqw4+nmiVurvR32qHw1B6tfT4+nahv1ByuZCtzzUzfWuVvT5ksdzo7itWqhdFouvx
+      9Uhstg5AobnQ3n2Yy22avB1NqGWHwFaGs1qLtA8/nyJOp/3+/lKCsihSqWiXuZuy1XSRxxhFo3OPxz1j
+      sZa4zdTi6nKbwDJarZy90HeXxbzS3wo6nc7e6Iqi0GqQvlOBtCfF4mAAAABUdFJOUwC5CKsbXiUDAtMI
+      JgG9Jqu9HhgJEwcGVhBdqwhvpwEGs/oUuxl6rha3dCK5IwH7c6sIq6urCAYkvai2Jr29CL2Qu/yrSZRJ
+      o/w/pc/PPqurCAirqyzHeWkAAAFpSURBVDjLY2CgCdA1s2MCgcAAJggwNeSCA2l5OagyDnV9S2d+fn4p
+      qeAgfz8gg9/EyMCYGQ5kZZQ4wAqFVfXCgCBzw7r1WzKWJwKZhUXRUSEIoKgpDDZQRSEOKNm7Y+3uzXvW
+      rFqWGRYWE4uiMFRNCGQku44yUGFiz66VW3duX71tQiumQg0tdpBCPgGQiVUTN65ISNjU1x6GqVCbDa4w
+      prSirT8hIWFSc21GKoZCRoTCsJLy+k6gwu66yrIwvAoT0zqWzp8zc3JXdQp+hWEtsxdPX7hk6qwGQgpT
+      w6akLZgxt7EmDLdCi+J4IEhKSl80Lz0JxCzIz8Km0No+EgqmNUEZebnZWBRy2yRHoIHknBBsCm3DQ9FB
+      CFaFvKjiGGBkK2RzJKTQyhysUNDVIxwvcHIQBCnkEXHz8uHEA7zdXUR4QNlQVNBXXJIVJ5AU9xQUBedr
+      HjEJIRY8QEhCjAdaVvDwcOABPGBlACAiFIDb3T30AAAAAElFTkSuQmCC
+    </icon>
+    <url>http://kdl1.cache.wps.com/ksodl/download/linux/a21/lang/mui_zh_tw.7z</url>
+    <sha1></sha1>
+    <string src="&amp;Follow system locale">跟隨系統語言(&amp;F)</string>
+    <string src="&amp;Install new language">安裝新語言(&amp;I)</string>
+    <string src="&amp;Reset personal template">重置個人模板(&amp;R)</string>
+    <string src="A network error occurred.">網路發生錯誤。</string>
+    <string src="Cancel">取消</string>
+    <string src="Choose Language">選擇語言</string>
+    <string src="Choose Language Installation Package">選擇語言安裝包</string>
+    <string src="Click to open the credits page.">按一下這裡開啟參與名單。</string>
+    <string src="Download language packs failed.">下載語言套件失敗。</string>
+    <string src="Downloading %1...">正在下載 %1...</string>
+    <string src="Follow system locale">跟隨系統語言</string>
+    <string src="Get &amp;More...">獲取更多...(&amp;M)</string>
+    <string src="Information">情報</string>
+    <string src="Install Language Package">安裝語言包</string>
+    <string src="Installation fails, make sure to install the complete package.">安裝失敗，請確保安裝包的完整性。</string>
+    <string src="Installing %1...">正在安裝 %1...</string>
+    <string src="Loading...">正在載入...</string>
+    <string src="Local Language Packs">本機語言套件</string>
+    <string src="Network error...">網路錯誤。</string>
+    <string src="OK">確定</string>
+    <string src="Online Language Packs">線上語言套件</string>
+    <string src="Settings will be effected after application restarted.">設置將在啟動後生效。</string>
+    <string src="Settings will take effect after the application restarts.">設置將在重新啟動後生效。</string>
+    <string src="ZIP File (*.zip)">ZIP 檔案 (*.zip)</string>
+  </language>
+</languages>
