@@ -1,0 +1,51 @@
+version: 10.1.0.6757
+linux_version: 10.1.0.6757
+linux_version_line: 2016
+linux_version_short: 6757
+release_date: 2018-09-11
+full_name: WPS Office for Linux
+whats_new: |
+    Support users' online feedback
+    Support Chinese and English language switching
+    WPS Writer and WPS Presentation, supporting editing of 15 SmartArt types
+    Support custom quick access toolbar
+    Support Manual directory function, which can be inserted without setting outline level
+    Support "text sort" and "table sort"
+    Support printing background color, pictures and setting Web format background
+    Support automatic text collection
+    Support artistic page borders
+    Support to accept/reject format revisions
+    Support to keep source format paste within process
+    The new pivot table kernel supports grouping, calculation items, calculation fields, table style, slicer and other functions
+    Support pivot chart
+    Support automatic filtering - color sorting
+    Monochrome printing is supported in page Settings
+    Support sharing workbook
+    Print the entire workbook under the print preview TAB
+    The digital format supports the locale
+    Support custom views
+    Support to read and play the animation of smartart child nodes
+    Support "font preview" function
+    Combine audio and background music entry, add audio tools TAB, and adjust media object toolbar synchronously
+    Support batch delete remarks function
+    In the comments pane of the speaker view, add the zoom button and adjust the text size
+    Support to insert media embedded into documents through the interface entrance
+addresses:
+    - type: deb_x86
+      address: http://kdl.cc.ksosoft.com/wps-community/download/6757/wps-office_10.1.0.6757_i386.deb
+      sha1sum: dc1e35fd0844c0e203cf288e16f29941e223cd49
+    - type: deb_x64
+      address: http://kdl.cc.ksosoft.com/wps-community/download/6757/wps-office_10.1.0.6757_amd64.deb
+      sha1sum: 9974078cde40c26419998294a0a754bc102afe37
+    - type: rpm_x86
+      address: http://kdl.cc.ksosoft.com/wps-community/download/6757/wps-office-10.1.0.6757-1.i686.rpm
+      sha1sum: e2edcebcaa26c54f3f249e3bbccbab6c708e1e33
+    - type: rpm_x64
+      address: http://kdl.cc.ksosoft.com/wps-community/download/6757/wps-office-10.1.0.6757-1.x86_64.rpm
+      sha1sum: c1dece1ab56bbee3fc2d8cce490f2f948f23910a
+    - type: tar.xz_x86
+      address: http://kdl.cc.ksosoft.com/wps-community/download/6757/wps-office_10.1.0.6757_x86.tar.xz
+      sha1sum: 3c6095380c32252afd7838f295259b14a0bf726e
+    - type: tar.xz_x64
+      address: http://kdl.cc.ksosoft.com/wps-community/download/6757/wps-office_10.1.0.6757_x86_64.tar.xz
+      sha1sum: 03a781599dfcf001fc3bcf1d49699bd1a44aaceb
