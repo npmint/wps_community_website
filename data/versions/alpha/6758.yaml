@@ -1,0 +1,27 @@
+version: 10.1.0.6758
+linux_version: 10.1.0.6758
+linux_version_line: 2016
+linux_version_short: 6758
+release_date: 2019-03-09
+full_name: WPS Office for Linux
+whats_new: |
+    Fix some errors!
+addresses:
+    - type: deb_x86
+      address: http://kdl.cc.ksosoft.com/wps-community/download/6758/wps-office_10.1.0.6758_i386.deb
+      sha1sum: a33b6a9b786b168918eb82b88bcce597512f6b7e
+    - type: deb_x64
+      address: http://kdl.cc.ksosoft.com/wps-community/download/6758/wps-office_10.1.0.6758_amd64.deb
+      sha1sum: 1d537341964b1e9700afb4718dc94dabd87a3bd6
+    - type: rpm_x86
+      address: http://kdl.cc.ksosoft.com/wps-community/download/6758/wps-office-10.1.0.6758-1.i686.rpm
+      sha1sum: e314b1c8e3a5c9c21db54a0547e86c0270494376
+    - type: rpm_x64
+      address: http://kdl.cc.ksosoft.com/wps-community/download/6758/wps-office-10.1.0.6758-1.x86_64.rpm
+      sha1sum: c26d1a94ba5b137c0427270c4bae315691cf7088
+    - type: tar.xz_x86
+      address: http://kdl.cc.ksosoft.com/wps-community/download/6758/wps-office_10.1.0.6758_x86.tar.xz
+      sha1sum: 92920b7622d074cbbb889c4b11c62130f142c614
+    - type: tar.xz_x64
+      address: http://kdl.cc.ksosoft.com/wps-community/download/6758/wps-office_10.1.0.6758_x86_64.tar.xz
+      sha1sum: ca04c54d1a1721d69a6d9f2fda66d4abc6ea4292
