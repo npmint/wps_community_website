@@ -18,9 +18,9 @@ whats_new: |
     Support Uygur typesetting. 
     Optimize skin and appearance settings to support custom appearance.
     Optimize the layout of functional areas, adjust the compression rules for hours in windows, and support adjusting the width of Quick Access Toolbar.
-    Fix the problem of cloud document upload failure .
+    Fixed a bug of cloud document upload failure .
     Fix Text Auto-color Following Theme Problem .
-    Fix the problem that the background color of WPS tables is black under the black theme. 
+    Fixed a bug that the background color of WPS tables is black under the black theme. 
     Modify font matching rules.
     New navigation pane to support directory navigation, page navigation, bookmark navigation functions.
     New reading view to support the display of document content in the column style of books.
@@ -47,12 +47,12 @@ whats_new: |
     Support error checking for empty strings around cells.
     Support rolling deceleration when selecting cell areas under the freezing pane.
     In the digital format, when the area is Japan, the new calendar type "Japanese Year Number" is added.
-    Fix the problem of prompting sharing conflicts when saving workbooks to shared paths.
-    Fix the problem of typeface overlap in Fedora platform after 200% screen zoom.
+    Fixed a bug of prompting sharing conflicts when saving workbooks to shared paths.
+    Fixed a bug of typeface overlap in Fedora platform after 200% screen zoom.
     SmartArt supports 97 kinds of graphics insertion and editing.
     Split slide switching and animation tabs to improve animation usability.
     New font missing reminder function can check and replace missing fonts in slides.
-    Fix the problem of text coarsening when output PDF.
+    Fixed a bug of text coarsening when output PDF.
     Fixing compatibility issues of bullet symbols, tab placement and placeholder following.
 addresses:
     - type: deb_x86

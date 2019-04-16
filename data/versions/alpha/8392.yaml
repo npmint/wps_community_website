@@ -1,0 +1,25 @@
+version: 11.1.0.8392
+linux_version: 11.1.0.8392
+linux_version_line: 2019
+linux_version_short: 8392
+release_date: 2019-04-15
+full_name: WPS Office for Linux
+whats_new: |
+    Fixed a bug that the computer cannot be shutdown when wpsoffice process exists
+    Fixed a bug that wps crashes when drag the custom graphics under the web layout
+    Fixed a bug of tooltip ghosting in document label
+    Under the black theme, some dialog boxes display unclear
+    Remove garbage resources in installation package
+addresses:
+    - type: deb_x86
+      address: http://kdl.cc.ksosoft.com/wps-community/download/8392/wps-office_11.1.0.8392_i386.deb
+      sha1sum: 60b1c9e33ee6fc1edcefe40dc9ec529d4a668825
+    - type: deb_x64
+      address: http://kdl.cc.ksosoft.com/wps-community/download/8392/wps-office_11.1.0.8392_amd64.deb
+      sha1sum: edb1bc215e46c46bb979869e374788498486b56c
+    - type: rpm_x86
+      address: http://kdl.cc.ksosoft.com/wps-community/download/8392/wps-office-11.1.0.8392-1.i686.rpm
+      sha1sum: 197b8ec7e6cb93af179bfdfca11dc1f59189f45b
+    - type: rpm_x64
+      address: http://kdl.cc.ksosoft.com/wps-community/download/8392/wps-office-11.1.0.8392-1.x86_64.rpm
+      sha1sum: 860e8ddb8c177cb243ca57ab50138b7bb56232b9
