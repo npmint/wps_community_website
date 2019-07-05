@@ -1,0 +1,41 @@
+version: 11.1.0.8722
+linux_version: 11.1.0.8722
+linux_version_line: 2019
+linux_version_short: 8722
+release_date: 2019-07-05
+full_name: WPS Office for Linux
+whats_new: |
+    Added PDF components to support opening PDF documents
+    Support WPS installation and running on Centos7 system
+    Fixed a problem of Cloud document account login in KDE 
+    Fixed a bug that the cloud document account failed to login occasionally
+    Fixed a bug that WPS tags blinking, losing or jamming when multi-window pull out and pull in 
+    Optimizing start-up, open-up and print Efficiency
+    Fixed a bug that characters cannot be entered in input box of internal browser
+    WPS writer and wps spreadsheets support page margin adjustment when printing
+    Support memory of printing attributes setting
+    Fixed an issue that the custom skin is not saved when WPS is closed and then open 
+    Fixed an issue that file cannot be found when useing relative path in terminal
+    Optimize the prompt information when open a non-existent file in terminal
+    Fixed a problem with a pop-up prompt when a cloud document is updated
+    Fixed a borderless problem with some dialog boxes 
+    WPS writer added character width adjustment function
+    Binary format of WPS writer supports reading ink objects
+    Fixed an issue that WPS writer crashes when inserting tables in exceptional areas
+    Fixed a problem of WPS writert crashes when inserting SVG images and saving them in OOXML format
+    Fixed an issue where a cloud document starts an additional WPS process when  cross-process opening a presentation or spreadsheet from WPS writer
+    WPS spreadsheet supports for the import of text files in formats as csv/prn/txt
+    WPS spreadsheets Fixed an error when save OOXML shared workbook
+    Fixed fail to edit shared workbooks on shared servers
+    New output for video function to support the conversion of presentations into video format
+    Adding the function of speech recording, enable content recording during a presentation
+    Fixed an issue of no top setting when entering the projection view in the reading view
+    Fixed an incorrect effect of graphics, pictures and font objects
+    stop supporting 32Bit versions
+addresses:
+    - type: deb_x64
+      address: http://kdl.cc.ksosoft.com/wps-community/download/8722/wps-office_11.1.0.8722_amd64.deb
+      sha1sum: 438cdd5057ebf16bff3b0b6b3a9f06fcfca9a3da
+    - type: rpm_x64
+      address: http://kdl.cc.ksosoft.com/wps-community/download/8722/wps-office-11.1.0.8722-1.x86_64.rpm
+      sha1sum: 1e0f223d11305c525fae9ed55e3ca834ebc2f3c0
